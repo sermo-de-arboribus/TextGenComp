@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+	<context:annotation-config/>
+
+	<!-- General framework configuration -->
+    
+    <!-- Configuration for AuthorBlurb generator -->
+    <bean id="tgc.authorblurb.AuthorBlurbTextdata" class="tgc.authorblurb.AuthorBlurbTextdata"/>
+    <bean id="tgc.authorblurb.AuthorBlurbModel" class="tgc.authorblurb.AuthorBlurbModel"/>
+    <bean id="tgc.authorblurb.AuthorBlurbGenerator" class="tgc.authorblurb.AuthorBlurbGenerator">
+    	<!-- AuthorBlurbTextdata and AuthorBlurbTextdata are autowired -->
+    </bean>
+    <bean id="tgc.authorblurb.AuthorBlurbProperties" class="tgc.authorblurb.AuthorBlurbProperties" />
+</beans>
