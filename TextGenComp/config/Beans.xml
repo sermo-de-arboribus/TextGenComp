@@ -12,14 +12,39 @@
 
 	<!-- General framework configuration -->
     
-    <!-- Configuration for AuthorBlurb generator -->
+<!-- *************************************************
+     **                                             **
+     **   Configuration for AuthorBlurb generator   **
+     **                                             **
+     ************************************************* -->
+
     <bean id="tgc.authorblurb.AuthorBlurbTextdata" class="tgc.authorblurb.AuthorBlurbTextdata"/>
     <bean id="tgc.authorblurb.AuthorBlurbModel" class="tgc.authorblurb.AuthorBlurbModel"/>
     <bean id="tgc.authorblurb.AuthorBlurbGenerator" class="tgc.authorblurb.AuthorBlurbGenerator">
-    	<!-- AuthorBlurbTextdata and AuthorBlurbTextdata are autowired -->
+    	<!-- AuthorBlurbTextdata and AuthorBlurbModel are autowired -->
     	<property name="outputFile" value="/home/kai/Programmieren/Java/Spring/AuthorBlurb.txt" />
     	<!-- allowed values are defined by enumeration tgc.framework.OutputType -->
     	<property name="outputType" value="TXTFILE" />
     </bean>
     <bean id="tgc.authorblurb.AuthorBlurbProperties" class="tgc.authorblurb.AuthorBlurbProperties" />
+    
+<!-- *************************************************
+     **                                             **
+     ** Configuration for NovelFromQuotes generator **
+     **                                             **
+     ************************************************* -->
+
+    <bean id="tgc.novelfromquotes.NovelFromQuotesTextdata" class="tgc.novelfromquotes.NovelFromQuotesTextdata">
+    	<constructor-arg name="configFilePath" value="config/quotes.xml" />
+    </bean>
+    <bean id="tgc.novelfromquotes.NovelFromQuotesModel" class="tgc.novelfromquotes.NovelFromQuotesModel">
+    	<property name="numberOfChapters" value="12" />
+    	<property name="quotesPerChapter" value="25" />
+    </bean>
+    <bean id="tgc.novelfromquotes.NovelFromQuotesGenerator" class="tgc.novelfromquotes.NovelFromQuotesGenerator">
+    	<!-- NovelFromQuotesModel and NovelFromQuotesTextdata are autowired -->
+    	<property name="outputFile" value="/home/kai/Programmieren/Java/Spring/NovelFromQuotes.txt" />
+    	<!-- allowed values are defined by enumeration tgc.framework.OutputType -->
+    	<property name="outputType" value="TXTFILE" />
+    </bean>
 </beans>

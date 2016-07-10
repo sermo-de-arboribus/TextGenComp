@@ -11,8 +11,7 @@ public class TextGeneratorComponentMain
 {
 	public static void main(String[] args) throws Exception
 	{
-		validateArgs(args);
-		Locale locale = new Locale(args[0]);
+		Locale locale = validateArgs(args);
 		
 		ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
 		
@@ -37,13 +36,22 @@ public class TextGeneratorComponentMain
 		((ClassPathXmlApplicationContext)context).close();
 	}
 	
-	private static void validateArgs(String[] args)
+	private static Locale validateArgs(String[] args)
 	{
 		if(args.length != 1)
 		{
 			System.out.println("TextGeneratorComponentMain must be called with exactly one argument.");
-			System.out.println("The argument is the locale string (e.g. 'en-US') that is used to generate the output text");
+			System.out.println("The argument is the locale string (e.g. 'de', 'en-US') that is used to generate the output text");
 			throw new IllegalArgumentException("Expected one command line argument.");
 		}
+		String[] localeArgs = args[0].split("-");
+		if(localeArgs.length > 1)
+		{
+			return new Locale(localeArgs[0], localeArgs[1]);
+		}
+		else
+		{
+			return new Locale(localeArgs[0]);
+		}		
 	}
 }

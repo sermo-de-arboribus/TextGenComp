@@ -19,7 +19,7 @@ import tgc.framework.StreamHelper;
 public class AuthorBlurbGenerator implements Generator
 {
 	// constants
-	String OUTPUT_ENCODING = "UTF-8";
+	final static String OUTPUT_ENCODING = "UTF-8";
 	
 	// Autowired fields, configure in Beans.xml
 	@Autowired
@@ -32,7 +32,8 @@ public class AuthorBlurbGenerator implements Generator
 	private OutputType outputType = OutputType.STRING;
 	private HashMap<String, Locale> supportedLocaleCache = new HashMap<String, Locale>();
 	
-	public String generateText(Locale locale)
+	@Override
+	public String generateText(final Locale locale)
 	{
 		String template = authorBlurbModel.getModel(locale);
 		StringBuffer resultText = new StringBuffer();
@@ -71,35 +72,6 @@ public class AuthorBlurbGenerator implements Generator
 		return resultText.toString();
 	}
 	
-	private void replaceVars(StringBuffer resultBuffer, String unprocessedText)
-	{
-		Random random = new Random();
-		if(unprocessedText.contains("{$"))
-		{
-			// in the template, variables are marked with {$ ... }
-			int varStart = unprocessedText.indexOf("{$");
-			int varEnd = unprocessedText.indexOf("}");
-			
-			// append literal text from the template to the result text
-			resultBuffer.append(unprocessedText.substring(0, varStart));
-			String variable = unprocessedText.substring(varStart + 2, varEnd);
-			
-			// take the variable value from the configuration file
-			String[] possibleVariableReplacements = authorBlurbTextdata.getPossibleWordsForKey(AuthorBlurbPropertyName.valueOf(variable.toUpperCase()));
-			if(possibleVariableReplacements == null)
-			{
-				System.out.println("No variable values found for template variable {$" + variable + "}");
-			}
-			String replacement = possibleVariableReplacements[random.nextInt(possibleVariableReplacements.length)];
-			resultBuffer.append(replacement);	
-			replaceVars(resultBuffer, unprocessedText.substring(varEnd + 1));
-		}
-		else
-		{
-			resultBuffer.append(unprocessedText);
-		}
-	}
-
 	@Override
 	public Locale[] getSupportedLocales()
 	{
@@ -155,6 +127,35 @@ public class AuthorBlurbGenerator implements Generator
 		else
 		{
 			return false;
+		}
+	}
+	
+	private void replaceVars(StringBuffer resultBuffer, String unprocessedText)
+	{
+		Random random = new Random();
+		if(unprocessedText.contains("{$"))
+		{
+			// in the template, variables are marked with {$ ... }
+			int varStart = unprocessedText.indexOf("{$");
+			int varEnd = unprocessedText.indexOf("}");
+			
+			// append literal text from the template to the result text
+			resultBuffer.append(unprocessedText.substring(0, varStart));
+			String variable = unprocessedText.substring(varStart + 2, varEnd);
+			
+			// take the variable value from the configuration file
+			String[] possibleVariableReplacements = authorBlurbTextdata.getPossibleWordsForKey(AuthorBlurbPropertyName.valueOf(variable.toUpperCase()));
+			if(possibleVariableReplacements == null)
+			{
+				System.out.println("No variable values found for template variable {$" + variable + "}");
+			}
+			String replacement = possibleVariableReplacements[random.nextInt(possibleVariableReplacements.length)];
+			resultBuffer.append(replacement);	
+			replaceVars(resultBuffer, unprocessedText.substring(varEnd + 1));
+		}
+		else
+		{
+			resultBuffer.append(unprocessedText);
 		}
 	}
 }
