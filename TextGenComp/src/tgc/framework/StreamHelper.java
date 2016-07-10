@@ -1,17 +1,17 @@
 package tgc.framework;
 
+import java.io.Closeable;
 import java.io.IOException;
-import java.io.InputStream;
 
 public final class StreamHelper
 {
-	public static void safeClose(final InputStream inStream)
+	public static void safeClose(final Closeable stream)
 	{
 		try
 		{
-			if (inStream != null)
+			if (stream != null)
 			{
-				inStream.close();
+				stream.close();
 			}
 		}
 		catch(final IOException exc)

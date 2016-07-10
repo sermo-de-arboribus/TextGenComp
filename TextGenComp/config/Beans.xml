@@ -17,6 +17,9 @@
     <bean id="tgc.authorblurb.AuthorBlurbModel" class="tgc.authorblurb.AuthorBlurbModel"/>
     <bean id="tgc.authorblurb.AuthorBlurbGenerator" class="tgc.authorblurb.AuthorBlurbGenerator">
     	<!-- AuthorBlurbTextdata and AuthorBlurbTextdata are autowired -->
+    	<property name="outputFile" value="/home/kai/Programmieren/Java/Spring/AuthorBlurb.txt" />
+    	<!-- allowed values are defined by enumeration tgc.framework.OutputType -->
+    	<property name="outputType" value="TXTFILE" />
     </bean>
     <bean id="tgc.authorblurb.AuthorBlurbProperties" class="tgc.authorblurb.AuthorBlurbProperties" />
 </beans>

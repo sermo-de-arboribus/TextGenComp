@@ -1,17 +1,35 @@
 package tgc.authorblurb;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.io.UnsupportedEncodingException;
+import java.io.Writer;
 import java.util.*;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
 import tgc.framework.Generator;
+import tgc.framework.OutputType;
+import tgc.framework.OutputTypeNotSupportedException;
+import tgc.framework.StreamHelper;
 
 public class AuthorBlurbGenerator implements Generator
 {
+	// constants
+	String OUTPUT_ENCODING = "UTF-8";
+	
+	// Autowired fields, configure in Beans.xml
 	@Autowired
 	private AuthorBlurbModel authorBlurbModel;
 	@Autowired
 	private AuthorBlurbTextdata authorBlurbTextdata;
+	
+	// Other fields with default values
+	private File outputFile;
+	private OutputType outputType = OutputType.STRING;
 	private HashMap<String, Locale> supportedLocaleCache = new HashMap<String, Locale>();
 	
 	public String generateText(Locale locale)
@@ -19,6 +37,36 @@ public class AuthorBlurbGenerator implements Generator
 		String template = authorBlurbModel.getModel(locale);
 		StringBuffer resultText = new StringBuffer();
 		replaceVars(resultText, template);
+		
+		switch(outputType)
+		{
+			case TXTFILE:
+				if(outputFile == null)
+				{
+					System.err.println("Could not save generated text to file, output file is not defined.");
+				}
+				else
+				{
+					try
+					{
+						FileOutputStream out = new FileOutputStream(outputFile);
+						Writer writer = new BufferedWriter(new OutputStreamWriter(out, OUTPUT_ENCODING));
+						writer.write(resultText.toString());
+						StreamHelper.safeClose(writer);
+					}
+					catch (UnsupportedEncodingException exc)
+					{
+						System.err.println("Error: Tried to write the generated text to a file in " + OUTPUT_ENCODING + " encoding, but this encoding is not supported on this platform.");
+					}
+					catch (IOException exc)
+					{
+						System.err.println("Error when trying to write the generated text into the file " + outputFile.getAbsolutePath());
+					}
+				}
+				break;
+			default:
+				break;
+		}
 		
 		return resultText.toString();
 	}
@@ -77,5 +125,36 @@ public class AuthorBlurbGenerator implements Generator
 			}
 		}
 		return supportedLocaleCache.containsKey(locale.toString()); 
+	}
+
+	public void setOutputFile(String filepath)
+	{
+		outputFile = new File(filepath);
+	}
+	
+	@Override
+	public void setOutputType(OutputType outputType) throws OutputTypeNotSupportedException
+	{
+		if(isSupportedOutputType(outputType))
+		{
+			this.outputType = outputType;
+		}
+		else
+		{
+			throw new OutputTypeNotSupportedException("Output type " + outputType.toString() + " not supported in AutoBlurbGenerator");
+		}
+	}
+
+	@Override
+	public boolean isSupportedOutputType(OutputType outputType)
+	{
+		if(outputType == OutputType.STRING || outputType == OutputType.TXTFILE)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
 	}
 }
