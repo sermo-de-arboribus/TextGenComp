@@ -12,6 +12,7 @@
             <text>Umělecké dílo, které obsahuje teorie je jako objekt, na kterém cenovka ulpět.</text>
             <source>
                 <title>Hledání ztraceného času</title>
+                <translator>http://celebrityquotes.ru/cs/view/65723</translator>
             </source>
         </version>
         <version xml:lang="de-DE" status="translation">
@@ -52,7 +53,7 @@
                 <translator>Noll, Monika</translator>
             </source>
         </version>
-        <version xml:lang="fr-FR" status="translation">
+        <version xml:lang="fr-CA" status="translation">
             <text>Si vous preniez conseil de votre expérience en affaires plutôt que de votre vilaine philosophie individualiste, vous sauriez que la confiance en soi est l'un des signes les plus communs d'un raté.</text>
             <source>
                 <title>Orthodoxie</title>
@@ -86,7 +87,7 @@
                 <title>My Diary in India, in the Year 1858-59</title>
             </source>
         </version>
-        <version xml:lang="de-DE" status="translation">
+        <version status="translation" xml:lang="de-DE" >
             <text>Tatsache ist leider, daß die Günstlinge des Himmels, die Zivilisatoren der Welt - die <em>race blanche</em> [...] - von Natur aus die intolerantesten Menschen sind.</text>
             <source>
                 <title>Meine sieben Kriege</title>
@@ -95,7 +96,7 @@
                 <translator>Fienbork, Matthias</translator>
             </source>
         </version>
-        <version xml:lang="fr-DE" status="unpublished">
+        <version status="unpublished" xml:lang="fr-DE">
             <text>Le fait est, je crains que les favoris des cieux - les civilisateurs du monde - la <em>race blanche</em> de mon ami le docteur, sont naturellement les plus intolérants dans le monde.</text>
             <source>
                 <title>Mon journal en Inde, dans les années 1858-59</title>
@@ -165,7 +166,7 @@
                 <translator>Noll, Monika</translator>
             </source>
         </version>
-        <version status="translation" xml:lang="fr-FR">
+        <version status="translation" xml:lang="fr-CA">
             <text>Et bien que saint Jean l'Évangéliste ait vu beaucoup de monstres étranges dans ses visions, il ne vit aucun être aussi fantastique que l'un de ses propres commentateurs.</text>
             <source>
                 <title>Orthodoxie</title>
@@ -192,32 +193,63 @@
             </source>
         </version>
         <version status="translation" xml:lang="de-DE">
-            <text>Abartige Bettgemeinschaft ließ oft schon in dichtgedrängtes Unglück fallen. (Übers. Dieter Bremer)</text>
+            <text>Abartige Bettgemeinschaft ließ oft schon in dichtgedrängtes Unglück fallen.</text>
             <source>
                 <title>Siegeslieder. Griechisch-deutsch.</title>
                 <idref>2375</idref>
+                <translator>Bremer, Dieter</translator>
             </source>
         </version>
         <version status="translation" xml:lang="de-DE">
-            <text>Frevelnde Liebesgemeinschaft stürzt' oft auch gelingend ins Elend. (Übers. Wilhelm v. Humboldt)</text>
+            <text>Frevelnde Liebesgemeinschaft stürzt' oft auch gelingend ins Elend.</text>
             <source>
                 <title>Wilhelm von Humboldt's gesammelte werke, Band 2 (1841)</title>
                 <page>293</page>
+                <translator>Humboldt, Wilhelm von</translator>
             </source>
+        </version>
+        <version status="translation" xml:lang="en-US">
+        	<text>Unnatural lust throws men into dense trouble.</text>
+        	<source>
+        		<title>Odes. Pindar</title>
+        		<translator>Svarlien, Diane Arnson</translator>
+        	</source>
+        </version>
+        <version status="translation" xml:lang="en-US">
+        	<text>The coupling unnatural brought accumulation of evil on him, even in success.</text>
+        	<source>
+        		<title>The Odes of Pindar</title>
+        		<translator>Lattimore, Richmond</translator>
+        	</source>
         </version>
         <author>Pindar</author>
     </quote>
     <quote>
         <version status="original" xml:lang="de-DE">
-            <text>&#8222;Wie kann ein Wohltäter der Menschen, mit der höchsten Weisheit und Gnade begabt, solch ein Saumatz sein!" seufzte Frau Hildegard, Aber Berthold, der viel in Römern und Griechen gelesen hatte, suchte ihr deutlich zu machen, wie gerade die allgemeine, wissenschaftliche Ansicht, wenn sie allein herrschend würde, die sittlichen Grenzen des einzelnen Menschen auslösche; er sehe so Mannigfaltiges, Widersprechendes geglaubt und geehrt, daß er nur den Geist achte, in welchem alles getrieben würde. Frau Hildegard schüttelte mit dem Kopfe und warnte Berthold gegen die Bücher, daß er es nicht auch einmal so treibe wie Faust, wenn er ganz gesund würde.</text>
+            <text>&#8222;Wie kann ein Wohlthäter der Menschen, mit der höchsten Weisheit und Gnade begabt, solch ein Saumatz seyn!&#8220; seufzte Frau Hildegard, Aber Berthold, der viel in Römern und Griechen gelesen hatte, suchte ihr deutlich zu machen, wie gerade die allgemeine, wissenschaftliche Ansicht, wenn sie allein herrschend würde, die sittlichen Grenzen des einzelnen Menschen auslösche; er sehe so Mannigfaltiges, Widersprechendes geglaubt und geehrt, daß er nur den Geist achte, in welchem alles getrieben würde. Frau Hildegard schüttelte mit dem Kopfe und warnte Berthold gegen die Bücher, daß er es nicht auch einmal so treibe wie Faust, wenn er ganz gesund würde.</text>
             <source>
                 <title>Die Kronenwächter</title>
                 <page>613</page>
             </source>
         </version>
+        <version status="unpublished" xml:lang="en-DE">
+        	<text>"How can a benefactor of mankind, blessed with the highest wisdom and grace, be such a vile creep!", Mrs. Hildegard sighed. But Berthold, who had read lots of the Romans and Greeks, tried to make it clear to her, how the general scientific opinion, when it becomes the sole ruler of discourse, is particularly capable of erasing the moral boundaries of the individual; he could see such diverse and contradictory things believed and honoured, that he only respected the mind which drives it all. Mrs. Hildegard shook her head and warned Berthold of the books, and asked him, when once he would be fully reovered, not to go as far as Faust did.</text>
+        	<source>
+        		<title>The Guardians of the Crown</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
+        </version>
         <author>Arnim, Achim von</author>
     </quote>
     <quote>
+        <version xml:lang="en-GB" status="original">
+            <text>The poet only asks to get his head into the heavens. It is the logician who seeks to get the heavens into his head. And it is his head that splits.</text>
+            <source>
+                <title>Heretics / Orthodoxy</title>
+                <idref>560</idref>
+                <page>178</page>
+            </source>
+        </version>
         <version xml:lang="de-DE" status="translation">
             <text>Der Dichter will nichts weiter als seinen Kopf in den Himmel zu stecken. Der Logiker sucht den Himmel in seinen Kopf zu stecken. Und dabei platzt ihm sein Kopf.</text>
             <source>
@@ -226,13 +258,12 @@
                 <page>44</page>
             </source>
         </version>
-        <version xml:lang="en-GB" status="original">
-            <text>The poet only asks to get his head into the heavens. It is the logician who seeks to get the heavens into his head. And it is his head that splits.</text>
-            <source>
-                <title>Heretics / Orthodoxy</title>
-                <idref>560</idref>
-                <page>178</page>
-            </source>
+        <version status="translation" xml:lang="fr-CA">
+        	<text>Le poète ne cherche qu'à faire entrer sa tête dans les cieux. Le logicien, lui, essaie de faire entrer les cieux dans sa tête. Et c'est sa tête qui éclate.</text>
+        	<source>
+        		<title>Orthodoxie</title>
+        		<translator>Beaupré, Viateur</translator>
+        	</source>
         </version>
         <author>Chesterton, Gilbert Keith</author>
     </quote>
@@ -245,30 +276,31 @@
                 <page>58</page>
             </source>
         </version>
-        <version status="translation" xml:lang="en-US">
+        <version status="unpublished" xml:lang="cs-DE">
+        	<text>Každý člověk si dřív nebo později vymyslí příběh, který považuje za svůj život.</text>
+        	<source>
+        		<title>Mé jméno budiž Gantenbein</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
+        </version>
+        <version status="translation" xml:lang="en-GB">
             <text>Sooner or later everyone invents for himself a story which he regards as his life.</text>
             <source>
                 <title>Gantenbein (Methuen, 1982)</title>
                 <page>47</page>
+                <translator>Bullock, Michael</translator>
             </source>
         </version>
         <version status="translation" xml:lang="fr-FR">
             <text>Tout homme, dit-il, s'invente tôt ou tard une histoire qu'il prend pour sa vie.</text>
             <source>
                 <title>Le désert des miroirs</title>
+                <translator>Cœuroy, André</translator>
             </source>
         </version>
         <author>Frisch, Max</author>
     </quote>
     <quote>
-        <version status="translation" xml:lang="de-DE">
-            <text>Versuche immer ein Stück Himmel über deinem Leben zu haben.</text>
-            <source>
-                <title>Auf der Suche nach der verlorenen Zeit</title>
-                <idref>2409</idref>
-                <page>94/95</page>
-            </source>
-        </version>
         <version status="original" xml:lang="fr-FR">
             <text>Tâchez de garder toujours un morceau de ciel au-dessus de votre vie.</text>
             <source>
@@ -276,11 +308,28 @@
                 <page>68</page>
             </source>
         </version>
-        <version status="translation" xml:lang="en">
+        <version status="unpublished" xml:lang="cs-DE">
+        	<text>Snažte se, aby vždy mějte kousek oblohy nad svým životem.</text>
+        	<source>
+        		<title>Hledání ztraceného času</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
+        </version>
+        <version status="translation" xml:lang="de-DE">
+            <text>Versuche immer ein Stück Himmel über deinem Leben zu haben.</text>
+            <source>
+                <title>Auf der Suche nach der verlorenen Zeit</title>
+                <idref>2409</idref>
+                <page>94/95</page>
+                <translator>Rechel-Mertens, Eva</translator>
+            </source>
+        </version>
+        <version status="translation" xml:lang="en-US">
             <text>Always try to keep a piece of sky over your life.</text>
             <source>
                 <title>In Search of Lost Time: The Way by Swann's (Penguin 2003)</title>
                 <page>70</page>
+                <translator>Davis, Lydia</translator>
             </source>
         </version>
         <author>Proust, Marcel</author>
@@ -291,6 +340,13 @@
             <source>
                 <title>Mehr Meer</title>
             </source>
+        </version>
+        <version status="unpublished" xml:lang="en-DE">
+        	<text>Libraries cannot be copied. Or if they are, then their history is subtracted.</text>
+        	<source>
+        		<title>More Sea</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
         </version>
         <author>Rakusa, Ilma</author>
     </quote>
@@ -311,11 +367,18 @@
                 <page>99</page>
             </source>
         </version>
+        <version status="translation" xml:lang="fr-CA">
+        	<text>La tradition signifie que l'on donne le droit de vote à la plus obscure de toutes les classes, celle de nos ancêtres. C'est la démocratie des morts.</text>
+        	<source>
+                <title>Orthodoxie</title>
+                <translator>Beaupré, Viateur</translator>
+            </source>
+        </version>
         <author>Chesterton, Gilbert Keith</author>
     </quote>
     <quote>
         <version status="original" xml:lang="en-GB">
-            <text>When Gott made the womens, he was sorry afterwards for the poor mens—and he made tobaccos to comfort them.</text>
+            <text>When Gott made the womens, he was sorry afterwards for the poor mens — and he made tobaccos to comfort them.</text>
             <source>
                 <title>Poor Miss Finch</title>
             </source>
@@ -327,6 +390,14 @@
                 <idref>590</idref>
                 <page>280</page>
             </source>
+        </version>
+        <version status="translation" xml:lang="fr-FR">
+        	<text>Quand le pon Tieu créa les femmes, il eut pitié tes paufres hommes, et c'est alors qu'il créa les dabacs pour les consoler.</text>
+        	<source>
+        		<title>Pauvre Miss Finch</title>
+        		<translator>Anonymus</translator>
+        		<translator>Klein, Frédéric</translator>
+        	</source>
         </version>
         <author>Collins, Wilkie</author>
     </quote>
