@@ -410,6 +410,13 @@
                 <page>354</page>
             </source>
         </version>
+        <version status="unpublished" xml:lang="en-DE">
+        	<text>Who actually is a person? Most people nowadays are diseases or are smells and always just functionaries of some kind. Eulenfeld was a kind of passing-sieve (passoire). What went through, went through, and what had a shape and could remain upright, didn't go through. Moreover: Diseases are institutions. Oh man, repent; because here comes the shatteravalry captain.</text>
+        	<source>
+        		<title>The Strudlhof Steps</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
+        </version>
         <author>Doderer, Heimito von</author>
     </quote>
     <quote>
@@ -417,6 +424,13 @@
             <text>Deutschland erschreckt die Welt nicht mehr, doch es fasziniert auch niemanden.</text>
             <source>
                 <title>Ein Leben wird besichtigt</title>
+            </source>
+        </version>
+        <version status="unpublished" xml:lang="en-DE">
+            <text>Germany doesn't threaten the world anymore, but it doesn't fascinate anyone either.</text>
+            <source>
+                <title>A life is inspected</title>
+                <translator>Weber, Kai</translator>
             </source>
         </version>
         <author>Siedler, Wolf Jobst</author>
@@ -430,14 +444,22 @@
                 <page>48</page>
             </source>
         </version>
+        <version status="unpublished" xml:lang="de-DE">
+            <text>Wo bist du, Welt? Tu bitte nichts während ich gerade nicht aufpasse.</text>
+            <source>
+                <title>Treibstoff</title>
+                <translator>Weber, Kai</translator>
+            </source>
+        </version>
         <author>Nye, Naomi Shihab</author>
     </quote>
     <quote>
         <version status="translation" xml:lang="de-DE">
-            <text>Und wenn wir unser Hirn auf den Erdboden verspritzten, so hätten wir damit noch nicht ein Zehntausendstel unserer Dankesschuld an den Himmelssohn - tausend Herbste möge er leben! - abgetragen. (Übers. Franz Kuhn)</text>
+            <text>Und wenn wir unser Hirn auf den Erdboden verspritzten, so hätten wir damit noch nicht ein Zehntausendstel unserer Dankesschuld an den Himmelssohn &#8210; tausend Herbste möge er leben! &#8210; abgetragen.</text>
             <source>
                 <title>Der Traum der roten Kammer</title>
                 <idref>501</idref>
+                <translator>Kuhn, Franz</translator>
             </source>
         </version>
         <author>曹雪芹 (Cao Xueqin)</author>
@@ -3532,6 +3554,5 @@ Ihre Kuhigkeit verblüffte meine Menschlichkeit so sehr — so spannungsgeladen 
             </source>
         </version>
         <author>Gombrowicz, Witold</author>
-    </quote>
-   
+    </quote>   
 </quotes>
