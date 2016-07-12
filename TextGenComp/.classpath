@@ -2,6 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="config"/>
+	<classpathentry kind="src" path="lib"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
 	<classpathentry kind="lib" path="/home/kai/Programmieren/Java/Spring/libs/spring-aop-4.2.6.RELEASE.jar"/>
 	<classpathentry kind="lib" path="/home/kai/Programmieren/Java/Spring/libs/spring-aop-4.2.6.RELEASE-javadoc.jar"/>
@@ -65,5 +66,6 @@
 	<classpathentry kind="lib" path="/home/kai/Programmieren/Java/Spring/libs/spring-websocket-4.2.6.RELEASE-sources.jar"/>
 	<classpathentry kind="lib" path="/home/kai/Programmieren/Java/Apache Commons Logging/commons-logging-1.2.jar"/>
 	<classpathentry kind="lib" path="/home/kai/Programmieren/Java/Apache Commons Logging/commons-logging-1.2-javadoc.jar"/>
+	<classpathentry kind="lib" path="lib/xom-1.2.7.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
