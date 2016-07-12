@@ -454,24 +454,45 @@
         <author>Nye, Naomi Shihab</author>
     </quote>
     <quote>
+    	<version status="original" xml:lang="zh-CN">
+    		<text>且今上启天地生物之大德，垂古今未有之旷恩，虽肝脑涂地，臣子岂能得报于万一！</text>
+    		<source>
+    			<title>红楼梦</title>
+    		</source>
+    	</version>
         <version status="translation" xml:lang="de-DE">
-            <text>Und wenn wir unser Hirn auf den Erdboden verspritzten, so hätten wir damit noch nicht ein Zehntausendstel unserer Dankesschuld an den Himmelssohn &#8210; tausend Herbste möge er leben! &#8210; abgetragen.</text>
+            <text>Und wenn wir unser Hirn auf den Erdboden verspritzten, so hätten wir damit noch nicht ein Zehntausendstel unserer Dankesschuld an den Himmelssohn - tausend Herbste möge er leben! - abgetragen.</text>
             <source>
                 <title>Der Traum der roten Kammer</title>
                 <idref>501</idref>
+                <page>207</page>
                 <translator>Kuhn, Franz</translator>
             </source>
+        </version>
+        <version status="translation" xml:lang="en-GB">
+        	<text>And although we may besmear our liver and brain in the mire, how could we show our gratitude, even to so slight a degree as one ten-thousandth part.</text>
+        	<source>
+        		<title>The Dream of the Red Chamber</title>
+        		<translator>Joly, Henry Bencraft</translator>
+        	</source>
         </version>
         <author>曹雪芹 (Cao Xueqin)</author>
     </quote>
     <quote>
         <version status="original" xml:lang="de-AT">
-            <text>[...] jenem ungeprüften Vermeinen der Jugend folgend, das für möglich, ja selbstverständlich hält, man könne einem anderen Menschen einen Teil der eigenen Last wirklich mit zu tragen geben, und man hätte dies dann mit ihm gemeinsam, und er hätte und hielte es ebenso wie man selbst: so weit schlägt in der Panik der Egoismus aller Epheben über die Stränge, statt selbst an ihnen zu ziehen und den Karren aus dem Dreck.</text>
+            <text>Im Frühsommer begann sie mehr oder weniger mitzuerleben, was die Thea Rokitzer aus einem unbekannten Gebiete heran und vor ihr zur Ausschüttung brachte, jenem ungeprüften Vermeinen der Jugend folgend, das für möglich, ja selbstverständlich hält, man könne einem anderen Menschen einen Teil der eigenen Last wirklich mit zu tragen geben, und man hätte dies dann mit ihm gemeinsam, und er hätte und hielte es ebenso wie man selbst: so weit schlägt in der Panik der Egoismus aller Epheben über die Stränge, statt selbst an ihnen zu ziehen und den Karren aus dem Dreck.</text>
             <source>
                 <title>Die Strudlhofstiege</title>
                 <idref>707</idref>
                 <page>355</page>
             </source>
+        </version>
+        <version status="unpublished" xml:lang="en-DE">
+        	<text>In early summer she started to more or less witness, what Thea Rokitzer brought from an unknown area and spilled out in front of her, following that unevaluated supposition of the young, who consider it to be possible, even certain, that one could really share part of one's own burden with another person, and that this would cause some mutuality, and the other person would treat it just the same way: in their panic the egoism of all ephebes kicks over the traces that much, instead of stepping firmly onto them and pull the cart out of the mess.</text>
+        	<source>
+        		<title>The Strudlhof Steps</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
         </version>
         <author>Doderer, Heimito von</author>
     </quote>
@@ -490,11 +511,27 @@
                  <title>Orthodoxie</title>
                  <idref>563</idref>
                  <page>122</page>
+                 <translator>Enderwitz, Ulrich</translator>
+                 <translator>Noll, Monika</translator>
              </source>
+        </version>
+        <version status="translation" xml:lang="fr-CA">
+        	<text>Car les adultes ne sont pas assez vigoureux pour exulter dans la monotonie.</text>
+        	<source>
+        		<title>Orthodoxie</title>
+        		<translator>Beaupré, Viateur</translator>
+        	</source>
         </version>
         <author>Chesterton, Gilbert Keith</author>
     </quote>
     <quote>
+        <version status="original" xml:lang="fr-FR">
+            <text>Ou bien la morale n'a aucun sens, ou bien c'est cela qu'elle veut dire et elle n'a rien d'autre à dire: ne pas être indigne de ce qui nous arrive.</text>
+            <source>
+                <title>Logique du sens</title>
+                <page>174</page>
+            </source>
+        </version>
         <version status="translation" xml:lang="de-DE">
             <text>Entweder hat die Moral keinen Sinn oder es ist genau dies, was sie sagen möchte: sich dessen würdig erweisen, was uns zustößt.</text>
             <source>
@@ -503,16 +540,25 @@
                 <page>186</page>
             </source>
         </version>
-        <version status="original" xml:lang="fr-FR">
-            <text>Ou bien la morale n'a aucun sens, ou bien c'est cela qu'elle veut dire et elle n'a rien d'autre à dire: ne pas être indigne de ce qui nous arrive.</text>
-            <source>
-                <title>Logique du sens</title>
-                <page>174</page>
-            </source>
+        <version status="translation" xml:lang="en-US">
+        	<text>Either ethics makes no sense at all or this is what it means and has nothing else to say: not to be unworthy of what happens to us.</text>
+        	<source>
+        		<title>The Logic of Sense</title>
+        		<page>149</page>
+        		<translator>Lester, Mark</translator>
+        		<translator>Stivale, Charles</translator>
+        	</source>
         </version>
         <author>Deleuze, Gilles</author>
     </quote>
     <quote>
+       <version status="original" xml:lang="ru-RU">
+            <text>Пьера в первый раз поразило на этом собрании то бесконечное разнообразие умов человеческих, которое делает то, что никакая истина одинаково не представляется двум людям.</text>
+            <source>
+                <title>Полное собрание художественных произведений, Tom 5</title>
+                <page>151</page>
+            </source>
+        </version>
         <version status="translation" xml:lang="de-DE">
             <text>Zum erstenmal drängte sich ihm bei dieser Versammlung überraschend die Tatsache auf, dass die Menschenköpfe von einer unendlichen Mannigfaltigkeit sind, welche bewirkt, dass keine Wahrheit sich auch nur zwei Menschen auf die gleich Weise darstellt.</text>
             <source>
@@ -521,12 +567,14 @@
                 <page>251/52</page>
             </source>
         </version> 
-        <version status="original" xml:lang="ru-RU">
-            <text>Пьера в первый раз поразило на этом собрании то бесконечное разнообразие умов человеческих, которое делает то, что никакая истина одинаково не представляется двум людям.</text>
-            <source>
-                <title>Полное собрание художественных произведений, Tom 5</title>
-                <page>151</page>
-            </source>
+        <version status="translation" xml:lang="en-GB">
+        	<text>At that meeting he was struck for the first time by the endless variety of men's minds, which prevents a truth from ever presenting itself identically in two persons.</text>
+        	<source>
+        		<title>War and Peace</title>
+        		<page>463</page>
+        		<translator>Maude, Louise</translator>
+        		<translator>Maude, Aylmer</translator>
+        	</source>
         </version>
         <author>Tolstoj, Lev Nikolaevič</author>
     </quote>
@@ -538,6 +586,13 @@
                 <idref>707</idref>
                 <page>357</page>
             </source>
+        </version>
+        <version status="unpublished" xml:lang="en-DE">
+        	<text>[Melzer], who thought in too physical and proper a manner, abiding by the axiom that there cannot be one body in the same space where another one is already present, which may be true in physics: in the timetables of erotic railway traffic with short-distance tariff it is recorded quite differently. And Melzer resembled a person who deducted from the fact, that dumplings are eaten one after another, that there are no gluttons.</text>
+        	<source>
+        		<title>The Strudlhof Steps</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
         </version>
         <author>Doderer, Heimito von</author>
     </quote>
@@ -554,7 +609,16 @@
                 <title>Die Verlobten</title>
                 <idref>2013</idref>
                 <page>88</page>
+                <translator>Junker, Ernst Wiegand</translator>
             </source>
+        </version>
+        <version status="translation" xml:lang="en-GB">
+        	<text>[F]or it is a singular advantage of this world, that men may hate and be hated without knowing each other.</text>
+        	<source>
+        		<title>The Betrothed</title>
+        		<page>30</page>
+        		<translator>Anonymus</translator>
+        	</source>
         </version>
         <author>Manzoni, Alessandro</author>
     </quote>
@@ -571,6 +635,14 @@
                 <title>Zoo oder Briefe nicht über die Liebe</title>
             </source>
         </version>
+        <version status="translation" xml:lang="en-US">
+        	<text>Floating elevators which can suck out as much as 20,000 bushels of grain a day. I might swim up to one of those suckers and say: "Dear comrade, please suck out of me the 20,000 devils of love which are ensconced in my soul."</text>
+        	<source>
+        		<title>Zoo, or Letters Not about Love</title>
+        		<page>64</page>
+        		<translator>Sheldon, Richard</translator>
+        	</source>
+        </version>
         <author>Шкловский, Виктор</author>
     </quote>
     <quote>
@@ -581,6 +653,13 @@
                 <idref>707</idref>
                 <page>433</page>
             </source>
+        </version>
+        <version status="unpublished" xml:lang="en-DE">
+        	<text>Admittedly: everything is revealed. All cheats &#8212; a guild, which again and again uses materials like thin cardboard, wet silk paper or frayed woolen threads as if they were planks, leather or ropes &#8212; should be insistently made to take note of that; though unfortunately only the inimitable situations of life itself are capable of that, when once and again they open the window and give insight to the waxworks, or direct the glance to pass by the dignified chair of an orator towards the mirrors of the true situation behind it...</text>
+        	<source>
+        		<title>The Strudlhof Steps</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
         </version>
         <author>Doderer, Heimito von</author>
     </quote>
@@ -598,6 +677,8 @@
                 <title>Die Abendeinladungen des Generalkonsuls (in: Die Spieler)</title>
                 <idref>2816</idref>
                 <page>94</page>
+                <translator>Dallmann, Günter</translator>
+                <translator>Oplatka, Helen</translator>
             </source>
         </version>
         <author>Söderberg, Hjalmar</author>
