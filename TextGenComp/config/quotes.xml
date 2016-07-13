@@ -681,6 +681,15 @@
                 <translator>Oplatka, Helen</translator>
             </source>
         </version>
+        <version status="unpublished" xml:lang="en-DE">
+        	<text>Or do you think, ethics must be like an acrobat's performance: the harder, the better?</text>
+        	<source>
+        		<title>The Consul-General at the palace ball</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
+        	<!--  Published English version available: The Consul-General at the palace ball, 
+        			transl. by Lofmark in Söderberg, "Short Stories", 1987 -->
+        </version>
         <author>Söderberg, Hjalmar</author>
     </quote>
     <quote>
@@ -691,6 +700,13 @@
                 <idref>738</idref>
                 <page>156</page>
             </source>
+        </version>
+        <version status="unpublished" xml:lang="en-DE">
+        	<text>After all a fish's bones are to the inside what a hedgehog's quills are on the outside: a natural defense mechanism, that makes it virtually inedible. That's why the true connoisseur of fish actually doesn't eat any fish.</text>
+        	<source>
+        		<title>About Water</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
         </version>
         <author>Düffel, John von</author>
     </quote>
@@ -708,14 +724,23 @@
                 <title>Auf der Suche nach der verlorenen Zeit</title>
                 <idref>2409</idref>
                 <page>644</page>
+                <translator>Rechel-Mertens, Eva</translator>
             </source>
         </version>
-        <version status="translation" xml:lang="en">
+        <version status="translation" xml:lang="en-GB">
             <text>The sadness of men who have grown old lies in their no longer even thinking of writing such letters, the futility of which their experience has shown.</text>
             <source>
                 <title>Remembrance of Things Past</title>
                 <page>455</page>
+                <translator>Moncrieff, Charles Kenneth Scott</translator>
             </source>
+        </version>
+        <version status="unpublished" xml:lang="cs-CZ">
+        	<text>Smutek staříků je v tom, že ani myslejí na psaní takové dopisy, kterých neúčinnost se už poučili.</text>
+        	<source>
+        		<title>Hledání straceného času</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
         </version>
         <author>Proust, Marcel</author>
     </quote>
@@ -730,14 +755,23 @@
             <text>Wir begriffen, dass wir vielleicht ein bisschen zu dick aufgetragen hatten, die Idee eines Teufels mit drei Köpfen, der mit dem italienischen Regierungschef dinierte, war schwer zu verdauen.</text>
             <source>
                 <title>Der Friedhof in Prag</title>
+                <translator>Kroeber, Burkhart</translator>
             </source>
         </version>
-        <version status="translation" xml:lang="en">
+        <version status="translation" xml:lang="en-GB">
             <text>We realized we had gone too far; the idea of a three-headed devil who banqueted with the leader of the Italian government was difficult to swallow.</text>
             <source>
                 <title>The Prague Cemetary</title>
+                <translator>Dixon, Richard</translator>
             </source>
         </version>
+		<version status="translation" xml:lang="cs-CZ">
+			<text>Pochopili jsme, že jsme to přehnali. Ďábel s třemi hlavami, který hodoval s předsedou italské vlády, se dal spolknout jen těžko.</text>
+			<source>
+				<title>Pražský hřbitov</title>
+				<translator>Pelán, Jiří</translator>
+			</source>
+		</version>
         <author>Eco, Umberto</author>
     </quote>
     <quote>
@@ -751,23 +785,40 @@
             <text>Ich ging nach Hause und teilte Amparo offiziell mit, daß die Welt voll Denaturierter sei. Sie versprach mir Trost, und wir beendeten den Tag naturaliter.</text>
             <source>
                 <title>Das Foucaultsche Pendel</title>
+                <translator>Kroeber, Burkhart</translator>
             </source>
         </version>
-        <version status="translation" xml:lang="en">
+        <version status="translation" xml:lang="en-US">
             <text>I went home and officially informed Amparo that the world was full of unnatural characters. She promised me solace, and we ended the day naturally.</text>
             <source>
                 <title>Foucault's Pendulum</title>
                 <page>167</page>
+                <translator>Weaver, William</translator>
             </source>
+        </version>
+        <version status="translation" xml:lang="fr-FR">
+        	<text>Je revins à la maison et communiquai officiellement à Amparo que le monde était plein de dénaturés. Elle me promit réconfort et nous achevâmes la journée selon nature.</text>
+        	<source>
+        		<title>Le pendule de Foucault</title>
+        		<translator>Schifano, Jean-Noël</translator>
+        	</source>
         </version>
         <author>Eco, Umberto</author>
     </quote>
     <quote>
         <version status="original" xml:lang="en-GB">
-            <text> 'If you have to cry', he said finally, 'and sometimes you can't help it, you have to cry afterwards, never during. Remember this. Unless you're with those who love you, and only those who love you - and in that case you're already lucky, for there are never many who love you - then, then, if you're with them, you can cry during. Otherwise you cry afterwards.'</text>
+            <text>If you have to cry, he said finally, and sometimes you can't help it, you have to cry afterwards, never during! Remember this. Unless you're with those who love you, and only those who love you, and in that case you're already lucky, for there are never many who love you  &#8210; if you're with them, you can cry during. Otherwise you cry afterwards.</text>
             <source>
-                <title>The passeur</title>
+                <title>Kraków, from: Here Is where We Meet</title>
             </source>
+        </version>
+        <version status="translation" xml:lang="de-DE">
+        	<text>Wenn du heulen mußt, sagte er schließlich, und manchmal kann man nicht naders, dann mußt du heulen, aber immer erst später, nie gleich! Das mußt du dir merken. Außer du bist unter Menschen, die dich lieben, aber dann hast du ja schon Glück gehabt, es sind nie viele, die einen lieben; wenn du also mit solchen zusammen bist, dann wiene. Sonst immer erst danach.</text>
+        	<source>
+        		<title>Krakau, in: Hier, wo wir uns begegnen</title>
+        		<page>86/87</page>
+        		<translator>Balmes, Hans Jürgen</translator>
+        	</source>
         </version>
         <author>Berger, John</author>
     </quote>
@@ -785,13 +836,17 @@
                 <title>Anti-Ödipus</title>
                 <idref>666</idref>
                 <page>148</page>
+                <translator>Schwibs, Bernd</translator>
             </source>
         </version>
-        <version status="translation" xml:lang="en">
+        <version status="translation" xml:lang="en-US">
             <text>The law tells us: You will not marry your mother, and you will not kill your father. And we docile subjects say to ourselves: so <em>that's</em> what I wanted!</text>
             <source>
                 <title>Anti-Oedipus</title>
                 <page>125</page>
+                <translator>Hurley, Robert</translator>
+                <translator>Seem, Mark</translator>
+                <translator>Lane, Helen R.</translator>
             </source>
         </version>
         <author>Deleuze, Gilles</author>
