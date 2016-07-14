@@ -813,7 +813,7 @@
             </source>
         </version>
         <version status="translation" xml:lang="de-DE">
-        	<text>Wenn du heulen mußt, sagte er schließlich, und manchmal kann man nicht naders, dann mußt du heulen, aber immer erst später, nie gleich! Das mußt du dir merken. Außer du bist unter Menschen, die dich lieben, aber dann hast du ja schon Glück gehabt, es sind nie viele, die einen lieben; wenn du also mit solchen zusammen bist, dann wiene. Sonst immer erst danach.</text>
+        	<text>Wenn du heulen mußt, sagte er schließlich, und manchmal kann man nicht anders, dann mußt du heulen, aber immer erst später, nie gleich! Das mußt du dir merken. Außer du bist unter Menschen, die dich lieben, aber dann hast du ja schon Glück gehabt, es sind nie viele, die einen lieben; wenn du also mit solchen zusammen bist, dann wiene. Sonst immer erst danach.</text>
         	<source>
         		<title>Krakau, in: Hier, wo wir uns begegnen</title>
         		<page>86/87</page>
@@ -849,6 +849,13 @@
                 <translator>Lane, Helen R.</translator>
             </source>
         </version>
+        <version status="unpublished" xml:lang="cs-DE">
+        	<text>Zákon nám říká: neoženíš se se svou matkou a nezabiješ svého otce. A my poslušné subjekty nám sobě říkají: Tedy to chtěl!</text>
+        	<source>
+        		<title>Anti-Oidipus: kapitalismus a schizofrenie I</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
+        </version>
         <author>Deleuze, Gilles</author>
         <author>Guattari, Felix</author>
     </quote>
@@ -860,6 +867,13 @@
                 <idref>2048</idref>
                 <page>140</page>
             </source>
+        </version>
+        <version status="unpublished" xml:lang="en-DE">
+        	<text>In modern sports types of games and competition situations have been developed, which supply events to an ever more hungry media mechanism, events whose topicality is beyond doubt &#8210; although their significance can be doubted.</text>
+        	<source>
+        		<title>Cultural History</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
         </version>
         <author>Maurer, Michael</author>
     </quote>
@@ -875,7 +889,15 @@
             <source>
                 <title>Darwins Schatten</title>
                 <idref>2509</idref>
+                <translator>Stach, Reiner</translator>
             </source>          
+        </version>
+        <version status="unpublished" xml:lang="fr-DE">
+        	<text>En effet la poignée de main est peut-être la seule plus barbare coutume de l'Occident. Face à la pathologie humaine c'est sur le troisième rang de contagion directement sous le coït et le baiser. La révérance est beaucoup préférable.</text>
+        	<source>
+        		<title>Le spectre de Darwin</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
         </version>
         <author>Rose, Michael R.</author>
     </quote>
@@ -887,6 +909,13 @@
                 <idref>2048</idref>
                 <page>142</page>
             </source>
+        </version>
+        <version status="unpublished" xml:lang="en-DE">
+        	<text>Children are disgusted by harmless earthworms, but can easily zap whole galaxies of virtual enemies.</text>
+        	<source>
+        		<title>Cultural History</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
         </version>
         <author>Maurer, Michael</author>
     </quote>
@@ -904,13 +933,22 @@
                 <title>Auf der Suche nach der verlorenen Zeit</title>
                 <idref>2409</idref>
                 <page>697/98</page>
+                <translator>Rechel-Mertens, Eva</translator>
             </source>
         </version>
-        <version status="translation" xml:lang="en">
+        <version status="translation" xml:lang="en-AU">
             <text>Listening for the first time to music that is even a little complicated, one can often hear nothing in it.</text>
             <source>
                 <title>In Search of Lost Time: In the Shadow of Young Girls in Flower</title>
+                <translator>Grieve, James</translator>
             </source>
+        </version>
+        <version status="unpublished" xml:lang="cs-DE">
+        	<text>Ale často se nic rozumí, když se poprvé slyší trochu komplikovanou hudbu.</text>
+        	<source>
+        		<title>Hledání ztraceného času</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
         </version>
         <author>Proust, Marcel</author>
     </quote>
@@ -923,11 +961,19 @@
                 <page>246</page>
             </source>
         </version>
-        <version status="translation" xml:lang="de-DE">
+        <version status="unpublished" xml:lang="de-DE">
             <text>Dieser Neruda soll mir bloß noch mal mit so einer 'Kleinseitner Geschichte' kommen!</text>
             <source>
                 <title>Kleinseitner Geschichten</title>
+                <translator>Weber, Kai</translator>
             </source>
+        </version>
+        <version status="translation" xml:lang="en-GB">
+        	<text>Let Neruda come to me just once more with one of his 'Tales of the Little Quarter'!</text>
+        	<source>
+        		<title>Tales of the Little Quarter</title>
+        		<translator>Pargeter, Edith</translator>
+        	</source>
         </version>
         <author>Neruda,Jan</author>
     </quote>
@@ -940,12 +986,16 @@
                 <page>106</page>
             </source>
         </version>
-        <version status="translation" xml:lang="en">
+        <version status="translation" xml:lang="en-US">
             <text>God knows, you ought to keep a map of the world hanging on the wall so that you can ingrain the image of Europe as just a fissured NW cape of Asia; and for Western Christian civilization, a soccer photo, where for a finale they club the referee.</text>
             <source>
-                <title>Conjunctions</title>
+                <title>The Displaced, in: Conjunctions 22</title>
                 <page>247</page>
+                <translator>Woods, John E.</translator>
             </source>
+        </version>
+        <version status="unpublished" xml:lang="fr-DE">
+        	<text>Pardieu, on devrait toujours attacher une mappemonde sur le mur, afin qu'on mémorise l'Europe comme le cap du NO déchiqueté de l'Asie; et une photo de football pour la culture du Occident chrétien, où ils assomment l'arbitre après le jeu.</text>
         </version>
         <author>Schmidt, Arno</author>
     </quote>
@@ -962,7 +1012,16 @@
                 <title>Auf der Suche nach der verlorenen Zeit</title>
                 <idref>2409</idref>
                 <page>75</page>
+                <translator>Rechel-Mertens, Eva</translator>
             </source>
+        </version>
+        <version status="translation" xml:lang="en-GB">
+        	<text>Three-quarters of the ills from which intelligent people suffer spring from their intellect.</text>
+        	<source>
+        		<title>In the Shadow of Young Girls in Flower</title>
+        		<page>159</page>
+        		<translator>Moncrieff, Charles Kenneth Scott</translator>
+        	</source>
         </version>
         <author>Proust, Marcel</author>
     </quote>
@@ -974,23 +1033,39 @@
                 <page>XVII</page>
             </source>
         </version>
+        <version status="unpublished" xml:lang="de-DE">
+        	<text>Eines abends, während eines Treffens der Derwische seines Ordens, bei welchem der Scheich zugegen war, wurde mein Freund von einem religiösen Wahn befallen, ergriff eine hohe gläserne Glocke, die eine auf dem Boden aufgestellte Kerze schützte, und aß eines großen Teil derselben auf. Der Scheich und die anderen Derwische schauten ihn erstaunt an und rügten ihn dafür, dass er die Ordensregeln gebrochen habe, weil das Essen von Glas nicht zu den Wundern gehörte, die ihnen zu praktizieren erlaubt war; sie exkommunizierten ihn umgehend. Er trat daraufhin in den Ahmediyeh-Orden ein; dort aß man ebenfalls niemals Glas, so dass er gelobte, dies nie wieder zu tun.</text>
+        	<source>
+        		<title>Ein Bericht über die Gepflogenheiten und Bräuche der modernen Ägypter</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
+        </version>
         <author>Lane, William Edward</author>
     </quote>
     <quote>
-        <version status="translation" xml:lang="de-DE">
-            <text>Jedes Volk besitzt seine Besonderheiten, Züge, die ihm seine eigene Würde verleihen. Aber diese nationalen Eigenarten werden durch diejenigen lächerlich, sirupsüß und widerlich, die sich vor Rührung über ihr Volk am eigenen Speichel verschlucken und denen das Gefühl für jedes Maß fehlt.</text>
-            <source>
-                <title>Der Beginn eines verschwundenen Zeitalters</title>
-                <idref>2341</idref>
-                <page>149</page>
-            </source>
-        </version>
         <version status="original" xml:lang="ru-RU">
             <text>У каждого народа есть свои особенности, свои достойные черты. Но люди, захлебывающиеся слюной от умиления перед своим народом и лишенные чувства меры, всегда доводят эти национальные черты до смехотворных размеров, до патоки, до отвращения.</text>
             <source>
                 <title>Повесть о жизни. Книги 1-3</title>
                 <page>576</page>
             </source>
+        </version>
+        <version status="translation" xml:lang="de-DE">
+            <text>Jedes Volk besitzt seine Besonderheiten, Züge, die ihm seine eigene Würde verleihen. Aber diese nationalen Eigenarten werden durch diejenigen lächerlich, sirupsüß und widerlich, die sich vor Rührung über ihr Volk am eigenen Speichel verschlucken und denen das Gefühl für jedes Maß fehlt.</text>
+            <source>
+                <title>Der Beginn eines verschwundenen Zeitalters</title>
+                <idref>2341</idref>
+                <page>149</page>
+                <translator>Düwel, Gudrun</translator>
+                <translator>Schwarz, Georg</translator>
+            </source>
+        </version>
+        <version status="unpublished" xml:lang="en-DE">
+        	<text>Every nation has its own characteristics, its decent features. But people, choking on their own saliva from too much affection for their own nation and lacking any sense of proportion, always bowl these national features down to ridiculous dimensions, to molasses, to disgust.</text>
+        	<source>
+        		<title>The Story of a Life, volume 3</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
         </version>
         <author>Paustovskij, Konstantin</author>
     </quote>
@@ -1002,16 +1077,23 @@
             </source>
         </version>
         <version status="translation" xml:lang="de-DE">
-            <text>Was ist Leid, was ist Opfer? Was ist der Preis für ein Leben, für das vergossene Blut? Auf unserem Territorium besteht längst eine himmelweite Kluft in der Verteilung des Glücks. Es ist kaum zu glauben, dass das Leid, das von dem Massaker heraufbeschworen wurde, zur Quelle wird für Moralität und Gerechtigkeit, in seiner Verteilung bestand ebenfalls von vorneherein eine gewaltige Kluft. [...] 
-                Die sogenannte Elite dieses Landes hat überhaupt keine Fortschritte gemacht, bis heute sind ein Gefühl für 
-                die Schande und ein Gefühl für die Schuld eine Seltenheit, und wir 
-                haben es auch nicht gelernt, das Leid zu einer geistigen Ressource 
-                zu machen, um uns als Menschen mit Würde und auf Augenhöhe um das 
-                Leid der konkreten und einfachen Menschen zu kümmern.</text>
+            <text>Was ist Leid, was ist Opfer? Was ist der Preis für ein Leben, für das vergossene Blut? Auf unserem Territorium besteht längst eine himmelweite Kluft in der Verteilung des Glücks. Es ist kaum zu glauben, dass das Leid, das von dem Massaker heraufbeschworen wurde, zur Quelle wird für Moralität und Gerechtigkeit, in seiner Verteilung bestand ebenfalls von vorneherein eine gewaltige Kluft. [...]
+Die sogenannte Elite dieses Landes hat überhaupt keine Fortschritte gemacht, bis heute sind ein Gefühl für die Schande und ein Gefühl für die Schuld eine Seltenheit, und wir haben es auch nicht gelernt, das Leid zu einer geistigen Ressource zu machen, um uns als Menschen mit Würde und auf Augenhöhe um das Leid der konkreten und einfachen Menschen zu kümmern.</text>
             <source>
                 <title>Ich habe keine Feinde, ich kenne keinen Hass</title>
                 <page>31</page>
+                <translator>Hoffmann, Hans Peter</translator>
+                <translator>Betz, Karin</translator>
             </source>
+        </version>
+        <version status="translation" xml:lang="en-US">
+        	<text>What is the meaning of "suffering" and "sacrifice"? What have we bought with lost life and blood? Everyone knows that, in this land of ours, the gap between winners and losers is normally as wide as heaven and earth. But does the moral high ground that results from suffering caused by a big massacre also have to [be] apportioned so unevenly &#8210; as starkly as the difference between heaven and earth? [...] 
+The so-called elites of our country have made no progress at all since Lu Xun's day. It is hard to find any shame or guilt in us. We have yet to learn how to draw spiritual meaning from our encounters with suffering, how to live in human dignity, or how to feel concern for the suffering of actual, ordinary people.</text>
+			<source>
+				<title>No Enemies, no Hatred</title>
+				<page>10</page>
+				<translator>Pickowicz, Paul G.</translator>
+			</source>
         </version>
         <author>Liu Xiabo</author>
     </quote>
@@ -1028,12 +1110,14 @@
                 <title>Auf der Suche nach der verlorenen Zeit</title>
                 <idref>2409</idref>
                 <page>1004</page>
+                <translator>Rechel-Mertens, Eva</translator>
             </source>
         </version>
-        <version status="translation" xml:lang="en">
+        <version status="translation" xml:lang="en-GB">
             <text>The hard and fast lines with which we circumscribe love arise solely from our complete ignorance of life.</text>
             <source>
-                <title>Remembrance of Things Past</title>
+                <title>In Search of Lost Time, Volume 2: Within a Budding Grove</title>
+                <translator>Moncrieff, Charles Kenneth Scott</translator>
             </source>
         </version>
         <author>Proust, Marcel</author>
