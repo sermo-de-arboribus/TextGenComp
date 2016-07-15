@@ -226,7 +226,7 @@
     </quote>
     <quote>
         <version status="original" xml:lang="de-DE">
-            <text>&#8222;Wie kann ein Wohlthäter der Menschen, mit der höchsten Weisheit und Gnade begabt, solch ein Saumatz seyn!&#8220; seufzte Frau Hildegard, Aber Berthold, der viel in Römern und Griechen gelesen hatte, suchte ihr deutlich zu machen, wie gerade die allgemeine, wissenschaftliche Ansicht, wenn sie allein herrschend würde, die sittlichen Grenzen des einzelnen Menschen auslösche; er sehe so Mannigfaltiges, Widersprechendes geglaubt und geehrt, daß er nur den Geist achte, in welchem alles getrieben würde. Frau Hildegard schüttelte mit dem Kopfe und warnte Berthold gegen die Bücher, daß er es nicht auch einmal so treibe wie Faust, wenn er ganz gesund würde.</text>
+            <text>&#8222;Wie kann ein Wohlthäter der Menschen, mit der höchsten Weisheit und Gnade begabt, solch ein Saumatz seyn!&#8220; seufzte Frau Hildegard. Aber Berthold, der viel in Römern und Griechen gelesen hatte, suchte ihr deutlich zu machen, wie gerade die allgemeine, wissenschaftliche Ansicht, wenn sie allein herrschend würde, die sittlichen Grenzen des einzelnen Menschen auslösche; er sehe so Mannigfaltiges, Widersprechendes geglaubt und geehrt, daß er nur den Geist achte, in welchem alles getrieben würde. Frau Hildegard schüttelte mit dem Kopfe und warnte Berthold gegen die Bücher, daß er es nicht auch einmal so treibe wie Faust, wenn er ganz gesund würde.</text>
             <source>
                 <title>Die Kronenwächter</title>
                 <page>613</page>
@@ -1104,6 +1104,13 @@ The so-called elites of our country have made no progress at all since Lu Xun's 
                 <title>A la recherche du temps perdu</title>
             </source>
         </version>
+        <version status="unpublished" xml:lang="cs-DE">
+        	<text>Příhliš úzké ohraničení které tvoříme okolo lásky pochází jen z naší velké neznalosti života.</text>
+        	<source>
+        		<title>Hledání ztraceného času</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
+        </version>
         <version status="translation" xml:lang="de-DE">
             <text>Daß wir die Grenzen des Liebesbegriffs so eng zu ziehen gewöhnt sind, ist nur aus unserer großen Unkenntnis des Lebens zu erklären.</text>
             <source>
@@ -1130,53 +1137,74 @@ The so-called elites of our country have made no progress at all since Lu Xun's 
                 <page>10</page>
             </source>
         </version>
-        <version status="translation" xml:lang="de-AT">
+        <version status="translation" xml:lang="de-DE">
             <text>Heute leben die meisten Menschen nicht an dem Ort, an dem sie ihre Tage verbringen; und dort, wo sie ihre Nächte zubringen, hinterlassen sie keine Spuren. Am Tage halten sie sich in einem Büro in der Nähe eines Telefones auf, und in den Nächten liegen sie abgestellt neben ihren Autos.</text>
             <source>
                 <title>H₂O und die Wasser des Vergessens</title>
                 <idref>1441</idref>
                 <page>24</page>
+                <translator>Carstensen, Regina</translator>
+                <translator>Mattern, Wolfgang</translator>
             </source>
         </version>
-        <version status="translation" xml:lang="es">
-            <text>Hoy día la la mayor parte de la gente no mora en el lugar donde pasa sus días y no deja rastrp de su paso por el lugar donde duerme. Pasa sus días peganda al teléfono en una oficina y sus noches estacionada al lado de sus automóviles.</text>
+        <version status="translation" xml:lang="es-MX">
+            <text>Hoy día la mayor parte de la gente no mora en el lugar donde pasa sus días y no deja rastrp de su paso por el lugar donde duerme. Pasa sus días peganda al teléfono en una oficina y sus noches estacionada al lado de sus automóviles.</text>
             <source>
                 <title>H₂O y las aguas del olvido</title>
                 <page>22</page>
+                <translation>Shert, José María</translation>
             </source>
         </version>
+        <!-- Es gibt eine frz. Übersetzung von Maud Sissung, ISBN 2867051177, aber kein Snippetview online zu finden, geprüft 2016-07-15  -->
         <author>Illich, Ivan</author>
     </quote>
     <quote>
         <version status="original" xml:lang="de-DE">
-            <text>Die katholische Kirche hat sich von der Wissenschaft losgesagt, sich ihr feindlich gegenübergestellt. In der katholischen Kirche hat sich die Kunst aufgetan, aber das freie Denken hat sich davon geschieden. In Bruno und Vanini hat sie sich dagegen gerächt, und das freie Denken ist insofern voin der katholischen Kirche geschieden und ist ihr fremd geblieben.</text>
+            <text>Die katholische Kirche hat sich von der Wissenschaft losgesagt, sich ihr feindlich gegenübergestellt. In der katholischen Kirche hat sich die Kunst aufgetan, aber das freie Denken hat sich davon geschieden. In Bruno und Vanini hat sie sich dagegen gerächt, und das freie Denken ist insofern von der katholischen Kirche geschieden und ist ihr fremd geblieben.</text>
             <source>
                 <title>Vorlesungen zur Geschichte der Philosophie</title>
             </source>
         </version>
-        <version status="translation" xml:lang="en">
+        <version status="translation" xml:lang="en-GB">
             <text>Art developed in the Catholic Church, but free thought broke off from, and remained alien to it. In Bruno and Vanini the Church took her revenge for this; she renounced science, and took up a position of hostility to it.</text>
             <source>
                 <title>Hegel's Lectures on the History of Philosophy, Volume 1</title>
                 <page>139</page>
+                <translator>Haldane, Elizabeth Sanderson</translator>
+                <translator>Simson, Frances H.</translator>
             </source>
+        </version>
+        <version status="translation" xml:lang="fr-FR">
+        	<text>L'Église catholique a répudié la science, elle a pris envers elle une attitude hostile. Dans l'Église catholique, l'art s'est épanoui, mais la pensée libre s'est séparée d'elle. Elle s'en est vengée sur Bruno et sur Vanini; la pensée libre s'est de ce fait séparée d'elle et lui est restée étrangère.</text>
+        	<source>
+        		<title>Lecons sur l'histoire de la philosophie</title>
+        		<translator>Garniron, Pierre</translator>
+        	</source>
         </version>
         <author>Hegel, Georg Wilhelm Friedrich</author>
     </quote>
     <quote>
+        <version status="original" xml:lang="en-US">
+            <text>Now that I have this engineering degree, there's no stopping me. I'll find a lair, raise some laser sharks and blow up the moon. Then maybe I'll get married and settle down.</text>
+            <source>
+                <title>Headfirst PHP &amp; MySql</title>
+            </source>
+        </version>
         <version status="translation" xml:lang="de-DE">
             <text>Endlich habe ich mein Ingenieursdiplom. Jetzt hält mich keiner mehr auf! Ich suche mir einen Schlupfwinkel, züchte ein paar Laser-Haie und blase den Mond vom Himmel. Anschließend heirate ich vielleicht und mache mir ein nettes Leben.</text>
             <source>
                 <title>PHP &amp; MySQL von Kopf bis Fuß</title>
                 <idref>3623</idref>
                 <page>501</page>
+                <translator>Schulten, Lars</translator>
             </source>
         </version>
-        <version status="original" xml:lang="en-US">
-            <text>...there's no stopping me. I'll find a lair, raise some laser sharks and blow up the moon...</text>
-            <source>
-                <title>Headfirst PHP &amp; MySql</title>
-            </source>
+        <version status="unpublished" xml:lang="fr-DE">
+        	<text>Enfin j'ai mon diplôme d'ingénieur, rien ne peut m'arrêter. Je cherche refuge à un repaire, élève quelques requins de laser et fais exploser la lune. Puis alors peut-être je me marie est m'implante.</text>
+        	<source>
+        		<title>PHP &amp; MySql la tête la première</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
         </version>
         <author>Beighley, Lynn</author>
         <author>Morrison, Michael</author>
@@ -1195,6 +1223,7 @@ The so-called elites of our country have made no progress at all since Lu Xun's 
                 <title>Auf der Suche nach der verlorenen Zeit</title>
                 <idref>2409</idref>
                 <page>1194</page>
+                <translator>Rechel-Mertens, Eva</translator>
             </source>
         </version>
         <author>Proust, Marcel</author>
@@ -3701,6 +3730,7 @@ The so-called elites of our country have made no progress at all since Lu Xun's 
                 <title>Sakrilegien</title>
                 <idref>1119</idref>
                 <page>50</page>
+                <translator>Kühl, Olaf</translator>
             </source>
         </version>
         <version status="original" xml:lang="pl-PL">
@@ -3719,6 +3749,7 @@ The so-called elites of our country have made no progress at all since Lu Xun's 
                 <title>Sakrilegien</title>
                 <idref>1119</idref>
                 <page>94</page>
+                <translator>Kühl, Olaf</translator>
             </source>
         </version>
         <author>Gombrowicz, Witold</author>
@@ -3746,6 +3777,7 @@ Ihre Kuhigkeit verblüffte meine Menschlichkeit so sehr — so spannungsgeladen 
                 <title>Sakrilegien</title>
                 <idref>1119</idref>
                 <page>109</page>
+                <translator>Kühl, Olaf</translator>
             </source>
         </version>
         <author>Gombrowicz, Witold</author>
@@ -3771,8 +3803,35 @@ Ihre Kuhigkeit verblüffte meine Menschlichkeit so sehr — so spannungsgeladen 
                 <title>Sakrilegien</title>
                 <idref>1119</idref>
                 <page>109-110</page>
+                <translator>Kühl, Olaf</translator>
             </source>
         </version>
         <author>Gombrowicz, Witold</author>
-    </quote>   
+    </quote>
+    <quote>
+    	<version status="original" xml:lang="pl-PL">
+    		<text>Namawiam sztukę do kopnięcia — łup! — le nie po to, aby profesor poczuł się kopnięty; po to jedynie, aby artysta poczuł się kopiącym.</text>
+    		<source>
+    			<title>Dziennik 1959-1969</title>
+    			<page>134</page>
+    		</source>
+    	</version>
+    	<version status="translation" xml:lang="de-DE">
+    		<text>Ich will die Kunst zum Treten bringen — rums! —, aber nicht damit der Professor sich getreten, sondern damit der Künstler sich als Tretender fühlt.</text>
+    		<source>
+    			<title>Sakrilegien</title>
+    			<idref>1119</idref>
+    			<page>211</page>
+    			<translator>Kühl, Olaf</translator>
+    		</source>
+    	</version>
+    	<version status="translation" xml:lang="en">
+    		<text>I am talking art into kicking— smack!— but not so that the professor feels kicked but for the artist to feel that he is the one doing the kicking.</text>
+    		<source>
+    			<title>Diary 1957-1961</title>
+    		</source>
+    	</version>
+    	<author>Gombrowicz, Witold</author>
+    </quote>
+    
 </quotes>
