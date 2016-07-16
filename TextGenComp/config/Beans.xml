@@ -27,7 +27,7 @@
     	<property name="outputType" value="TXTFILE" />
     </bean>
     <bean id="tgc.authorblurb.AuthorBlurbProperties" class="tgc.authorblurb.AuthorBlurbProperties" />
-    
+
 <!-- *************************************************
      **                                             **
      ** Configuration for NovelFromQuotes generator **
@@ -41,10 +41,24 @@
     	<property name="numberOfChapters" value="12" />
     	<property name="quotesPerChapter" value="25" />
     </bean>
-    <bean id="tgc.novelfromquotes.NovelFromQuotesGenerator" class="tgc.novelfromquotes.NovelFromQuotesGenerator">
+    <bean id="NovelFromQuotesGenerator" class="tgc.novelfromquotes.NovelFromQuotesGenerator">
     	<!-- NovelFromQuotesModel and NovelFromQuotesTextdata are autowired -->
     	<property name="outputFile" value="/home/kai/Programmieren/Java/Spring/NovelFromQuotes.txt" />
     	<!-- allowed values are defined by enumeration tgc.framework.OutputType -->
     	<property name="outputType" value="TXTFILE" />
     </bean>
+    
+<!-- *************************************************
+     **                                             **
+     ** Configuration for EpubGenerator             **
+     **                                             **
+     ************************************************* -->
+     <bean id="tgc.epubgenerator.EpubTextdata" class="tgc.epubgenerator.EpubTextdata"/>
+     <bean id="tgc.epubgenerator.EpubModel" class="tgc.epubgenerator.EpubModel">
+     	<property name="textBody" value="#{NovelFromQuotesGenerator.generateText(new java.util.Locale('de'))}" />
+     </bean>
+     <bean id="tgc.epubgenerator.EpubGenerator" class="tgc.epubgenerator.EpubGenerator">
+     	<constructor-arg name="title" value="Das Text Gen Comp - Buch" />
+     	<constructor-arg name="author" value="Tom Generator" />
+     </bean>
 </beans>

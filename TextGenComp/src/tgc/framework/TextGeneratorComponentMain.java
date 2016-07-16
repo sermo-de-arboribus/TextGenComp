@@ -26,6 +26,9 @@ public class TextGeneratorComponentMain
 			if(generator.isLocaleSupported(locale))
 			{
 				System.out.println(generator.generateText(locale));
+				System.out.println();
+				System.out.println("----------------------------------------");
+				System.out.println();
 			}
 			else
 			{

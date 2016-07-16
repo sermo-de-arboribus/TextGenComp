@@ -3,7 +3,9 @@ package tgc.epubgenerator;
 import java.util.GregorianCalendar;
 import java.util.Locale;
 
-public class EpubTextData
+import tgc.framework.AbstractLocaleSupporter;
+
+public class EpubTextdata extends AbstractLocaleSupporter
 {
 
 	public String getCoverHtml(String coverImagePath)
@@ -17,7 +19,7 @@ public class EpubTextData
 				+ "</head>"
 				+ "<body style=\"text-align:center\">"
 				+ "<div style=\"text-align:center;width:95%\">"
-				+ "<img alt=\"Cover\" src=\"" + coverImagePath + "\" style=\"max-width:90%\" />"
+				+ "<img alt=\"Cover\" src=\"../" + coverImagePath + "\" style=\"max-width:90%\" />"
 				+ "</div>"
 				+ "</body>"
 				+ "</html>";
@@ -59,7 +61,7 @@ public class EpubTextData
 				+ "<body>"
 				+ "<h1>" + chapterTitle + " " + chapterNumber + "</h1>"
 				+ "<div><br/></div>"
-				+ "<div>" + chapterText.replace("[\r\n]+", "<br/>") + "</div>"
+				+ "<div>" + chapterText.replace("\n", "<br/>") + "</div>"
 				+ "</body>"
 				+ "</html>";
 	}

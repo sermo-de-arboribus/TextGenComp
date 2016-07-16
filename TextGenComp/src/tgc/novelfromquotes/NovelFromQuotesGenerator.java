@@ -26,14 +26,23 @@ public class NovelFromQuotesGenerator implements Generator
 	private OutputType outputType = OutputType.STRING;
 	private HashMap<String, Locale> supportedLocaleCache = new HashMap<String, Locale>();
 
+	public String generateText()
+	{
+		return generateText(Locale.getDefault());
+	}
+	
 	@Override
-	public String generateText(final Locale locale)
+	public String generateText(final Locale locParam)
 	{
 		Random random = new Random();
 		StringBuffer stringBuffer = new StringBuffer();
 		
 		for(int i = 1; i <= novelFromQuotesModel.getNumberOfChapters(); i++)
 		{
+			// In this method we disregard the Locale country settings and are only interested in 
+			// the language part
+			Locale locale = new Locale(locParam.getLanguage());
+
 			// chapter title
 			stringBuffer.append(novelFromQuotesModel.getLocalizedChapterWord(locale));
 			stringBuffer.append(" " + i);
