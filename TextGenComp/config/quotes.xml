@@ -1534,10 +1534,21 @@ Like the fat doe hare and fructify.</text>
         <author>Cage, John</author>
     </quote>
     <quote>
+        <version status="original" xml:lang="fr-FR">
+            <text>Rien de plus sot que de parler des leçons de l'histoire. L'histoire ne n[ou]s apprend que les historiens, s'ils ont du style, de l'esprit etc. Il faut sourire de ceux qui se prennent au sérieux.</text>
+            <source>
+                <title>Cahiers 1894-1914</title>
+                <page>214</page>
+            </source>
+        </version>
         <version status="translation" xml:lang="de-DE">
             <text>Es gibt kaum etwas Dümmeres, als von Lektionen der Geschichte zu sprechen. Von der Geschichte erfahren wir nur etwas über die Historiker, ob sie Stil haben usw. Und über jene, die sich ernst nehmen, müssen wir lächeln.</text>
             <source>
                 <title>Cahiers</title>
+                <translator>Köhler, Hartmut</translator>
+                <translator>Schmidt-Radefeldt, Jürgen</translator>
+                <translator>Boeschenstein, Bernhard</translator>
+                <translator>Huschke, Reinhard</translator>
             </source>
         </version>
         <author>Valéry, Paul</author>
@@ -1557,22 +1568,38 @@ Like the fat doe hare and fructify.</text>
                 <page>40</page>
             </source>
         </version>
+        <!-- Es gibt eine offizielle, veröffentlichte Übersetzung, aber die zitierte Passage konnte ich online nicht finden -->
+        <version status="unpublished" xml:lang="en-DE">
+            <text>This is the nationalism of China's young generation: on the outside bragging and on the inside active cowardice.</text>
+            <source>
+                <title>No Enemies, no Hatred</title>
+                <translator>Weber, Kai</translator>
+            </source>
+        </version>
         <author>Liu Xiaobo</author>
     </quote>
     <quote>
         <version status="translation" xml:lang="de-DE">
-            <text>[...] sein Gesicht, das funkelnde Auge jemandes, der im Haus der Wörter lebt und oft Hausputz macht, da sieht man frisch aus, wie neu. [Über Hans Magnus Enzensberger]</text>
+            <text>[Hans Magnus Enzensbergers] Gesicht, das funkelnde Auge jemandes, der im Haus der Wörter lebt und oft Hausputz macht, da sieht man frisch aus, wie neu.</text>
             <source>
                 <title>Ingrid Caven</title>
                 <idref>2661</idref>
                 <page>132</page>
             </source>
         </version>
-        <version status="translation" xml:lang="en">
-            <text>[...] his face, the bright eye of someone who lives in the house of words and often does the housework there, it gives you an air of being like new.</text>
+        <version status="unpublished" xml:lang="cs-DE">
+            <text>... tvář Hanse Magnuse Enzensbergera, lesknoucí okno muže, který žije v domu slov a často tam uklízí, tak se vypadá čerstvě, jako nový.</text>
+            <source>
+                <title>Ingrid Caven</title>
+                <translator>Weber, Kai</translator>
+            </source>
+        </version>
+        <version status="translation" xml:lang="en-GB">
+            <text>[Hans Magnus Enzensberger's] face, the bright eye of someone who lives in the house of words and often does the housework there, it gives you an air of being like new.</text>
             <source>
                 <title>Ingrid Caven: A Novel</title>
                 <page>104</page>
+                <translator>Pye, Michael</translator>
             </source>
         </version>
         <author>Schuhl, Jean-Jacques</author>
@@ -1584,14 +1611,17 @@ Like the fat doe hare and fructify.</text>
                 <title>Middlemarch</title>
             </source>
         </version>
-        <version status="translation" xml:lang="de-DE">
+        <version status="translation" xml:lang="de-CH">
             <text>Die schwierige Aufgabe, eine fremde Seele zu erkennen, ist nichts für junge Leute, deren Bewußtsein hauptsächlich aus den eigenen Wünschen besteht.</text>
             <source>
                 <title>Middlemarch</title>
                 <idref>787</idref>
                 <page>168/69</page>
+                <translator>Leisi, Ilse</translator>
             </source>
         </version>
+        <!-- Der Satz fehlt in der ersten französischen Übersetzung von  M.-J. M., hg. v. Calmann Lévy -->
+        <!-- Vermutlich ist er in der Übersetzung von Sylvère Monod bei Gallimard enthalten; dieser konnte online aber nicht gefunden werden -->
         <author>Eliot, George</author>
     </quote>
     <quote>
@@ -1603,12 +1633,20 @@ Like the fat doe hare and fructify.</text>
                 <page>88</page>
             </source>
         </version>
-        <version status="original" xml:lang="en-CN">
+        <version status="unpublished" xml:lang="de-DE">
+            <text>In der Welt gibt es fünf Arten von Getreide, die ausreichen, um satt zu machen. Warum dann Menschen essen, um zu überleben?</text>
+            <source>
+                <title>Die Reise nach Westen</title>
+                <translator>Weber, Kai</translator>
+            </source>
+        </version>
+        <version status="original" xml:lang="en-GB">
             <text>There are five kinds of of food-grains, and they are sufficient to assuage hunger, so why eat people to keep alive?</text>
             <source>
                 <title>The Journey to the West</title>
                 <idref>3237</idref>
                 <page>105</page>
+                <translator>Jenner, William John Francis</translator>
             </source>
         </version>
         <author>吴承恩</author>
@@ -1620,17 +1658,19 @@ Like the fat doe hare and fructify.</text>
                 <title>Identität und Hysterie</title>
                 <idref>1669</idref>
                 <page>9</page>
+                <translator>Paetzke, Hans-Henning</translator>
+            </source>
+        </version>
+        <version status="unpublished" xml:lang="en-DE">
+            <text>Identity, that is the mental prosthesis of the moderately intelligent. You heave a block of text into your brain.</text>
+            <source>
+                <title>Identity and hysteria</title>
+                <translator>Weber, Kai</translator>
             </source>
         </version>
         <author>Konrád, György</author>
     </quote>
     <quote>
-        <version status="translation" xml:lang="de-DE">
-            <text>Wie ich es auch anstelle, mich interessiert alles.</text>
-            <source>
-                <title>Cahiers</title>
-            </source>
-        </version>
         <version status="original" xml:lang="fr-FR">
             <text>J'ai beau faire, tout m'intéresse.</text>
             <source>
@@ -1638,22 +1678,41 @@ Like the fat doe hare and fructify.</text>
                 <page>21</page>
             </source>
         </version>
+        <version status="translation" xml:lang="de-DE">
+            <text>Wie ich es auch anstelle, mich interessiert alles.</text>
+            <source>
+                <title>Cahiers</title>
+                <translator>Köhler, Hartmut</translator>
+                <translator>Schmidt-Radefeldt, Jürgen</translator>
+                <translator>Boeschenstein, Bernhard</translator>
+                <translator>Huschke, Reinhard</translator>
+            </source>
+        </version>
         <author>Valéry, Paul</author>
     </quote>
     <quote>
+        <version status="original" xml:lang="zh-CN">
+            <text>当年的红卫兵变成今天的大毒枭，跨国革命变成了跨国犯罪，准确地表现了两个时代之间的差别，也同样准确地勾画出国人的劣根性：统治天下的权力野心和为达目的而不择手段。</text>
+            <source>
+                <title>单刃毒剑</title>
+            </source>
+        </version>
         <version status="translation" xml:lang="de-DE">
             <text>[D]er Rotgardist von einst ist der Drogendealer von heute, aus der grenzübergreifenden Revolution ist grenzüberschreitende Kriminalität geworden, worin sich der ganze Unterschied der beiden Epochen zeigt und gleichzeitig die schlechten Wurzeln von uns allen: das Machtstreben, alles unter dem Himmel zu beherrschen und nicht wählerisch zu sein in den Mitteln, mit denen man dieses Ziel verfolgt.</text>
             <source>
                 <title>Die Verpöbelung und Martialisierung des Patriotismus, in: Ich habe keine Feinde, ich kenne keinen Hass.</title>
                 <idref>3741</idref>
                 <page>75</page>
+                <translator>Betz, Karin</translator>
+                <translator>Hoffmann, Hans Peter</translator>
             </source>
         </version>
-        <version status="original" xml:lang="zh-CN">
-            <text>当年的红卫兵变成今天的大毒枭，跨国革命变成了跨国犯罪，准确地表现了两个时代之间的差别，
-                也同样准确地勾画出国人的劣根性：统治天下的权力野心和为达目的而不择手段。</text>
+        <version status="translation" xml:lang="en-US">
+            <text>[Y]esterday's Red Guard is today's big drug dealer, and yesterday's transnational revolution is today's transnational crime. But certain things are the same: the lust for power, the ambition to rule the world, and no scruples about means in reaching one's goals.</text>
             <source>
-                <title>单刃毒剑</title>
+                <title>No Enemies, No Hatred</title>
+                <translator>Duke, Michael S.</translator>
+                <translator>Chiu-Duke, Josephine</translator>
             </source>
         </version>
         <author>Liu Xiaobo</author>
@@ -1669,12 +1728,14 @@ Like the fat doe hare and fructify.</text>
             <text>Und Sie wundern sich, Herr Professor, daß Sie, sowie Sie einen Fuß an's Land setzen, Wilde darauf antreffen? Wo giebt's denn nicht Wilde?</text>
             <source>
                 <title>Zwanzigtausend Meilen unter dem Meer</title>
+                <translator>Anonymus</translator>
             </source>
         </version>
-        <version status="translation" xml:lang="en">
+        <version status="translation" xml:lang="en-US">
             <text>So you are astonished, Professor, at having set foot on a strange land and finding savages? Savages! where are there not any?</text>
             <source>
                 <title>Twentythousand leagues under the sea</title>
+                <translator>Anonymus</translator>
             </source>
         </version>
         <author>Verne, Jules</author>
@@ -1683,27 +1744,39 @@ Like the fat doe hare and fructify.</text>
         <version status="original" xml:lang="en-US">
             <text>It is not irritating to be where one is. It is only irritating to think one would like to be somewhere else.</text>
             <source>
-                <title>Lectore on Nothing, in: Silence</title>
+                <title>Lecture on Nothing, in: Silence</title>
                 <idref>473</idref>
                 <page>119</page>
+            </source>
+        </version>
+        <version status="translation" xml:lang="de-AT">
+            <text>Es ist nicht irritierend zu sein wo man ist. Es ist nur irritierend zu denken, man wäre gern irgendwo anders.</text>
+            <source>
+                <title>Silence</title>
+                <idref>474</idref>
+                <translator>Jandl, Ernst</translator>
             </source>
         </version>
         <author>Cage, John</author>
     </quote>
     <quote>
+        <version status="original" xml:lang="fr-FR">
+            <text>Si vous avez mal au ventre, que vous soyez le roi ou l'homme qui balaie la rue, ou tel grand poète ou savant ou bien un individu sans valeur — vous n'êtes alors qu'un ventre qui souffre. Et de même, dans la jouissance - êtes-vous identiques. Et de même dans le sommeil profond. Les différences se manifestent dans les phases tempérées de la sensibilité — loin des pôles et de l'équateur.</text>
+            <source>
+                <title>Cahiers, PL II</title>
+                <page>1442</page>
+            </source>
+        </version>
         <version status="translation" xml:lang="de-DE">
             <text>Wenn ihr Leibschmerzen habt, ob König oder Straßenkehrer, großer Dichter, Gelehrter oder kleines Individuum - ihr seid dann nur ein Leib, der schmerzt. Dergleichen seid ihr im Genuß identisch. Und ebenso im tiefen Schlaf. Die Unterschiede tun sich erst in den gemäßigten Zonen der Sensibilität kund &#8211; fern den Polen und dem Äquator.</text>
             <source>
                 <title>Ich grase meine Gehirnwiese ab</title>
                 <idref>3457</idref>
                 <page>211</page>
-            </source>
-        </version>
-        <version status="original" xml:lang="fr-FR">
-            <text>Si vous avez mal au ventre, que vous soyez le roi ou l'homme qui balaie la rue, ou tel grand poète ou savant ou bien un individu sans valeur — vous n'êtes alors qu'un ventre qui souffre. Et de même, dans la jouissance - êtes-vous identiques. Et de même dans le sommeil profond. Les différences se manifestent dans les phases tempérées de la sensibilité — loin des pôles et de l'équateur.</text>
-            <source>
-                <title>Cahiers, PL II</title>
-                <page>1442</page>
+                <translator>Köhler, Hartmut</translator>
+                <translator>Schmidt-Radefeldt, Jürgen</translator>
+                <translator>Boeschenstein, Bernhard</translator>
+                <translator>Huschke, Reinhard</translator>
             </source>
         </version>
         <author>Valéry, Paul</author>

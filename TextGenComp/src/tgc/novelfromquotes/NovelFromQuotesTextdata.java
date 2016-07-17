@@ -223,6 +223,7 @@ public class NovelFromQuotesTextdata extends AbstractLocaleSupporter
 			return compareTo(otherSentence) == 0;
 		}
 		
+		@SuppressWarnings("unused")
 		public String getAuthor()
 		{
 			return author;
