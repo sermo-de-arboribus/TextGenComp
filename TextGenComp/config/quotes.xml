@@ -1761,14 +1761,14 @@ Like the fat doe hare and fructify.</text>
     </quote>
     <quote>
         <version status="original" xml:lang="fr-FR">
-            <text>Si vous avez mal au ventre, que vous soyez le roi ou l'homme qui balaie la rue, ou tel grand poète ou savant ou bien un individu sans valeur — vous n'êtes alors qu'un ventre qui souffre. Et de même, dans la jouissance - êtes-vous identiques. Et de même dans le sommeil profond. Les différences se manifestent dans les phases tempérées de la sensibilité — loin des pôles et de l'équateur.</text>
+            <text>Si vous avez mal au ventre, que vous soyez le roi ou l'homme qui balaie la rue, ou tel grand poète ou savant ou bien un individu sans valeur — vous n'êtes alors qu'un ventre qui souffre. Et de même, dans la jouissance &#8210; êtes-vous identiques. Et de même dans le sommeil profond. Les différences se manifestent dans les phases tempérées de la sensibilité — loin des pôles et de l'équateur.</text>
             <source>
                 <title>Cahiers, PL II</title>
                 <page>1442</page>
             </source>
         </version>
         <version status="translation" xml:lang="de-DE">
-            <text>Wenn ihr Leibschmerzen habt, ob König oder Straßenkehrer, großer Dichter, Gelehrter oder kleines Individuum - ihr seid dann nur ein Leib, der schmerzt. Dergleichen seid ihr im Genuß identisch. Und ebenso im tiefen Schlaf. Die Unterschiede tun sich erst in den gemäßigten Zonen der Sensibilität kund &#8211; fern den Polen und dem Äquator.</text>
+            <text>Wenn ihr Leibschmerzen habt, ob König oder Straßenkehrer, großer Dichter, Gelehrter oder kleines Individuum 8210; ihr seid dann nur ein Leib, der schmerzt. Dergleichen seid ihr im Genuß identisch. Und ebenso im tiefen Schlaf. Die Unterschiede tun sich erst in den gemäßigten Zonen der Sensibilität kund &#8211; fern den Polen und dem Äquator.</text>
             <source>
                 <title>Ich grase meine Gehirnwiese ab</title>
                 <idref>3457</idref>
@@ -1777,6 +1777,13 @@ Like the fat doe hare and fructify.</text>
                 <translator>Schmidt-Radefeldt, Jürgen</translator>
                 <translator>Boeschenstein, Bernhard</translator>
                 <translator>Huschke, Reinhard</translator>
+            </source>
+        </version>
+        <version status="unpublished" xml:lang="en-DE">
+            <text>If you've got stomach-ache, be you king or scavenger, great poet, scholar or an insignificant individual &#8210; you're then nothing but a stomach that suffers. Also you're identical in your pleasure. And also in tight sleep. Th differences only become manifest in the temperate zones of sensibility &#8210; far from the poles and the equator.</text>
+            <source>
+                <title>Notebooks</title>
+                <translator>Weber, Kai</translator>
             </source>
         </version>
         <author>Valéry, Paul</author>

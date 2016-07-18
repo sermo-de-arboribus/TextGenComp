@@ -25,10 +25,10 @@ public class BMTextdata extends AbstractLocaleSupporter
 	
 	private static final String[][] FOOD_WORDS = new String[][]
 	{
-		{ "", "Bratwurst", "fried sausage","saucisse grillé", "pečená klobása", "德国​油​煎​香肠" },
-		{ "", "Milchreis", "rice pudding", "riz au lait", "mléčná rýže", "大米​布丁" },
-		{ "", "Aubergine", "egg-plant", "aubergine", "baklažán", "茄子"},
-		{ "", "Gänseleber", "goose liver", "foie d'oie", "husí játra", "鹅肝" }
+		{ "Bratwurst", "fried sausage","saucisse grillé", "pečená klobása", "德国​油​煎​香肠" },
+		{ "Milchreis", "rice pudding", "riz au lait", "mléčná rýže", "大米​布丁" },
+		{ "Aubergine", "egg-plant", "aubergine", "baklažán", "茄子"},
+		{ "Gänseleber", "goose liver", "foie d'oie", "husí játra", "鹅肝" }
 	};
 	
 	private static final String[] CONTAINMENT_WORDS = new String[] { "enthält", "contains", "contient", "obsáhá", "包含" };
@@ -36,11 +36,11 @@ public class BMTextdata extends AbstractLocaleSupporter
 
 	private static final String[][] GROUP_WORDS = new String[][]
 	{
-		{ "de", "Vitamine", "Allergene", "Zusatzstoffe" },
-		{ "en", "vitamins", "allergens", "additives" },
-		{ "fr", "des vitamins", "des allergènes", "des additives"},
-		{ "cs", "vitaminy", "alergeny", "přídání" },
-		{ "zh", "维生素", "过敏原", "食品​添加剂" }
+		{ "Vitamine", "Allergene", "Zusatzstoffe" },
+		{ "vitamins", "allergens", "additives" },
+		{ "des vitamins", "des allergènes", "des additives"},
+		{ "vitaminy", "alergeny", "přídání" },
+		{ "维生素", "过敏原", "食品​添加剂" }
 	};
 	
 	private static final Locale[] SUPPORTED_LOCALES = new Locale[]
@@ -48,9 +48,29 @@ public class BMTextdata extends AbstractLocaleSupporter
 		Locale.US, Locale.UK, Locale.CANADA, Locale.CHINA, Locale.GERMANY, Locale.GERMAN, new Locale("de", "AT"), new Locale("de", "CH"), new Locale("cs"), new Locale("cs", "CZ"), Locale.FRANCE, Locale.FRENCH
 	};
 
+	public String getLocalizedContainmentWord(Locale loc)
+	{
+		return CONTAINMENT_WORDS[localeToIndex(loc)];
+	}
+
 	public String getLocalizedFoodWord(Locale loc, FoodType foodType)
 	{
 		return FOOD_WORDS[foodTypeToIndex(foodType)][localeToIndex(loc)];
+	}
+	
+	public String getLocalizedGroupWord(Locale loc, IngredientGroup group)
+	{
+		return GROUP_WORDS[localeToIndex(loc)][group.ordinal()];
+	}
+
+	public String getLocalizedIngredientWord(Locale loc, int index)
+	{
+		return INGREDIENT_WORDS[localeToIndex(loc)][index];
+	}
+	
+	public String getLocalizedNonContainmentWord(Locale loc)
+	{
+		return NON_CONTAINMENT_WORDS[localeToIndex(loc)];
 	}
 	
 	@Override

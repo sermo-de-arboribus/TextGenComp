@@ -1,5 +1,8 @@
 package tgc.boolmatrix;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import tgc.framework.AbstractLocaleSupporter;
 
 public class BMModel extends AbstractLocaleSupporter
@@ -70,6 +73,21 @@ public class BMModel extends AbstractLocaleSupporter
 	public FoodType getCurrentFoodType()
 	{
 		return currentFoodType;
+	}
+
+	public List<Integer> getContainedIngredientIndices()
+	{
+		List<Integer> trueIndices = new ArrayList<>();
+		// start with index 1, as index 0 does not represent an ingredient
+		for(int i = 1; i < currentFoodIngredients.length; i++)
+		{
+			if(currentFoodIngredients[i])
+			{
+				trueIndices.add(i);
+			}
+		}
+		
+		return trueIndices;
 	}
 	
 	public void setIngredients(FoodType type, boolean[] ingredients)

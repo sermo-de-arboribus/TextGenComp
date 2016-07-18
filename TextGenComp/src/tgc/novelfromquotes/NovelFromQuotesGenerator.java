@@ -13,7 +13,7 @@ import tgc.framework.StreamHelper;
 public class NovelFromQuotesGenerator implements Generator
 {
 	// constants
-	final static String OUTPUT_ENCODING = "UTF-8";
+	private final static String OUTPUT_ENCODING = "UTF-8";
 
 	// Autowired fields, configure in Beans.xml
 	@Autowired

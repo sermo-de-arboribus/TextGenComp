@@ -18,6 +18,7 @@ public class BMTextGenerator implements Generator
 
 	// other private fields
 	private Date lastCachingTime = new Date();
+	@SuppressWarnings("unused")
 	private OutputType outputType;
 	private HashMap<String, Locale> supportedLocaleCache = new HashMap<String, Locale>();
 	
@@ -51,15 +52,48 @@ public class BMTextGenerator implements Generator
 
 	@Override
 	public String generateText(Locale locale)
-	{
-		// TODO: differentiate between OutputTypes
+	{	
+		bmModel.setModelToStandardEggPlant();
 		
 		StringBuffer sb = new StringBuffer();
 		
 		if(isLocaleSupported(locale))
-		{		
+		{	
 			sb.append(bmTextData.getLocalizedFoodWord(locale, bmModel.getCurrentFoodType()));
 			sb.append(" ");
+			if(bmModel.containsNoVitamins())
+			{
+				sb.append(bmTextData.getLocalizedNonContainmentWord(locale));
+				sb.append(" ");
+				sb.append(bmTextData.getLocalizedGroupWord(locale, IngredientGroup.VITAMINS));
+				sb.append(", ");
+			}
+			if(bmModel.containsNoAllergens())
+			{
+				sb.append(bmTextData.getLocalizedNonContainmentWord(locale));
+				sb.append(" ");
+				sb.append(bmTextData.getLocalizedGroupWord(locale, IngredientGroup.ALLERGENS));
+				sb.append(", ");
+			}
+			if(bmModel.containsNoAdditives())
+			{
+				sb.append(bmTextData.getLocalizedNonContainmentWord(locale));
+				sb.append(" ");
+				sb.append(bmTextData.getLocalizedGroupWord(locale, IngredientGroup.ADDITIVES));
+				sb.append(", ");
+			}
+			List<Integer> containedIngredientsIndices = bmModel.getContainedIngredientIndices();
+			if(!containedIngredientsIndices.isEmpty())
+			{
+				sb.append(bmTextData.getLocalizedContainmentWord(locale));
+				sb.append(" ");
+			}
+			for(int index : containedIngredientsIndices)
+			{
+				sb.append(bmTextData.getLocalizedIngredientWord(locale, index));
+				sb.append(", ");
+			}
+			sb.replace(sb.length() - 2, sb.length() - 1, ".");
 		}
 		else
 		{
@@ -72,9 +106,9 @@ public class BMTextGenerator implements Generator
 	@Override
 	public void setOutputType(OutputType outputType) throws OutputTypeNotSupportedException
 	{
-		if(outputType == OutputType.EPUBFILE)
+		if(outputType != OutputType.STRING)
 		{
-			throw new OutputTypeNotSupportedException("This generator does not support EPUB as an output format.");
+			throw new OutputTypeNotSupportedException("This generator only supports STRING as an output format.");
 		}
 		else
 		{
@@ -86,7 +120,7 @@ public class BMTextGenerator implements Generator
 	@Override
 	public boolean isSupportedOutputType(OutputType outputType)
 	{
-		if(outputType == OutputType.EPUBFILE)
+		if(outputType != OutputType.STRING)
 		{
 			return false;
 		}

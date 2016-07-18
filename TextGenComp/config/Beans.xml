@@ -53,6 +53,7 @@
      ** Configuration for EpubGenerator             **
      **                                             **
      ************************************************* -->
+     
      <bean id="tgc.epubgenerator.EpubTextdata" class="tgc.epubgenerator.EpubTextdata"/>
      <bean id="tgc.epubgenerator.EpubModel" class="tgc.epubgenerator.EpubModel">
      	<property name="textBody" value="#{NovelFromQuotesGenerator.generateText(new java.util.Locale('de'))}" />
@@ -61,4 +62,15 @@
      	<constructor-arg name="title" value="Das Text Gen Comp - Buch" />
      	<constructor-arg name="author" value="Tom Generator" />
      </bean>
+     
+<!-- *************************************************
+     **                                             **
+     **   Configuration for BM text generator       **
+     **                                             **
+     ************************************************* -->
+
+	 <bean id="BMTextdata" class="tgc.boolmatrix.BMTextdata"/>
+     <bean id="BMModel" class="tgc.boolmatrix.BMModel" />
+     <bean id="BMTextGenerator" class="tgc.boolmatrix.BMTextGenerator"/>
+     
 </beans>
