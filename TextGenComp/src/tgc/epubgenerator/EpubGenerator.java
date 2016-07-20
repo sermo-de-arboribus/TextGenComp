@@ -17,9 +17,9 @@ public class EpubGenerator implements Generator
 {
 	// Autowired fields, configure in Beans.xml
 	@Autowired
-	private EpubModel epubModel;
+	private IEpubModel epubModel;
 	@Autowired
-	private EpubTextdata epubTextdata;
+	private IEpubTextdata epubTextdata;
 	
 	// other private fields
 	private HashMap<String, Locale> supportedLocaleCache = new HashMap<String, Locale>();

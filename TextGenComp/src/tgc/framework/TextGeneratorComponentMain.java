@@ -32,7 +32,7 @@ public class TextGeneratorComponentMain
 			}
 			else
 			{
-				System.out.println("Locale " + locale.toString() + " not supported for generator " + generator.getClass().getName());
+				System.out.println("Selected locale not supported for generator " + generator.getClass().getName());
 			}
 		}
 		

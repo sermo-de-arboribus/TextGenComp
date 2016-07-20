@@ -78,5 +78,10 @@
 	<classpathentry kind="lib" path="/opt/Oracle_Java/jre/lib/plugin.jar"/>
 	<classpathentry kind="lib" path="/opt/Oracle_Java/jre/lib/resources.jar"/>
 	<classpathentry kind="lib" path="/opt/Oracle_Java/jre/lib/rt.jar"/>
+	<classpathentry kind="lib" path="/home/kai/Programmieren/Java/AspectJ/aspectjrt.jar"/>
+	<classpathentry kind="lib" path="/home/kai/Programmieren/Java/AspectJ/org.aspectj.matcher.jar"/>
+	<classpathentry kind="lib" path="/home/kai/Programmieren/Java/AspectJ/aspectjtools.jar"/>
+	<classpathentry kind="lib" path="/home/kai/Programmieren/Java/AspectJ/aspectjweaver.jar"/>
+	<classpathentry kind="lib" path="/home/kai/Programmieren/Java/AspectJ/aopalliance.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

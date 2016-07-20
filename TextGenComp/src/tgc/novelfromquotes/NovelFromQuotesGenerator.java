@@ -17,9 +17,9 @@ public class NovelFromQuotesGenerator implements Generator
 
 	// Autowired fields, configure in Beans.xml
 	@Autowired
-	private NovelFromQuotesModel novelFromQuotesModel;
+	private INovelFromQuotesModel novelFromQuotesModel;
 	@Autowired
-	private NovelFromQuotesTextdata novelFromQuotesTextdata;
+	private INovelFromQuotesTextdata novelFromQuotesTextdata;
 	
 	// Other fields with default values
 	private File outputFile;

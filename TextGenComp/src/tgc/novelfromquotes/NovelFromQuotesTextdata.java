@@ -13,12 +13,11 @@ import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
-import tgc.framework.AbstractLocaleSupporter;
-
-public class NovelFromQuotesTextdata extends AbstractLocaleSupporter
+public class NovelFromQuotesTextdata implements INovelFromQuotesTextdata
 {
 	// members that are expected to be configured in the Beans.xml
 	private File quotesConfiguration;
+	protected HashMap<String, Locale> supportedLocaleCache;
 	
 	// other members that are used internally
 	private final Set<Sentence> allSentences; // all sentences
@@ -26,9 +25,9 @@ public class NovelFromQuotesTextdata extends AbstractLocaleSupporter
 	private final List<Sentence> randomAccessSentences;
 	private final Random random;
 	
-	public NovelFromQuotesTextdata(String configFilePath)
+	public NovelFromQuotesTextdata(final String configFilePath)
 	{
-		super();
+		supportedLocaleCache = new HashMap<String, Locale>();
 		random = new Random();
 		
 		setQuotesConfiguration(configFilePath);
@@ -45,13 +44,15 @@ public class NovelFromQuotesTextdata extends AbstractLocaleSupporter
 		buildRandomAccessList();
 	}
 
-	public String getLocalizedRandomSentence(Locale locale)
+	@Override
+	public String getLocalizedRandomSentence(final Locale locale)
 	{
-		List<Sentence> localizedSentenceList = localizedSentences.get(locale);
+		List<Sentence> localizedSentenceList = localizedSentences.get(new Locale(locale.getLanguage()));
 		int index = random.nextInt(localizedSentenceList.size());
 		return localizedSentenceList.get(index).getText();
 	}
 	
+	@Override
 	public String getRandomSentence()
 	{
 		int index = random.nextInt(randomAccessSentences.size());
@@ -63,10 +64,26 @@ public class NovelFromQuotesTextdata extends AbstractLocaleSupporter
 	{
 		return supportedLocaleCache.values().toArray(new Locale[]{});
 	}
-	
-	public void setQuotesConfiguration(String filePath)
+
+	@Override
+	public void setQuotesConfiguration(final String filePath)
 	{
 		quotesConfiguration = new File(filePath);
+	}
+	
+	@Override
+	public boolean isLocaleSupported(final Locale locale)
+	{
+		// on first look-up, fill the locale cache, so that further lookups can be 
+		// served more efficiently
+		if(supportedLocaleCache.isEmpty())
+		{
+			for(Locale loc : getSupportedLocales())
+			{
+				supportedLocaleCache.put(loc.toString(), loc);
+			}
+		}
+		return supportedLocaleCache.containsKey(locale.toString()); 
 	}
 	
 	private void buildLocalizedSentencesMap()
@@ -98,7 +115,7 @@ public class NovelFromQuotesTextdata extends AbstractLocaleSupporter
 		}
 	}
 	
-	private Sentence getSentence(Element versionElement)
+	private Sentence getSentence(final Element versionElement)
 	{
 		// normalize Locales: just use the language part, omit the country
 		Locale locale = new Locale(versionElement.getAttribute("xml:lang").substring(0, 2));

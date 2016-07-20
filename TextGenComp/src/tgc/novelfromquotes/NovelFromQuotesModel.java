@@ -4,38 +4,22 @@ import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
 
-import tgc.framework.AbstractLocaleSupporter;
-
-public class NovelFromQuotesModel extends AbstractLocaleSupporter
+public class NovelFromQuotesModel implements INovelFromQuotesModel
 {
 	// fields that are expected to be configured in the Spring configuration file Beans.xml
 	private int numberOfChapters;
 	private int quotesPerChapter;
 	
 	private final Map<Locale, String> chapterWords = new HashMap<Locale, String>();
+	private HashMap<String, Locale> supportedLocaleCache;
 	
 	public NovelFromQuotesModel()
 	{
-		super();
+		supportedLocaleCache = new HashMap<String, Locale>();
 		initializeChapterWords();
 	}
 
-	public int getNumberOfChapters()
-	{
-		return numberOfChapters;
-	}
-	
 	@Override
-	public Locale[] getSupportedLocales()
-	{
-		return chapterWords.keySet().toArray(new Locale[]{});
-	}
-
-	public void setNumberOfChapters(int numberOfChapters)
-	{
-		this.numberOfChapters = numberOfChapters;
-	}
-
 	public String getLocalizedChapterWord(Locale locale)
 	{
 		if(!isLocaleSupported(locale))
@@ -48,11 +32,47 @@ public class NovelFromQuotesModel extends AbstractLocaleSupporter
 		}
 	}
 	
+	@Override
+	public int getNumberOfChapters()
+	{
+		return numberOfChapters;
+	}
+	
+	@Override
 	public int getQuotesPerChapter()
 	{
 		return quotesPerChapter;
 	}
 
+	@Override
+	public Locale[] getSupportedLocales()
+	{
+		return chapterWords.keySet().toArray(new Locale[]{});
+	}
+
+	@Override
+	public boolean isLocaleSupported(Locale locale)
+	{
+		// on first look-up, fill the locale cache, so that further lookups can be 
+		// served more efficiently
+		if(supportedLocaleCache.isEmpty())
+		{
+			for(Locale loc : getSupportedLocales())
+			{
+				supportedLocaleCache.put(loc.toString(), loc);
+			}
+		}
+		return supportedLocaleCache.containsKey(locale.toString()); 
+	}
+	
+	@Override
+	public void setNumberOfChapters(int numberOfChapters)
+	{
+		this.numberOfChapters = numberOfChapters;
+	}
+
+
+	@Override
 	public void setQuotesPerChapter(int quotesPerChapter)
 	{
 		this.quotesPerChapter = quotesPerChapter;
@@ -60,6 +80,7 @@ public class NovelFromQuotesModel extends AbstractLocaleSupporter
 
 	private void initializeChapterWords()
 	{
+		chapterWords.put(new Locale("cs"), "Kapitola");
 		chapterWords.put(new Locale("cs", "CZ"), "Kapitola");
 		chapterWords.put(new Locale("de"), "Kapitel");
 		chapterWords.put(new Locale("de", "AT"), "Kapitel");
@@ -81,7 +102,7 @@ public class NovelFromQuotesModel extends AbstractLocaleSupporter
 		chapterWords.put(new Locale("fr"), "Chapitre");
 		chapterWords.put(new Locale("fr", "FR"), "Chapitre");
 		chapterWords.put(new Locale("grc"), "κεφάλαιο");
-		chapterWords.put(new Locale("it"), "Chapitre");
+		chapterWords.put(new Locale("it"), "Capitolo");
 		chapterWords.put(new Locale("it", "IT"), "Capitolo");
 		chapterWords.put(new Locale("la"), "Caput");
 		chapterWords.put(new Locale("pl"), "Rozdział");
@@ -91,28 +112,6 @@ public class NovelFromQuotesModel extends AbstractLocaleSupporter
 		chapterWords.put(new Locale("se"), "Kapitel");
 		chapterWords.put(new Locale("se", "SE"), "Kapitel");
 		chapterWords.put(new Locale("zh"), "卷");
-		chapterWords.put(new Locale("zh", "CN"), "卷");
- 
-		/* cs-CZ - 3 
-		 * de-AT - 15 
-		 * de-CH - 5 
-		 * de-CZ - 1 
-		 * de-DE - 216 
-		 * en - 19 
-		 * en-AT - 2 
-		 * en-CN - 1 
-		 * en-DE - 2 
-		 * en-GB - 23 
-		 * en-US - 12 
-		 * es - 1 
-		 * fr-FR - 24 
-		 * grc - 1 
-		 * it-IT - 5 
-		 * la - 2 
-		 * pl-PL - 3 
-		 * ru-RU - 5 
-		 * se-SE - 1 
-		 * zh-CN - 9
-		 */		
+		chapterWords.put(new Locale("zh", "CN"), "卷"); 
 	}
 }

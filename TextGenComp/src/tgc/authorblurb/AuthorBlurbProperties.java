@@ -13,27 +13,17 @@ import tgc.framework.StreamHelper;
  * with this class:
  * In java.util.Properties arbitrary Objects could be stored as properties, because it extends Hashtable<K,V>
  * By wrapping properties here, we can ensure that only properties that make sense for AuthorBlurb can be 
- * used in getters and setters (controlled by enum type AuthorBlurbPropertyNames). 
+ * used in getters and setters (controlled by enum type AuthorBlurbPropertyNames).
  * @author Kai Weber, inspired by Michael Inden ("Der Weg zum Java-Profi")
  */
 public class AuthorBlurbProperties
 {
 	private static final String FILE_PATH = "config/AuthorBlurb.properties";
-	private static AuthorBlurbProperties instance;
 	private final Properties properties = new Properties();
 	
-	private AuthorBlurbProperties() throws IOException
+	public AuthorBlurbProperties() throws IOException
 	{
 		readAppProperties();
-	}
-		
-	public static synchronized AuthorBlurbProperties getInstance() throws IOException
-	{
-		if(instance == null)
-		{
-			instance = new AuthorBlurbProperties();
-		}
-		return instance;
 	}
 		
 	public synchronized String[] getProperty(final AuthorBlurbPropertyName key)
@@ -64,5 +54,4 @@ public class AuthorBlurbProperties
 			StreamHelper.safeClose(inputStream);
 		}
 	}
-
 }

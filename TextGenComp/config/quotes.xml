@@ -954,7 +954,7 @@
     </quote>
     <quote>
         <version status="original" xml:lang="cs-CZ">
-            <text>Ať mně přijde Neruda ještě jednou s nějakou 'povídkou malostranskou'!</text>
+            <text>Ať mně přijde Neruda ještě jednou s nějakou „povídkou malostranskou”!</text>
             <source>
                 <title>Povídky malostranské</title>
                 <idref>3732</idref>
@@ -962,14 +962,14 @@
             </source>
         </version>
         <version status="unpublished" xml:lang="de-DE">
-            <text>Dieser Neruda soll mir bloß noch mal mit so einer 'Kleinseitner Geschichte' kommen!</text>
+            <text>Dieser Neruda soll mir bloß noch mal mit so einer „Kleinseitner Geschichte” kommen!</text>
             <source>
                 <title>Kleinseitner Geschichten</title>
                 <translator>Weber, Kai</translator>
             </source>
         </version>
         <version status="translation" xml:lang="en-GB">
-        	<text>Let Neruda come to me just once more with one of his 'Tales of the Little Quarter'!</text>
+        	<text>Let Neruda come to me just once more with one of his ‘Tales of the Little Quarter’!</text>
         	<source>
         		<title>Tales of the Little Quarter</title>
         		<translator>Pargeter, Edith</translator>
@@ -1621,7 +1621,7 @@ Like the fat doe hare and fructify.</text>
             </source>
         </version>
         <!-- Der Satz fehlt in der ersten französischen Übersetzung von  M.-J. M., hg. v. Calmann Lévy -->
-        <!-- Vermutlich ist er in der Übersetzung von Sylvère Monod bei Gallimard enthalten; dieser konnte online aber nicht gefunden werden -->
+        <!-- Vermutlich ist er in der Übersetzung von Sylvère Monod bei Gallimard enthalten; dieser konnte online aber nicht gefunden werden (Suche 17.7.16) -->
         <author>Eliot, George</author>
     </quote>
     <quote>
@@ -1768,7 +1768,7 @@ Like the fat doe hare and fructify.</text>
             </source>
         </version>
         <version status="translation" xml:lang="de-DE">
-            <text>Wenn ihr Leibschmerzen habt, ob König oder Straßenkehrer, großer Dichter, Gelehrter oder kleines Individuum 8210; ihr seid dann nur ein Leib, der schmerzt. Dergleichen seid ihr im Genuß identisch. Und ebenso im tiefen Schlaf. Die Unterschiede tun sich erst in den gemäßigten Zonen der Sensibilität kund &#8211; fern den Polen und dem Äquator.</text>
+            <text>Wenn ihr Leibschmerzen habt, ob König oder Straßenkehrer, großer Dichter, Gelehrter oder kleines Individuum &#8210; ihr seid dann nur ein Leib, der schmerzt. Dergleichen seid ihr im Genuß identisch. Und ebenso im tiefen Schlaf. Die Unterschiede tun sich erst in den gemäßigten Zonen der Sensibilität kund &#8211; fern den Polen und dem Äquator.</text>
             <source>
                 <title>Ich grase meine Gehirnwiese ab</title>
                 <idref>3457</idref>
@@ -1789,32 +1789,22 @@ Like the fat doe hare and fructify.</text>
         <author>Valéry, Paul</author>
     </quote>
     <quote>
-        <version status="original" xml:lang="zh-CN">
-            <text>世有五谷，尽能济饥，为何吃人度日？</text>
-            <source>
-                <title>西游记</title>
-                <idref>3237</idref>
-                <page>88</page>
-            </source>
-        </version>
-        <version status="translation" xml:lang="en">
-            <text>There are the five kinds of food-grains, and they are sufficient to assuage hunger, so why eat people to keep alive?</text>
-            <source>
-                <title>Journey to the West</title>
-                <idref>3237</idref>
-                <page>105</page>
-            </source>
-        </version>
-        <author>Wu Cheng'en</author>
-    </quote>
-    <quote>
         <version status="translation" xml:lang="de-DE">
             <text>Noch immer ist der Begriff des literarisch Schönen beeinflußt von den Gefühlen des Affen vorm Spiegel.</text>
             <source>
                 <title>Mein privates Lexikon</title>
                 <idref>2594</idref>
                 <page>98</page>
+                <translator>Wolter, Christine</translator>
+                <translator>Fleischanderl, Karin</translator>
             </source>
+        </version>
+        <version status="unpublished" xml:lang="en-DE">
+        	<text>Still the notion of literary beauty is influenced by the feelings of a monkey in front of a mirror.</text>
+        	<source>
+        		<title>The New Encyclopedia</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
         </version>
         <author>Savinio, Alberto</author>
     </quote>
@@ -1824,6 +1814,13 @@ Like the fat doe hare and fructify.</text>
             <source>
                 <title>Ministerium des Innern (Hörspiel)</title>
             </source>
+        </version>
+        <version status="unpublished" xml:lang="en-DE">
+        	<text>At some moment in time thoughts fell off from feelings in the Occident.</text>
+        	<source>
+        		<title>Ministry of the Interior</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
         </version>
         <author>Palzer, Thomas</author>
     </quote>
@@ -1836,6 +1833,13 @@ Like the fat doe hare and fructify.</text>
                 <page>121</page>
             </source>
         </version>
+        <version status="unpublished" xml:lang="en-DE">
+        	<text>Fear humbles you. And because that's what it is meant to do, I am not willing to accept it: Fear is a bad adviser.</text>
+            <source>
+                <title>Eyes as White as Salt</title>
+                <translator>Weber, Kai</translator>
+            </source>
+        </version>
         <author>Dath, Dietmar</author>
     </quote>
     <quote>
@@ -1846,61 +1850,115 @@ Like the fat doe hare and fructify.</text>
                 <page>81</page>
             </source>
         </version>
+        <version status="translation" xml:lang="en-GB">
+        	<text>When the gods throw stones at each other, either these stones must injure the gods, or we imagine that we see only naughty boys who are pelting each other with lumps of earth.</text>
+        	<source>
+        		<title>Laocoon</title>
+        		<page>133</page>
+        		<translator>Phillimore, Robert</translator>
+        	</source>
+        </version>
+        <version status="translation" xml:lang="en-US">
+        	<text>If gods throw stones at one another, the stones must be able to hurt them, or they are like silly boys pelting each other with earth.</text>
+        	<source>
+        		<title>Laocoon: An Essay upon the Limits of Painting and Poetry</title>
+        		<page>227</page>
+        		<translator>Frothingham, Ellen</translator>
+        	</source>
+        </version>
         <author>Lessing, Gotthold Ephraim</author>
     </quote>
     <quote>
-        <version status="translation" xml:lang="de-DE">
-            <text>Verzichten wir also auf eine Rückkehr zur Homogenität der Ideen, das heißt, zu einem vergangenen Zivilisationstyp, und bemühen wir uns, die disparatesten Ideen, einbegriffen die desperatesten, auf weniger blutige Weise miteinander leben zu lassen.</text>
-            <source>
-                <title>Mein privates Lexikon</title>
-                <idref>2594</idref>
-                <page>100</page>
-            </source>
-        </version>
         <version status="original" xml:lang="it-IT">
             <text>Rinunciamo dunque a un ritorno alla omogeneità delle idee, ossia a un tipo passato di civiltà, e adoperiamoci a far convivere nella maniera meno cruenta le idee più disparate, ivi comprese le idee più disperate.</text>
             <source>
                 <title>Nuova enciclopedia</title>
             </source>
         </version>
+        <version status="translation" xml:lang="de-DE">
+            <text>Verzichten wir also auf eine Rückkehr zur Homogenität der Ideen, das heißt, zu einem vergangenen Zivilisationstyp, und bemühen wir uns, die disparatesten Ideen, einbegriffen die desperatesten, auf weniger blutige Weise miteinander leben zu lassen.</text>
+            <source>
+                <title>Mein privates Lexikon</title>
+                <idref>2594</idref>
+                <page>100</page>
+                <translator>Wolter, Christine</translator>
+                <translator>Fleischanderl, Karin</translator>
+            </source>
+        </version>
+        <version status="unpublished" xml:lang="en-DE">
+        	<text>Let's give up on returning to the homogeneity of ideas, i.e. on a past type of civilization, and let us strive to let our ideas, even the most disparate and most desparate ones, cohabit in a less gory way.</text>
+        	<source>
+        		<title>The New Encyclopedia</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
+        </version>
         <author>Savinio, Alberto</author>
     </quote>
     <quote>
-        <version status="translation" xml:lang="de-DE">
-            <text>Da, wo die Liebe zum Vaterland sich im Pfuhl von verrohter Sprache, nervtötender Propaganda und schmutzigen Worten und Taten suhlt, kann nur noch von einem widerwärtigen Hooligan-Patriotismus die Rede sein. Der Patriotismus wird nicht nur zum letzten Refugium von Gangstern und Halunken, er wird zu einer Waffe, einem großen Knüppel, den sie drohend über die Menschheit schwingen. Mit Recht und Unrecht hat das nichts zu tun. Das Böse bedient sich des Patriotismus, um die Menschlichkeit auszurotten.</text>
-            <source>
-                <title>Zehn Jahre Rückgabe Hongkongs an China aus meiner Sicht, in: Ich habe keine Feinde, ich kenne keinen Hass.</title>
-                <idref>3741</idref>
-                <page>163</page>
-            </source>
-        </version>
         <version status="original" xml:lang="zh-CN">
             <text>当爱国与暴力语言、与胡搅蛮缠、与泼粪之类言行同流合污之时，丑陋的"流氓爱国主义"就不可避免。爱国主义不止是恶棍们的最后避难所，而且已经沦为恶棍们手中挥舞的利器和大棒，成为邪恶对人性的讨伐，而与大是大非完全无关。</text>
             <source>
                 <title>我看回归十年的香港</title>
             </source>
         </version>
+        <version status="original" xml:lang="zh-HK">
+        	<text>當愛國與暴力語言、與胡攪蠻纏、與潑糞之類言行同流合污之時，醜陋的「流氓愛國主義」就不可避免。愛國主義不止是惡棍們的最後避難所，而且已經淪為惡棍們手中揮舞的利器和大棒，成為邪惡對人性的討伐，而與大是大非完全無關。</text>
+        	<source>
+        		<title>我看回歸十年的香港</title>
+        	</source>
+        </version>
+        <version status="translation" xml:lang="de-DE">
+            <text>Da, wo die Liebe zum Vaterland sich im Pfuhl von verrohter Sprache, nervtötender Propaganda und schmutzigen Worten und Taten suhlt, kann nur noch von einem widerwärtigen Hooligan-Patriotismus die Rede sein. Der Patriotismus wird nicht nur zum letzten Refugium von Gangstern und Halunken, er wird zu einer Waffe, einem großen Knüppel, den sie drohend über die Menschheit schwingen. Mit Recht und Unrecht hat das nichts zu tun. Das Böse bedient sich des Patriotismus, um die Menschlichkeit auszurotten.</text>
+            <source>
+                <title>Zehn Jahre Rückgabe Hongkongs an China aus meiner Sicht, in: Ich habe keine Feinde, ich kenne keinen Hass.</title>
+                <idref>3741</idref>
+                <page>163</page>
+                <translator>Betz, Karin</translator>
+                <translator>Hoffmann, Hans Peter</translator>
+            </source>
+        </version>
+        <version status="translation" xml:lang="en-US">
+        	<text>[T]he regime has incited its toadies and their media hacks in Hong Kong into a savage mudslinging campaign that accuses democracy advocates of a lack of "patriotism." Their tactics have descended into ad hominem attack and character assassination and might be called "hooligan-patriotism." Such abuse of the term "patriotism" has nothing to do with ethical principles; on the contrary, it is a bludgeon in an assault on common human values.</text>
+        	<source>
+        		<title>No Enemies, no Hatred</title>
+        		<translator>Chou, Eva S.</translator>
+        	</source>
+        </version>
         <author>Liu Xiaoboo</author>
     </quote>
     <quote>
         <version status="original" xml:lang="de-DE">
-            <text>Das Verhältnis Gottes zu den uns ungläubig Erscheinenden ist unserer Außerbetrachtung jedenfalls prinzipiell verschlossen.</text>
+            <text>Das Verhältnis Gottes zu den uns ungläubig Erscheinenden ist unserer Außenbetrachtung jedenfalls prinzipiell verschlossen.</text>
             <source>
                 <title>Martin Luther</title>
                 <idref>1671</idref>
                 <page>83</page>
             </source>
         </version>
+        <version status="unpublished" xml:lang="en-DE">
+        	<text>God's relationship with those who seem to be infidel in our eyes is concealed from our external observation as a matter of principle.</text>
+        	<source>
+        		<title>Martin Luther</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
+        </version>
         <author>Korsch, Dietrich</author>
     </quote>
     <quote>
         <version status="original" xml:lang="de-DE">
-            <text>...denn das Schreiben von Gedichten ist immer auch Trauerarbeit.</text>
+            <text>... denn das Schreiben von Gedichten ist immer auch Trauerarbeit.</text>
             <source>
                 <title>Anstiftung; in: Haslinger/Treichel: Wie werde ich ein verdammt guter Schriftsteller?</title>
                 <idref>1250</idref>
                 <page>19</page>
             </source>
+        </version>
+        <version status="unpublished" xml:lang="en-DE">
+        	<text>... because writing poetry is always in part a work of mourning.</text>
+        	<source>
+        		<title>Instigation</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
         </version>
         <author>Hummelt, Norbert</author>
     </quote>
@@ -1911,24 +1969,43 @@ Like the fat doe hare and fructify.</text>
                 <title>Mein privates Lexikon</title>
                 <idref>2594</idref>
                 <page>105</page>
+                <translator>Wolter, Christine</translator>
+                <translator>Fleischanderl, Karin</translator>
             </source>
+        </version>
+        <version status="unpublished" xml:lang="en-DE">
+        	<text>Fascism also tried to absorb socialism, however socialism got stuck in its throat.</text>
+        	<source>
+        		<title>The New Encyclopedia</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
         </version>
         <author>Savinio, Alberto</author>
     </quote>
     <quote>
+        <version status="original" xml:lang="zh-CN">
+            <text>不论现代西方人怎样对自己的理性主义进行批判，也不论西方的知识精英对自身的殖民扩张和白种人优越感进行过多么严酷的否定，西方人仍然对其它民族有一种根深蒂固的优越感。他们仍然自豪于自我批判的勇气和真诚。西方人能够坦然地接受自己对自己的批判，但是他们很难接受来自西方之外的批判。</text>
+            <source>
+                <title>中国政治与中国当代知识分子</title>
+            </source>
+        </version>
         <version status="translation" xml:lang="de-DE">
             <text>Westler haben anderen Völkern gegenüber noch immer ein tief verwurzeltes Gefühl der Überlegenheit. Sie bilden sich immer noch sehr viel auf ihren Mut zur Selbstkritik und ihre Wahrhaftigkeit ein. Westler sind in der Lage, der eigenen Kritik gegenüber aufgeschlossen zu sein, aber sie tun sich schwer, wenn die Kritik nicht von ihnen selbst kommt.</text>
             <source>
                 <title>Nachwort zu Die gegenwärtigen chinesischen Intellektuellen, in: Ich habe keine Feinde, ich kenne keinen Hass.</title>
                 <idref>3741</idref>
                 <page>199</page>
+                <translator>Betz, Karin</translator>
+                <translator>Hoffmann, Hans Peter</translator>
             </source>
         </version>
-        <version status="original" xml:lang="zh-CN">
-            <text>不论现代西方人怎样对自己的理性主义进行批判，也不论西方的知识精英对自身的殖民扩张和白种人优越感进行过多么严酷的否定，西方人仍然对其它民族有一种根深蒂固的优越感。他们仍然自豪于自我批判的勇气和真诚。西方人能够坦然地接受自己对自己的批判，但是他们很难接受来自西方之外的批判。</text>
-            <source>
-                <title>中国政治与中国当代知识分子</title>
-            </source>
+        <version status="translation" xml:lang="en-US">
+        	<text>[Western intellectuals] still maintain deep-rooted feelings of superiority toward non-Western peoples. They feel proud of the courage and sincerety with which they do self-criticisms. They easily offer criticisms that they make of themselves, but have trouble listening to criticisms that originate from outside the West.</text>
+        	<source>
+        		<title>No Enemies, No Hatred</title>
+        		<page>121-122</page>
+        		<translator>Mosher, Stacy</translator>
+        	</source>
         </version>
         <author>Liu Xiaobo</author>
     </quote>
@@ -1941,6 +2018,13 @@ Like the fat doe hare and fructify.</text>
                 <page>10</page>
             </source>
         </version>
+        <version status="unpublished" xml:lang="en-DE">
+        	<text>Sometime you're going to have a job, and you'll be sitting in a meeting, and your boss is delivering a brainless monologue, that just doesn't end, and you hate him for that, for not having enough substance to refrain from doing that, from abusing the employees as handkerchiefs, as cuspidors and for self-adulation, but then you think, that this hatred is an obstacle for your success, your progress. Although you yourself are this hatred, and it's not worth progressing if you can't take yourself with you.</text>
+        	<source>
+        		<title>Eyes as white as salt</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
+        </version>
         <author>Dath, Dietmar</author>
     </quote>
     <quote>
@@ -1952,6 +2036,7 @@ Like the fat doe hare and fructify.</text>
                 <page>81</page>
             </source>
         </version>
+        <!-- englische Übersetzung unter dem Titel "Eye to Eye", frz. als "Jadis et Daguerre" -->
         <author>Blumenfeld, Erwin</author>
     </quote>
     <quote>
@@ -1961,24 +2046,43 @@ Like the fat doe hare and fructify.</text>
                 <title>Mein privates Lexikon</title>
                 <idref>2594</idref>
                 <page>223</page>
+                <translator>Wolter, Christine</translator>
+                <translator>Fleischanderl, Karin</translator>
             </source>
+        </version>
+        <version status="unpublished" xml:lang="en-DE">
+        	<text>I imagine a society, where they distribute topics for reflection instead of bread and circuses.</text>
+        	<source>
+        		<title>The New Encyclopedia</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
         </version>
         <author>Savinio, Alberto</author>
     </quote>
     <quote>
+        <version status="original" xml:lang="zh-CN">
+            <text>更可悲的是，西方文化中的“原罪感”成分越来越淡泊，忏悔意识越来越苍白，宗教的圣洁有时与摇滚乐一样，成为一种享受而非痛苦的自省。</text>
+            <source>
+                <title>《中国政治与中国当代知识份子》后记</title>
+            </source>
+        </version>
         <version status="translation" xml:lang="de-DE">
             <text>Noch trauriger ist, dass das 'Gefühl für die Erbsünde' in der westlichen Kultur immer schwächer wird, das Bewusstsein der Reue immer weiter verblasst und die Heiligkeit der Religion manchmal so etwas wird wie Rockmusik, eine Selbstbesinnung, die Spaß macht und niemandem weh tut.</text>
             <source>
                 <title>Nachwort zu Die gegenwärtigen chinesischen Intellektuellen, in: Ich habe keine Feinde, ich kenne keinen Hass.</title>
                 <idref>3741</idref>
                 <page>201</page>
+                <translator>Betz, Karin</translator>
+                <translator>Hoffmann, Hans Peter</translator>
             </source>
         </version>
-        <version status="original" xml:lang="zh-CN">
-            <text>更可悲的是，西方文化中的“原罪感”成分越来越淡泊，忏悔意识越来越苍白，宗教的圣洁有时与摇滚乐一样，成为一种享受而非痛苦的自省。</text>
-            <source>
-                <title>《中国政治与中国当代知识份子》后记</title>
-            </source>
+        <version status="translation" xml:lang="en-US">
+        	<text>Even more lamentable, the Western notion of "original sin" has grown weaker over time and general awareness of repentance is in sharp decline. The religious notion of the sacred has come to be little different from rock'n'roll &#8210; more nearly enjoyment than painful self-examination.</text>
+        	<source>
+        		<title>No Enemies, no Hatred</title>
+        		<page>123</page>
+        		<translator>Mosher, Stacy</translator>
+        	</source>
         </version>
         <author>Liu Xiaobo</author>
     </quote>
@@ -1989,25 +2093,56 @@ Like the fat doe hare and fructify.</text>
                 <title>Von weltlicher Obrigkeit, wie weit man ihr Gehorsam schuldig sei</title>
             </source>
         </version>
+        <version status="translation" xml:lang="en-US">
+        	<text>[A Christian should] in nothing make use of secular power and law for himself. For others, however, he may and should seek vengeance, justice, protection and help, and do what he can toward this.</text>
+        	<source>
+        		<title>Temporal authority</title>
+        		<translator>Schindel, Jeremiah J.</translator>
+        		<translator>Brandt, Walther I.</translator>
+        	</source>
+        </version>
+        <version status="translation" xml:lang="en-DE">
+        	<text>Christians should be capable of suffering every evil and injustice, not avenging themselves, and not going to court in self-defense either. On the contrary they will require nothing at all for themselves from secular authority and laws. But they may seek retribution, justice, protection and help for others, and do whatever they want to that end.</text>
+        	<source>
+        		<title>On Secular Authority</title>
+        		<translator>Höpfl, Harro</translator>
+        	</source>
+        </version>
         <author>Luther, Martin</author>
     </quote>
     <quote>
         <version status="original" xml:lang="cs-CZ">
             <text>Jak je víno sladké, když se pije,
-            tak je trpký život, když se žije</text>
+tak je trpký život, když se žije.</text>
             <source>
-                <title>Prosinec 1920</title>
+                <title>Prosinec 1920, in: Město v slzách</title>
+            </source>
+        </version>
+        <version status="unpublished" xml:lang="de-DE">
+        	<text>So süß der Wein ist, wenn man ihn trinkt,
+so bitter ist auch das Leben, wenn man es lebt.</text>
+            <source>
+                <title>Dezember 1920, in: Stadt in Tränen</title>
+                <translator>Weber, Kai</translator>    
             </source>
         </version>
 	   <author>Seifert, Jaroslav</author>
     </quote>
     <quote>
+    	<version status="original" xml:lang="it-IT">
+    		<text>Considerando il fascismo come un colossale e collettivo fenomeno di omosessualità (quale infatti è la dittatura) nel quale il dittatore rappresentava l'elemento attivo e il popolo l'elemento passivo. Mussolini, radendosi la faccia e il cranio, era riuscito, non so se consapevolmente o inconsapevolmente, a sembrare un colossale membro virile.</text>
+    		<source>
+    			<title>Nuova Enciclopedia</title>
+    		</source>
+    	</version>
         <version status="translation" xml:lang="de-DE">
             <text>Wenn man übrigens den Faschismus als ein kolossales und kollektives Phänomen von Homosexualität betrachtet (was die Diktatur in der Tat ist), in dem der Diktator den aktiven und das Volk den passiven Teil darstellt, dann war es Mussolini gelungen &#8212; ich weiß nicht, ob bewußt oder unbewußt &#8212;, auszusehen wie ein gewaltiges männliches Glied.</text>
             <source>
                 <title>Mein privates Lexikon</title>
                 <idref>2594</idref>
                 <page>233</page>
+                <translator>Wolter, Christine</translator>
+                <translator>Fleischanderl, Karin</translator>
             </source>
         </version>
         <author>Savinio, Alberto</author>
@@ -2021,6 +2156,13 @@ Like the fat doe hare and fructify.</text>
                 <page>207</page>
             </source>
         </version>
+        <version status="unpublished" xml:lang="en-DE">
+        	<text>God is a communist. You can't recognize it yet, except from the colours of nature, but there's enough time.</text>
+        	<source>
+        		<title>Eyes White as Salt</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
+        </version>
         <author>Dath, Dietmar</author>
     </quote>
     <quote>
@@ -2030,6 +2172,13 @@ Like the fat doe hare and fructify.</text>
                 <title>Ein Haus bauen. Besuche auf fünf Kontinenten.</title>
                 <idref>419</idref>
                 <page>210</page>
+            </source>
+        </version>
+        <version status="unpublished" xml:lang="en-DE">
+            <text>On this summer day Paul had brought a French, in which he started to browse now.</text>
+            <source>
+                <title>Building a House. Visits on five continents</title>
+                <translator>Weber, Kai</translator>
             </source>
         </version>
         <author>Brunold, Georg</author>
@@ -2452,7 +2601,7 @@ Like the fat doe hare and fructify.</text>
     </quote>
     <quote>
         <version status="translation" xml:lang="de-DE">
-            <text>Allemal ist das Schmutzblatt[BILD] eine Quelle von Stammtisch-Geilheit.</text>
+            <text>Allemal ist das Schmutzblatt [BILD] eine Quelle von Stammtisch-Geilheit.</text>
             <source>
                 <title>Zeugen der Anklage</title>
                 <idref>3105</idref>
@@ -2754,7 +2903,7 @@ Like the fat doe hare and fructify.</text>
 Der Huszar von Kecskemét
 ist gerne gegen Damen nett.
 Sind Damen aber, bitte, schiach,
-dann wird der Huszar, bitte, Viech</text>
+dann wird der Huszar, bitte, Viech.</text>
             <source>
                 <title>Baby Wallenstein oder Prinz Hamlet der Osterhase oder Selawi</title>
             </source>
@@ -3121,7 +3270,7 @@ Oder Endymion gar, der nur als Schläfer geliebt ward.</text>
     </quote>
     <quote>
         <version status="translation" xml:lang="de-DE">
-            <text>Die wilden Pfauen riefen ängstlich in der Ferne: &#8222;Die haben Angst vor der Nacht,&#8220; erklärte der Vater, &#8222;die haben Angst, sie könnten Träumen&#8220;</text>
+            <text>Die wilden Pfauen riefen ängstlich in der Ferne: &#8222;Die haben Angst vor der Nacht,&#8220; erklärte der Vater, &#8222;die haben Angst, sie könnten träumen&#8220;.</text>
             <source>
                 <title>Die Vögel kommen zurück</title>
                 <idref>91</idref>
@@ -4029,10 +4178,11 @@ Ihre Kuhigkeit verblüffte meine Menschlichkeit so sehr — so spannungsgeladen 
     			<translator>Kühl, Olaf</translator>
     		</source>
     	</version>
-    	<version status="translation" xml:lang="en">
-    		<text>I am talking art into kicking— smack!— but not so that the professor feels kicked but for the artist to feel that he is the one doing the kicking.</text>
+    	<version status="translation" xml:lang="en-US">
+    		<text>I am talking art into kicking — smack!— but not so that the professor feels kicked but for the artist to feel that he is the one doing the kicking.</text>
     		<source>
     			<title>Diary 1957-1961</title>
+    			<translator>Vallee, Lillian</translator>
     		</source>
     	</version>
     	<author>Gombrowicz, Witold</author>

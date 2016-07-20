@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:aop="http://www.springframework.org/schema/aop"
 	xmlns:context="http://www.springframework.org/schema/context"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.springframework.org/schema/beans
     http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
     http://www.springframework.org/schema/context
-    http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+    http://www.springframework.org/schema/context/spring-context-3.0.xsd
+    http://www.springframework.org/schema/aop 
+    http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
 
 	<context:annotation-config/>
 
@@ -18,10 +21,16 @@
      **                                             **
      ************************************************* -->
 
-    <bean id="tgc.authorblurb.AuthorBlurbTextdata" class="tgc.authorblurb.AuthorBlurbTextdata"/>
-    <bean id="tgc.authorblurb.AuthorBlurbModel" class="tgc.authorblurb.AuthorBlurbModel"/>
-    <bean id="tgc.authorblurb.AuthorBlurbGenerator" class="tgc.authorblurb.AuthorBlurbGenerator">
+    <bean id="AuthorBlurbTextdata" class="tgc.authorblurb.AuthorBlurbTextdata"/>
+    <bean id="AuthorBlurbModel" class="tgc.authorblurb.AuthorBlurbModel"/>
+    <bean id="AuthorBlurbGenerator" class="tgc.authorblurb.AuthorBlurbGenerator">
     	<!-- AuthorBlurbTextdata and AuthorBlurbModel are autowired -->
+    	<!-- <property name="authorBlurbTextdata">
+    		<ref bean="AuthorBlurbTextdata"/>
+    	</property>
+    	<property name="authorBlurbModel">
+    		<ref bean="AuthorBlurbModel" />
+    	</property>-->
     	<property name="outputFile" value="/home/kai/Programmieren/Java/Spring/AuthorBlurb.txt" />
     	<!-- allowed values are defined by enumeration tgc.framework.OutputType -->
     	<property name="outputType" value="TXTFILE" />
@@ -73,4 +82,15 @@
      <bean id="BMModel" class="tgc.boolmatrix.BMModel" />
      <bean id="BMTextGenerator" class="tgc.boolmatrix.BMTextGenerator"/>
      
+<!-- *************************************************
+     **                                             **
+     **   Configuration of AspectJ                  **
+     **                                             **
+     ************************************************* -->
+
+     <aop:aspectj-autoproxy />
+
+     <bean id="LocalizationAspect" class="tgc.framework.LocalizationAspect" >
+     	<constructor-arg name="locale" value="#{new java.util.Locale('cs')}" />
+     </bean>
 </beans>

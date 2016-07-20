@@ -12,9 +12,9 @@ public class BMTextGenerator implements Generator
 {
 	// fields that are autowired by Spring framework
 	@Autowired
-	private BMModel bmModel;
+	private IBmModel bmModel;
 	@Autowired
-	private BMTextdata bmTextData;
+	private IBmTextdata bmTextData;
 
 	// other private fields
 	private Date lastCachingTime = new Date();
@@ -52,7 +52,7 @@ public class BMTextGenerator implements Generator
 
 	@Override
 	public String generateText(Locale locale)
-	{	
+	{
 		bmModel.setModelToStandardEggPlant();
 		
 		StringBuffer sb = new StringBuffer();

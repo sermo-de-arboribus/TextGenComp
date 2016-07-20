@@ -2,15 +2,15 @@ package tgc.epubgenerator;
 
 import java.util.*;
 
-import tgc.framework.AbstractLocaleSupporter;
-
-public class EpubModel extends AbstractLocaleSupporter
+public class EpubModel implements IEpubModel
 {	
 	private final Map<Locale, String> chapterWords = new HashMap<Locale, String>();
 	private String textBody = "";
+	protected HashMap<String, Locale> supportedLocaleCache;
 	
 	public EpubModel()
 	{
+		supportedLocaleCache = new HashMap<String, Locale>();
 		initializeChapterWords();
 	}
 
@@ -20,6 +20,7 @@ public class EpubModel extends AbstractLocaleSupporter
 	 * @param completeText The complete text of an article, book, etc.
 	 * @return a ListIterator<String> to run through the split chapters
 	 */
+	@Override
 	public ListIterator<String> getChapterIterator(final Locale locale)
 	{
 		LinkedList<String> chapterTexts = new LinkedList<String>(Arrays.asList(textBody.split(getChapterSeparatorRegex(locale))));
@@ -31,6 +32,7 @@ public class EpubModel extends AbstractLocaleSupporter
 		return chapterTexts.listIterator();
 	}
 	
+	@Override
 	public String getLocalizedChapterWord(final Locale locale)
 	{
 		return chapterWords.get(locale);
@@ -41,12 +43,29 @@ public class EpubModel extends AbstractLocaleSupporter
 	{
 		return chapterWords.keySet().toArray(new Locale[]{});
 	}
-	
+
+	@Override
 	public String getTextBody()
 	{
 		return textBody;
 	}
 	
+	@Override
+	public boolean isLocaleSupported(Locale locale)
+	{
+		// on first look-up, fill the locale cache, so that further lookups can be 
+		// served more efficiently
+		if(supportedLocaleCache.isEmpty())
+		{
+			for(Locale loc : getSupportedLocales())
+			{
+				supportedLocaleCache.put(loc.toString(), loc);
+			}
+		}
+		return supportedLocaleCache.containsKey(locale.toString()); 
+	}
+	
+	@Override
 	public void setTextBody(final String text)
 	{
 		this.textBody = text;
@@ -61,6 +80,7 @@ public class EpubModel extends AbstractLocaleSupporter
 		
 	private void initializeChapterWords()
 	{
+		chapterWords.put(new Locale("cs"), "Kapitola");
 		chapterWords.put(new Locale("cs", "CZ"), "Kapitola");
 		chapterWords.put(new Locale("de"), "Kapitel");
 		chapterWords.put(new Locale("de", "AT"), "Kapitel");

@@ -1,11 +1,10 @@
 package tgc.boolmatrix;
 
+import java.util.HashMap;
 import java.util.Locale;
 
-import tgc.framework.AbstractLocaleSupporter;
-
 // This class contains localized strings for a matrix describing food ingredients
-public class BMTextdata extends AbstractLocaleSupporter
+public class BMTextdata implements IBmTextdata
 {
 	/*  Index:
 	 *  0      1   2    3    4    5    6    7   8    9     10        11     12       13            14          15             16
@@ -47,28 +46,40 @@ public class BMTextdata extends AbstractLocaleSupporter
 	{
 		Locale.US, Locale.UK, Locale.CANADA, Locale.CHINA, Locale.GERMANY, Locale.GERMAN, new Locale("de", "AT"), new Locale("de", "CH"), new Locale("cs"), new Locale("cs", "CZ"), Locale.FRANCE, Locale.FRENCH
 	};
+	
+	protected HashMap<String, Locale> supportedLocaleCache;
+	
+	public BMTextdata()
+	{
+		supportedLocaleCache = new HashMap<String, Locale>();
+	}
 
-	public String getLocalizedContainmentWord(Locale loc)
+	@Override
+	public String getLocalizedContainmentWord(final Locale loc)
 	{
 		return CONTAINMENT_WORDS[localeToIndex(loc)];
 	}
 
-	public String getLocalizedFoodWord(Locale loc, FoodType foodType)
+	@Override
+	public String getLocalizedFoodWord(final Locale loc, final FoodType foodType)
 	{
 		return FOOD_WORDS[foodTypeToIndex(foodType)][localeToIndex(loc)];
 	}
 	
-	public String getLocalizedGroupWord(Locale loc, IngredientGroup group)
+	@Override
+	public String getLocalizedGroupWord(final Locale loc, final IngredientGroup group)
 	{
 		return GROUP_WORDS[localeToIndex(loc)][group.ordinal()];
 	}
 
-	public String getLocalizedIngredientWord(Locale loc, int index)
+	@Override
+	public String getLocalizedIngredientWord(final Locale loc, final int index)
 	{
 		return INGREDIENT_WORDS[localeToIndex(loc)][index];
 	}
-	
-	public String getLocalizedNonContainmentWord(Locale loc)
+
+	@Override
+	public String getLocalizedNonContainmentWord(final Locale loc)
 	{
 		return NON_CONTAINMENT_WORDS[localeToIndex(loc)];
 	}
@@ -79,12 +90,27 @@ public class BMTextdata extends AbstractLocaleSupporter
 		return SUPPORTED_LOCALES;
 	}
 
-	private int foodTypeToIndex(FoodType foodType)
+	@Override
+	public boolean isLocaleSupported(Locale locale)
+	{
+		// on first look-up, fill the locale cache, so that further lookups can be 
+		// served more efficiently
+		if(supportedLocaleCache.isEmpty())
+		{
+			for(Locale loc : getSupportedLocales())
+			{
+				supportedLocaleCache.put(loc.toString(), loc);
+			}
+		}
+		return supportedLocaleCache.containsKey(locale.toString()); 
+	}
+	
+	private int foodTypeToIndex(final FoodType foodType)
 	{
 		return foodType.ordinal();
 	}
 	
-	private int localeToIndex(Locale loc)
+	private int localeToIndex(final Locale loc)
 	{
 		switch(loc.getLanguage())
 		{

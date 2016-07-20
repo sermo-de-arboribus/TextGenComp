@@ -1,14 +1,20 @@
 package tgc.epubgenerator;
 
 import java.util.GregorianCalendar;
+import java.util.HashMap;
 import java.util.Locale;
 
-import tgc.framework.AbstractLocaleSupporter;
-
-public class EpubTextdata extends AbstractLocaleSupporter
+public class EpubTextdata implements IEpubTextdata
 {
+	private HashMap<String, Locale> supportedLocaleCache;
 
-	public String getCoverHtml(String coverImagePath)
+	public EpubTextdata()
+	{
+		supportedLocaleCache = new HashMap<String, Locale>();
+	}
+	
+	@Override
+	public String getCoverHtml(final String coverImagePath)
 	{
 		return "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>"
 				+ "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\">"
@@ -24,8 +30,15 @@ public class EpubTextdata extends AbstractLocaleSupporter
 				+ "</body>"
 				+ "</html>";
 	}
-	
-	public String getTitlePageHtml(Locale locale, String title, String author)
+
+	@Override
+	public Locale[] getSupportedLocales()
+	{
+		return Locale.getAvailableLocales();
+	}
+
+	@Override
+	public String getTitlePageHtml(final Locale locale, final String title, final String author)
 	{
 		return "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>"
 				+ "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\">"
@@ -49,7 +62,8 @@ public class EpubTextdata extends AbstractLocaleSupporter
 				+ "</html>";
 	}
 
-	public String getChapterHtml(int chapterNumber, String chapterTitle, String chapterText)
+	@Override
+	public String getChapterHtml(final int chapterNumber, final String chapterTitle, final String chapterText)
 	{
 		return "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>"
 				+ "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\">"
@@ -64,5 +78,20 @@ public class EpubTextdata extends AbstractLocaleSupporter
 				+ "<div>" + chapterText.replace("\n", "<br/>") + "</div>"
 				+ "</body>"
 				+ "</html>";
+	}
+	
+	@Override
+	public boolean isLocaleSupported(Locale locale)
+	{
+		// on first look-up, fill the locale cache, so that further lookups can be 
+		// served more efficiently
+		if(supportedLocaleCache.isEmpty())
+		{
+			for(Locale loc : getSupportedLocales())
+			{
+				supportedLocaleCache.put(loc.toString(), loc);
+			}
+		}
+		return supportedLocaleCache.containsKey(locale.toString()); 
 	}
 }

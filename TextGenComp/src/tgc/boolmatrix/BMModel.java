@@ -1,11 +1,11 @@
 package tgc.boolmatrix;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Locale;
 
-import tgc.framework.AbstractLocaleSupporter;
-
-public class BMModel extends AbstractLocaleSupporter
+public class BMModel implements IBmModel
 {
 	/*  Index:
 	 *  0      1   2    3    4    5    6    7   8    9     10        11     12       13            14          15             16
@@ -30,7 +30,14 @@ public class BMModel extends AbstractLocaleSupporter
 	
 	private boolean[] currentFoodIngredients;
 	private FoodType currentFoodType;
-
+	protected HashMap<String, Locale> supportedLocaleCache;
+	
+	public BMModel()
+	{
+		supportedLocaleCache = new HashMap<String, Locale>();
+	}
+	
+	@Override
 	public boolean containsNoAdditives()
 	{
 		boolean hasNoAdditives = true;
@@ -44,6 +51,7 @@ public class BMModel extends AbstractLocaleSupporter
 		return hasNoAdditives;
 	}
 	
+	@Override
 	public boolean containsNoAllergens()
 	{
 		boolean hasNoAllergens = true;
@@ -56,7 +64,8 @@ public class BMModel extends AbstractLocaleSupporter
 		}
 		return hasNoAllergens;
 	}
-	
+
+	@Override
 	public boolean containsNoVitamins()
 	{
 		boolean hasNoVitamins = true;
@@ -69,12 +78,14 @@ public class BMModel extends AbstractLocaleSupporter
 		}
 		return hasNoVitamins;
 	}
-	
+
+	@Override
 	public FoodType getCurrentFoodType()
 	{
 		return currentFoodType;
 	}
 
+	@Override
 	public List<Integer> getContainedIngredientIndices()
 	{
 		List<Integer> trueIndices = new ArrayList<>();
@@ -89,7 +100,29 @@ public class BMModel extends AbstractLocaleSupporter
 		
 		return trueIndices;
 	}
+
+	@Override
+	public Locale[] getSupportedLocales()
+	{
+		return Locale.getAvailableLocales();
+	}
 	
+	@Override
+	public boolean isLocaleSupported(Locale locale)
+	{
+		// on first look-up, fill the locale cache, so that further lookups can be 
+		// served more efficiently
+		if(supportedLocaleCache.isEmpty())
+		{
+			for(Locale loc : getSupportedLocales())
+			{
+				supportedLocaleCache.put(loc.toString(), loc);
+			}
+		}
+		return supportedLocaleCache.containsKey(locale.toString()); 
+	}
+	
+	@Override
 	public void setIngredients(FoodType type, boolean[] ingredients)
 	{
 		currentFoodType = type;
@@ -97,27 +130,31 @@ public class BMModel extends AbstractLocaleSupporter
 		currentFoodIngredients = ingredients;
 	}
 	
+	@Override
 	public void setModelToStandardEggPlant()
 	{
 		setModelToStandard(2);
 	}
 	
+	@Override
 	public void setModelToStandardGooseLiver()
 	{
 		setModelToStandard(3);
 	}
 	
+	@Override
 	public void setModelToStandardMilkRice()
 	{
 		setModelToStandard(1);
 	}
 	
+	@Override
 	public void setModelToStandardSausage()
 	{
 		setModelToStandard(0);
 	}
 	
-	private void setModelToStandard(int index)
+	private void setModelToStandard(final int index)
 	{
 		currentFoodType = FoodType.fromInteger(index);
 		currentFoodIngredients = STANDARD_INGREDIENTS_MATRIX[index];

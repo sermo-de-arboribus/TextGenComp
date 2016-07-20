@@ -21,11 +21,8 @@ public class AuthorBlurbGenerator implements Generator
 	// constants
 	final static String OUTPUT_ENCODING = "UTF-8";
 	
-	// Autowired fields, configure in Beans.xml
-	@Autowired
-	private AuthorBlurbModel authorBlurbModel;
-	@Autowired
-	private AuthorBlurbTextdata authorBlurbTextdata;
+	private IAuthorBlurbModel authorBlurbModel;
+	private IAuthorBlurbTextdata authorBlurbTextdata;
 	
 	// Other fields with default values
 	private File outputFile;
@@ -99,6 +96,18 @@ public class AuthorBlurbGenerator implements Generator
 		return supportedLocaleCache.containsKey(locale.toString()); 
 	}
 
+	@Autowired
+	public void setAuthorBlurbModel(IAuthorBlurbModel model)
+	{
+		this.authorBlurbModel = model;
+	}
+	
+	@Autowired
+	public void setAuthorBlurbTextdata(IAuthorBlurbTextdata textdata)
+	{
+		this.authorBlurbTextdata = textdata;
+	}
+	
 	public void setOutputFile(String filepath)
 	{
 		outputFile = new File(filepath);
