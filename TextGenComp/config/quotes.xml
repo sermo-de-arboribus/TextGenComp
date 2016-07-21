@@ -2190,28 +2190,54 @@ so bitter ist auch das Leben, wenn man es lebt.</text>
                 <title>Mein privates Lexikon</title>
                 <idref>2594</idref>
                 <page>233</page>
+                <translator>Wolter, Christine</translator>
+                <translator>Fleischanderl, Karin</translator>
             </source>
+        </version>
+        <version status="unpublished" xml:lang="en-DE">
+        	<text>When will we Latinians begin to recognize the 'presence of a soul', and not only see a toy in a child, see an instrument of pleasure in a woman, see an object of demagogy in a people?</text>
+        	<source>
+        		<title>New Encyclopedia</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
         </version>
         <author>Savinio, Alberto</author>
     </quote>
     <quote>
         <version status="original" xml:lang="de-DE">
-            <text>Ein einziges Merkmal gibt es, woran man die Dummen erkennt: Mit dem, was sie erreich haben, sind sie selten, aber mit sich selbst sind sie stets zufrieden.</text>
+            <text>Ein einziges Merkmal gibt es, woran man die Dummen erkennt: Mit dem, was sie erreicht haben, sind sie selten, aber mit sich selbst sind sie stets zufrieden.</text>
             <source>
                 <title>Die Schildbürger</title>
             </source>
+        </version>
+        <!-- Englische Übersetzung von Richard und Clara Winston, veröffentlich als "The Simpletons", New York, Messner, 1957; konnte diese Übersetzung bisher nicht finden -->
+        <!-- Französische Übersetzung von Gérard Peterolff, veröffentlicht als "Les gens de Schilda", erschienen bei Gallimard und in DTV zweisprachig -->
+        <version status="unpublished" xml:lang="en-DE">
+        	<text>There's a single trait to recognize the fools: They're hardly ever satisfied with what they have achieved, but they're always satisfied with themselves.</text>
+        	<source>
+        		<title>The Citizens of Schilda</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
         </version>
         <author>Kästner, Erich</author>
     </quote>
     <quote>
         <version status="original" xml:lang="ru-RU">
-            <text>Bylo mračno i temno.
-            Bylo strašna i okno.</text>
+            <text>было мрачно и тёмно
+было страшно и окно.</text>
             <source>
                 <title>Jurij Lotman: Struktur literarischer Texte, S. 140</title>
                 <idref>1897</idref>
                 <page>140</page>
             </source>
+        </version>
+        <version status="unpublished" xml:lang="de-DE">
+        	<text>Es war dunkel und finster,
+es war fürchterlich und Fenster.</text>
+			<source>
+				<title>zit. n. Jurij Lotman: Struktur literarischer Texte, S. 140</title>
+				<translator>Weber, Kai</translator>
+			</source>
         </version>
         <author>Vvedenskij, Aleksandr</author>
     </quote>
@@ -2224,6 +2250,14 @@ so bitter ist auch das Leben, wenn man es lebt.</text>
                 <page>132</page>
             </source>
         </version>
+        <version status="unpublished" xml:lang="en-DE">
+        <!-- Anmerkung: "Schöntrinken" ist ein Neologismus, der schwer zu übersetzen ist. Hier der Versuch, eine Analogie mit "sugarcoat" = "schönreden" zu bilden. -->
+        	<text>Defoliated poplars lined the invisible river bench; fishermen, sitting on stumps, sugardrank their homeland.</text>
+        	<source>
+        		<title>The Accordeon Player</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
+        </version>
         <author>Scherer, Marie-Luise</author>
     </quote>
     <quote>
@@ -2233,6 +2267,13 @@ so bitter ist auch das Leben, wenn man es lebt.</text>
                 <title>Über die verschiedenen Methoden des Übersetzens</title>
                 <page>65</page>
             </source>
+        </version>
+        <version status="translation" xml:lang="en-US">
+        	<text>If a translator tells a reader, "Here's the book, just as the man would have written it had he done it originally in German", who could object if the reader replies: "I'm as indebted to you as I would have been had you brought me a picture of him as he would have looked had his mother conceived him by a different father?"</text>
+        	<source>
+        		<title>On the Different Methods of Translating</title>
+        		<translator>Robinson, Douglas</translator>
+        	</source>
         </version>
         <author>Schleiermacher, Friedrich Daniel</author>
     </quote>
