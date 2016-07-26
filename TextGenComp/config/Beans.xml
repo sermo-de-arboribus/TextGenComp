@@ -25,12 +25,6 @@
     <bean id="AuthorBlurbModel" class="tgc.authorblurb.AuthorBlurbModel"/>
     <bean id="AuthorBlurbGenerator" class="tgc.authorblurb.AuthorBlurbGenerator">
     	<!-- AuthorBlurbTextdata and AuthorBlurbModel are autowired -->
-    	<!-- <property name="authorBlurbTextdata">
-    		<ref bean="AuthorBlurbTextdata"/>
-    	</property>
-    	<property name="authorBlurbModel">
-    		<ref bean="AuthorBlurbModel" />
-    	</property>-->
     	<property name="outputFile" value="/home/kai/Programmieren/Java/Spring/AuthorBlurb.txt" />
     	<!-- allowed values are defined by enumeration tgc.framework.OutputType -->
     	<property name="outputType" value="TXTFILE" />
@@ -65,7 +59,14 @@
      
      <bean id="tgc.epubgenerator.EpubTextdata" class="tgc.epubgenerator.EpubTextdata"/>
      <bean id="tgc.epubgenerator.EpubModel" class="tgc.epubgenerator.EpubModel">
-     	<property name="textBody" value="#{NovelFromQuotesGenerator.generateText(new java.util.Locale('de'))}" />
+        <property name="textBody" value="Kapitel 1
+        Jeder macht seins.
+        
+        Kapitel 2
+        Nach zwei kommt drei.
+        
+        Kapitel 3
+        Jetzt ist es vorbei." />
      </bean>
      <bean id="tgc.epubgenerator.EpubGenerator" class="tgc.epubgenerator.EpubGenerator">
      	<constructor-arg name="title" value="Das Text Gen Comp - Buch" />
@@ -81,16 +82,17 @@
 	 <bean id="BMTextdata" class="tgc.boolmatrix.BMTextdata"/>
      <bean id="BMModel" class="tgc.boolmatrix.BMModel" />
      <bean id="BMTextGenerator" class="tgc.boolmatrix.BMTextGenerator"/>
-     
+
 <!-- *************************************************
      **                                             **
      **   Configuration of AspectJ                  **
      **                                             **
      ************************************************* -->
-
+ 
      <aop:aspectj-autoproxy />
 
      <bean id="LocalizationAspect" class="tgc.framework.LocalizationAspect" >
      	<constructor-arg name="locale" value="#{new java.util.Locale('de')}" />
      </bean>
+
 </beans>

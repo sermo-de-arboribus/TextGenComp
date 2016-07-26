@@ -44,7 +44,7 @@ public class BMTextdata implements IBmTextdata
 	
 	private static final Locale[] SUPPORTED_LOCALES = new Locale[]
 	{
-		Locale.US, Locale.UK, Locale.CANADA, Locale.CHINA, Locale.GERMANY, Locale.GERMAN, new Locale("de", "AT"), new Locale("de", "CH"), new Locale("cs"), new Locale("cs", "CZ"), Locale.FRANCE, Locale.FRENCH
+		Locale.US, Locale.UK, new Locale("en"), Locale.CANADA, Locale.CHINA, new Locale("zh"), Locale.GERMANY, Locale.GERMAN, new Locale("de", "AT"), new Locale("de", "CH"), new Locale("cs"), new Locale("cs", "CZ"), Locale.FRANCE, Locale.FRENCH
 	};
 	
 	protected HashMap<String, Locale> supportedLocaleCache;

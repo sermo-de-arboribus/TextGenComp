@@ -53,7 +53,9 @@ public class BMTextGenerator implements Generator
 	@Override
 	public String generateText(Locale locale)
 	{
-		bmModel.setModelToStandardEggPlant();
+		System.err.println("Class of model: " + bmModel.getClass());
+		
+		bmModel.setModelToStandardGooseLiver();
 		
 		StringBuffer sb = new StringBuffer();
 		
