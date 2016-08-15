@@ -2609,7 +2609,15 @@ es war fürchterlich und Fenster.</text>
                 <title>Auf der Suche nach der verlorenen Zeit</title>
                 <idref>2409</idref>
                 <page>1712</page>
+                <translator>Rechel-Mertens, Eva</translator>
             </source>
+        </version>
+        <version status="translation" xml:lang="en-GB">
+        	<text>I imagined, like everyone else, that the brains of other people were lifeless and submissive receptacles with no power of specific reaction to any stimulus which might be applied to them[.]</text>
+        	<source>
+        		<title>In Search of Lost Time</title>
+        		<translator>Moncrieff, Charles Kenneth Scott</translator>
+        	</source>
         </version>
         <author>Proust, Marcel</author>
     </quote>
@@ -2626,16 +2634,34 @@ es war fürchterlich und Fenster.</text>
                 <title>Auf der Suche nach der verlorenen Zeit</title>
                 <idref>2409</idref>
                 <page>1550</page>
+                <translator>Rechel-Mertens, Eva</translator>
             </source>
+        </version>
+        <version status="translation" xml:lang="en-GB">
+        	<text>So you see it's wiser never to discuss other people's choices in love.</text>
+        	<source>
+        		<title>In Search of Lost Time, Volume III: The Guermantes Way</title>
+        		<translator>Moncrieff, Charles Kenneth Scott</translator>
+        		<translator>Kilmartin, Terence</translator>
+        		<translator>Enright, D. J.</translator>
+        	</source>
         </version>
         <author>Proust, Marcel</author>
     </quote>
     <quote>
+    	<version status="original" lang="en-US">
+    		<text>[The smile] is the only positive facial expression, contrasting with five negative expressions (fear, anger, disgust, sadness and contempt). One can recognize that someone is smiling from a further distance (100 metres) than any of the negative facial expressions.</text>
+    		<source>
+    			<title>Charles Darwin: The Expression of the Emotions in Man and Animals</title>
+    			<page>64</page>
+    		</source>
+    	</version>
         <version status="translation" xml:lang="de-DE">
             <text>Das Lächeln ist im Gegensatz zu fünf negativen Formen des Gesichtsausdrucks (Angst, Zorn, Abscheu, Kummer und Geringschätzung) die einzige positive Ausdrucksform. Ein Lächeln kann man von weiter weg erkennen als sämtliche negativen Ausdrucksformen (nämlich aus einer Entfernung von 100 Metern).</text>
             <source>
-                <title>Charles Darwin: Der Ausdruck der Gemütsbewegungen beim Menschen und bei den Tieren.</title>
+                <title>Charles Darwin: Der Ausdruck der Gemütsbewegungen beim Menschen und bei den Tieren</title>
                 <idref>646</idref>
+                <translator>Enderwitz, Ulrich</translator>
             </source>
         </version>
         <author>Ekman, Paul</author>
@@ -2649,6 +2675,13 @@ es war fürchterlich und Fenster.</text>
                 <page>118</page>
             </source>
         </version>
+        <version status="unpublished" xml:lang="en-DE">
+        	<text>Once and for all the smut paper BILD is a source of pub talk lasciviousness. </text>
+        	<source>
+        		<title>Witnesses of the prosecution</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
+        </version>
         <author>Wallraff, Günter</author>
     </quote>
     <quote>
@@ -2660,17 +2693,32 @@ es war fürchterlich und Fenster.</text>
                 <page>89</page>
             </source>
         </version>
+        <version status="unpublished" xml:lang="en-DE">
+        	<text>On the other hand the specific interests of philologists can only insufficiently be satisfied &#8210; or not at all &#8210; by standard computer programs. Therefore in practice a dependency on the few frontier runners between computer science and philologies becomes evident.</text>
+        	<source>
+        		<title>Metzler's Dictionary of Culture and Literature Theory</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
+        </version>
         <author>Jannidis, Fotis</author>
     </quote>
     <quote>
         <version status="original" xml:lang="de-DE">
             <text>BILD, einer Informationen und Fakten verpflichteten Zeitung so weit entfernt wie der &#8222;Andromeda-Nebel&#8220; der Erde, ist das Märchenbuch unserer Tage: Nur werden hier nicht die von unten gewachsenen, befreienden Mythen des Volkes verkündet, die neben Ängsten auch Hoffnungen und Sehnsüchte ausdrücken und Veränderungen in Aussicht stellen, &#8211; hier zeigt sich allein die stickige Käseglocke von Ersatz- und Wahnwelten, die den BILD-Lesern übergestülpt wird.
-            Monster, menschenfressende Möwen, ein Killer-Bussard, gräßliche Vogelspinnen, unbemannte Flugkörper, eine explodierende Sonne &#8211; BILD hat für seine Leser immer den schrecklichsten Schrecken parat. Wer Angst hat, ist manipulierbar. Wem Angst gemacht wird, der kommt nicht zum Denken. Aufklärung &#8211; das ist für BILD der Volksfeind Nr. 1.</text>
+Monster, menschenfressende Möwen, ein Killer-Bussard, gräßliche Vogelspinnen, unbemannte Flugkörper, eine explodierende Sonne &#8211; BILD hat für seine Leser immer den schrecklichsten Schrecken parat. Wer Angst hat, ist manipulierbar. Wem Angst gemacht wird, der kommt nicht zum Denken. Aufklärung &#8211; das ist für BILD der Volksfeind Nr. 1.</text>
             <source>
                 <title>Zeugen der Anklage</title>
                 <idref>3105</idref>
                 <page>65</page>
             </source>
+        </version>
+        <version status="unpublished" xml:lang="en-DE">
+        	<text>BILD is as far away from a newspaper dedicated to information and facts as Andromeda Galaxy is from the earth. It is the fairy-tale book of our days; yet here we don't find the liberating myths grown from the lower strata of the people, which not only express fears but also hopes and yearnings and promise changes, &#8211; instead we see nothing but the close cheese dome of surrogate and delusional worlds that is imposed on BILD's readers.
+Monsters, man-eating seagulls, a killer buzzard, gruesome tarantulas, unmanned flight objects, an exploding sun &#8211; BILD always provides the most terrible terror to its readers. Those who are afriad can be manipulated. Those who are threatened don't get to start thinking. Enlightenment &#8211; that's public enemy number one for BILD.</text>
+			<source>
+				<title>Witnesses of the Prosecution</title>
+				<translator>Weber, Kai</translator>
+			</source>
         </version>
         <author>Wallraff, Günter</author>
     </quote>
