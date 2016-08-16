@@ -2763,6 +2763,13 @@ Monsters, man-eating seagulls, a killer buzzard, gruesome tarantulas, unmanned f
                 <page>70</page>
             </source>
         </version>
+        <version status="unpublished" xml:lang="en-DE">
+        	<text>Or this: "That UFO has been photographed by a reporter in May 1964 in the area of Albuquerque (Brazil)" BILD subtitled a faked photo that has been taken on the 17th of June 1963 in New Mexico. It showed the nozzle head of a shower that was hung up between tree branches.</text>
+        	<source>
+        		<title>Witnesses of the Prosecution</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
+        </version>
         <author>Wallraff, Günter</author>
     </quote>
     <quote>
@@ -2774,22 +2781,36 @@ Monsters, man-eating seagulls, a killer buzzard, gruesome tarantulas, unmanned f
                 <page>30</page>
             </source>
         </version>
+        <version status="unpublished" xml:lang="en-DE">
+        	<text>we will have to be transformed into Ashes, into common dust that is scrunched by uneducated feet, into ashes spread by peasant hands, into Soil and paste, supposed to be eaten by worms and sows.</text>
+        	<source>
+        		<title>Human Life's Dream</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
+        </version>
         <author>Gryphius, Andreas</author>
     </quote>
     <quote>
-        <version status="translation" xml:lang="de-DE">
-            <text>Ich entfernte mich von dem gleißenden Vergnügungspalast, der schamlos dort aufragte trotz der von seiten der Familien vergebens an den Bürgermeister ergangenen Proteste, und begab mich wieder auf die Düne, auf der ich den gewundenen Wegen in Richtung Balbec folgte. Ohne darauf Antwort zu geben, hörte ich den Ruf der Weißdornhecken. Als weniger üppige Nachbarinnen der Apfelblüten fanden sie jene recht schwerfällig, obwohl sie der frischen Wangenfärbung dieser mit rosigen Blütenblättern geschmückten Töchter der behäbigen Apfelweinhersteller Anerkennung zollten. Sie wußten, daß sie zwar weniger reich dotiert, doch gesuchten sein würden und, um zu gefallen, nichts anderes nötig hätten als ihre weißschäumende Blütenpracht.</text>
-            <source>
-                <title>Auf der Suche nach der verlorenen Zeit</title>
-                <idref>2409</idref>
-                <page>check</page>
-            </source>
-        </version>
         <version status="original" xml:lang="fr-FR">
             <text>M'écartant de l'éblouissante maison de &#171;plaisir&#187;, insolemment dressée là malgré les protestations des familles inutilement adressées au maire, je rejoignis la falaise et j'en suivis les chemins sinueux dans la direction de Balbec. J'entendis sans y répondre l'appel des aubépines. Voisines moins cossues des fleurs de pommiers, elles les trouvaient bien lourdes, tout en reconnaissant le teint frais qu'ont les filles, aux pétales roses, de ces gros fabricants de cidre. Elles savaient que, moins richement dotées, on les recherchait cependant davantage et qu'il leur suffisait pour plaire d'une blancheur chiffonnée.</text>
             <source>
                 <title>A la recherche du temps perdu</title>
             </source>   
+        </version>
+        <version status="translation" xml:lang="de-DE">
+            <text>Ich entfernte mich von dem gleißenden Vergnügungspalast, der schamlos dort aufragte trotz der von seiten der Familien vergebens an den Bürgermeister ergangenen Proteste, und begab mich wieder auf die Düne, auf der ich den gewundenen Wegen in Richtung Balbec folgte. Ohne darauf Antwort zu geben, hörte ich den Ruf der Weißdornhecken. Als weniger üppige Nachbarinnen der Apfelblüten fanden sie jene recht schwerfällig, obwohl sie der frischen Wangenfärbung dieser mit rosigen Blütenblättern geschmückten Töchter der behäbigen Apfelweinhersteller Anerkennung zollten. Sie wußten, daß sie zwar weniger reich dotiert, doch gesuchten sein würden und, um zu gefallen, nichts anderes nötig hätten als ihre weißschäumende Blütenpracht.</text>
+            <source>
+                <title>Auf der Suche nach der verlorenen Zeit</title>
+                <idref>2409</idref>
+                <translator>Rechel-Mertens, Eva</translator>
+            </source>
+        </version>
+        <version status="translation" xml:lang="en-GB">
+        	<text>Hurrying past the glittering house of 'pleasure', insolently erected there despite the protests which the heads of families had addressed in vain to the mayor, I reached the cliff and followed its winding paths in the direction of Balbec. I heard, without responding to it, the appeal of the hawthorns. Neighbours, in humbler circumstances, of the blossoming apple trees, they found them very coarse, without denying the fresh complexion of the rosy-petalled daughters of those wealthy brewers of cider. They knew that, with a lesser dowry, they were more sought after, and were attractive enough by themselves in their tattered whiteness.</text>
+        	<source>
+        		<title>In Search of Lost Time</title>
+				<translator>Moncrieff, Charles Kenneth Scott</translator>        	
+        	</source>
         </version>
         <author>Proust, Marcel</author>
     </quote>
@@ -2802,15 +2823,30 @@ Monsters, man-eating seagulls, a killer buzzard, gruesome tarantulas, unmanned f
                 <page>155</page>
             </source>
         </version>
+        <version status="unpublished" xml:lang="en-DE">
+        	<text>Without Springer publishers today's FRG would be more democratic: There would be less nationalism and racism, less of a police state, fewer snoops, less distrust, less lying, less - sexual as well as political - prostitution. The federal republic would be a more peaceful country, not as dangerous for its neighbours and its own minorities.</text>
+        	<source>
+        		<title>Witnesses of the Prosecution</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
+        </version>
         <author>Wallraff, Günter</author>
     </quote>
     <quote>
+    	<version status="original" xml:lang="en-GB">
+    		<text>This is not always evident to the creatures themselves, who tend to become obsessed with what they consume, and to forget what in turn consumes them.</text>
+    		<source>
+    			<title>Shikasta: Re, Colonised Planet 5</title>
+    			<page>4</page>
+    		</source>
+    	</version>
         <version status="translation" xml:lang="de-DE">
             <text>Den Geschöpfen selbst ist das nicht immer klar; sie sind so beschäftigt mit dem, was sie fressen, daß sie dazu neigen zu vergessen, was sie frißt.</text>
             <source>
                 <title>Shikasta</title>
                 <idref>1822</idref>
                 <page>15</page>
+                <translator>Pfetsch, Helga</translator>
             </source>
         </version>
         <author>Lessing, Doris</author>
@@ -2823,6 +2859,15 @@ Monsters, man-eating seagulls, a killer buzzard, gruesome tarantulas, unmanned f
                 <idref>1287</idref>
             </source>
         </version>
+        <version status="unpublished" xml:lang="cs-DE">
+        	<text>Žádný rozumný člověk zahodí prázdnou konzervu. Někdy ji potřebuje a je radostný, že ji zachoval. To pak se říká poučení pro život.</text>
+        	<source>
+        		<title>Divoký kůň pod kachlovou kamnou</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
+        </version>
+        <!-- Englische Übersetzung u.d.T. "Jamie and His Friends", übersetzt von Anthea Bell, ISBN 0-86264-213-2 -->
+        <!-- Französische Übersetzung u.d.T. "Les grandes découvertes de Jacob", übersetzt von Francois Mathieu, ISBN 2-08-161897-4 -->
         <author>Hein, Christoph</author>
     </quote>
     <quote>
@@ -2834,28 +2879,40 @@ Monsters, man-eating seagulls, a killer buzzard, gruesome tarantulas, unmanned f
                 <page>84</page>
             </source>
         </version>
+        <version status="unpublished" xml:lang="en-DE">
+        	<text>To handle the American R you have to diligently gargle with thumbtacks.</text>
+        	<source>
+        		<title>Fun with Languages</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
+        </version>
         <author>Hanewald, Roland</author>
     </quote>
     <quote>
-        <version status="translation" xml:lang="de-DE">
-            <text>Daher kann man sich zwar vor den Sonderbarkeiten reizender Menschen entsetzen, aber es gibt kaum reizende Menschen, die nicht irgendwo etwas sonderbar sind.</text>
-            <source>
-                <title>Auf der Suche nach der verlorenen Zeit</title>
-                <idref>2409</idref>
-                <page>2501</page>
-            </source>
-        </version>
         <version status="original" xml:lang="fr-FR">
             <text>En sorte que les étrangetés des gens charmants exaspèrent, mais qu'il n'y a guère de gens charmants qui ne soient, par ailleurs, étranges.</text>
             <source>
                 <title>A la recherche du temps perdu</title>
             </source>
         </version>
-        <version status="translation" xml:lang="en">
+        <version status="unpublished" xml:lang="cs-DE">
+        	<text></text>
+        </version>
+        <version status="translation" xml:lang="de-DE">
+            <text>Daher kann man sich zwar vor den Sonderbarkeiten reizender Menschen entsetzen, aber es gibt kaum reizende Menschen, die nicht irgendwo etwas sonderbar sind.</text>
+            <source>
+                <title>Auf der Suche nach der verlorenen Zeit</title>
+                <idref>2409</idref>
+                <page>2501</page>
+                <translator>Rechel-Mertens, Eva</translator>
+            </source>
+        </version>
+        <version status="translation" xml:lang="en-GB">
             <text>So that the oddities of charming people exasperate us, but there are few if any charming people who are not, at the same time, odd.</text>
             <source>
                 <title>In Search of Lost Time, Vol. 4</title>
                 <page>393</page>
+                <translator>Moncrieff, Charles Kenneth Scott</translator>
             </source>
         </version>
         <author>Proust, Marcel</author>
