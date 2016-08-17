@@ -2896,7 +2896,11 @@ Monsters, man-eating seagulls, a killer buzzard, gruesome tarantulas, unmanned f
             </source>
         </version>
         <version status="unpublished" xml:lang="cs-DE">
-        	<text></text>
+        	<text>Tak zvláštnosti okouzlujících lidí mohou rozčilit, ale je málo okouzlujících lidí, které jinak nejsou zvláštní.</text>
+        	<source>
+        		<title>Hledání ztraceného času</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
         </version>
         <version status="translation" xml:lang="de-DE">
             <text>Daher kann man sich zwar vor den Sonderbarkeiten reizender Menschen entsetzen, aber es gibt kaum reizende Menschen, die nicht irgendwo etwas sonderbar sind.</text>
@@ -2926,22 +2930,39 @@ Monsters, man-eating seagulls, a killer buzzard, gruesome tarantulas, unmanned f
                 <page>94</page>
             </source>
         </version>
+        <version status="unpublished" xml:lang="en-DE">
+        	<text>It can only happen in Australia that an official governmental statement describes something as "poo".</text>
+        	<surce>
+        		<title>Fun with Languages</title>
+        		<translator>Weber, Kai</translator>
+        	</surce>
+        </version>
         <author>Hanewald, Roland</author>
     </quote>
     <quote>
+        <version status="original" xml:lang="ru-RU">
+            <text>Да, чего, чего не делает иногда человек у себя перед зеркалом, когда красив или думает, что красив, а знает — никто не подсматривает за ним в замочную скважину.</text>
+            <source>
+                <title>Мёртвые души</title>
+            </source>
+        </version>
         <version status="translation" xml:lang="de-DE">
             <text>Was tut man nicht alles, wenn man sich für gutaussehend hält, sich allein im Zimmer befindet und fest überzeugt ist, daß niemand durchs Schlüsselloch blickt.</text>
             <source>
                 <title>Die toten Seelen</title>
                 <idref>1103</idref>
                 <page>146</page>
+                <translator>Ottow, Fred</translator>
             </source>
         </version>
-        <version status="original" xml:lang="ru-RU">
-            <text>Да, чего, чего не делает иногда человек у себя перед зеркалом, когда красив или думает, что красив, а знает — никто не подсматривает за ним в замочную скважину.</text>
-            <source>
-                <title>Мёртвые души</title>
-            </source>
+        <version status="translation" xml:lang="de-DE">
+        	<text>[W]as tut man nicht alles, wenn man allein geblieben ist und dazu noch fühlt, daß man ein hübscher Kerl ist, und überzeugt ist, daß niemand durch den Türspalt lauert.</text>
+        	<source>
+        		<title>Tschitschikows Abenteuer oder Die toten Seelen</title>
+        		<page>194/95</page>
+        		<translator>Kegel, Marianne</translator>
+        		<translator>Luther, Arthur</translator>
+        	</source>
         </version>
         <author>Gogol', Nikolaj</author>
     </quote>
@@ -2954,6 +2975,14 @@ Monsters, man-eating seagulls, a killer buzzard, gruesome tarantulas, unmanned f
                 <page>30-31</page>
             </source>
         </version>
+        <version status="translation" xml:lang="de-DE">
+        	<text>Die Linke ist definitionsgemäß die Partei der Hoffnung. Für sie muss die moralische Identität unseres Landes erst noch gefunden und nicht etwa bewahrt werden. Für die Rechte besitzt es sie schon, und sie möchte sie bewahren. <!-- Ab hier eigene Übersetzung Kai Weber, da Originaltext online nicht gefunden -->[Sie fürchtet ökonomischen und politischen Wandel und verpfändet sich damit den Reichen und Mächtigen &#8211; den Personen, deren Eigeninteressen es dient, einen solchen Wandel zu verhindern.]</text>
+        	<source>
+        		<title>Stolz auf unser Land</title>
+        		<page>34</page>
+        		<translator>Vetter, Hermann</translator>
+        	</source>
+        </version>
         <author>Rorty, Richard</author>
     </quote>
     <quote>
@@ -2964,6 +2993,14 @@ Monsters, man-eating seagulls, a killer buzzard, gruesome tarantulas, unmanned f
                 <idref>3803</idref>
                 <page>51-52</page>
             </source>
+        </version>
+        <!-- Deutsche Übersetzung veröffentlicht 1999 bei Suhrkamp („Stolz auf unser Land”, ISBN 3-518-58275-5), aber der fragliche Ausschnitt konnte online nicht gefunden werden. -->
+        <version status="unpublished" xml:lang="de-DE">
+        	<text>Die sektiererischen Teilungen, welche den Marxismus stets bedrängten, sind Ausdruck eines zwanghaften Reinheitsdrangs, ohne den es der Linken besser ginge.</text>
+        	<source>
+        		<title>Unser Land verwirklichen</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
         </version>
         <author>Rorty, Richard</author>
     </quote>
@@ -2976,6 +3013,14 @@ Monsters, man-eating seagulls, a killer buzzard, gruesome tarantulas, unmanned f
                 <page>92-93</page>
             </source>
         </version>
+        <version status="translation" xml:lang="de-DE">
+        	<text>Die zeitgenössische akademische Linke scheint zu glauben, dass, je höher das Abstraktionsniveau ist, desto subversiver kann man hinsichtlich der bestehenden Ordnung sein.</text>
+        	<source>
+        		<title>Stolz auf unser Land</title>
+        		<page>90-91</page>
+        		<translator>Vetter, Hermann</translator>
+        	</source>
+        </version>
         <author>Rorty, Richard</author>
     </quote>
     <quote>
@@ -2987,22 +3032,38 @@ Monsters, man-eating seagulls, a killer buzzard, gruesome tarantulas, unmanned f
                 <page>95</page>
             </source>
         </version>
+        <version status="translation" xml:lang="de-DE">
+        	<text>Die Allgegenwart der Foucaultschen Macht erinnert an die des Satans und damit an die der Erbsünde &#8211; den teuflischen Fleck auf jeder menschlichen Seele.</text>
+        	<source>
+        	    <title>Stolz auf unser Land</title>
+        		<page>92</page>
+        		<translator>Vetter, Hermann</translator>
+        	</source>
+        </version>
         <author>Rorty, Richard</author>
     </quote>
     <quote>
+        <version status="original" xml:lang="fr-FR">
+            <text>Or chaque jour était pour moi un pays différent.</text>
+            <source>
+                <title>A la recherche du temps perdu</title>
+            </source>
+        </version>
         <version status="translation" xml:lang="de-DE">
             <text>Jeder Tag aber war für mich wieder ein anderes Land.</text>
             <source>
                 <title>Auf der Suche nach der verlorenen Zeit</title>
                 <idref>2409</idref>
                 <page>2857</page>
+                <translator>Rechel-Mertens, Eva</translator>
             </source>
         </version>
-        <version status="original" xml:lang="fr-FR">
-            <text>Or chaque jour était pour moi un pays différent.</text>
-            <source>
-                <title>A la recherche du temps perdu</title>
-            </source>
+        <version status="translation" xml:lang="en-GB">
+        	<text>But each day was for me a different country.</text>
+        	<source>
+        		<title>In Search of Lost Time</title>
+        		<translator>Moncrieff, Charles Kenneth Scott</translator>
+        	</source>
         </version>
         <author>Proust, Marcel</author>
     </quote>
@@ -3015,40 +3076,69 @@ Monsters, man-eating seagulls, a killer buzzard, gruesome tarantulas, unmanned f
                 <page>40</page>
             </source>
         </version>
-        <version status="translation" xml:lang="de-DE">
+        <version status="unpublished" xml:lang="de-DE">
             <text>Gehe, Mensch, in die Bibliotheken und studiere! Du wirst feststellen, dass das, was dein zivilisiertes Gehirnchen verdunkelt, schon hundertmal vor Dir gelöst wurde. Du wirst dann weit weniger Grund haben, Dich als Übergeordneten aufzuspielen, den Fortschritt zur Durchführung irgendeiner Gaunerei zu missbrauchen oder Dich zu einer Gaunerei missbrauchen zu lassen.</text>
             <source>
-                <title>Grafik Vladimír Boudník</title>
-                <idref>3729</idref>
-                <page>40</page>
+                <title>Der Grafiker Vladimír Boudník</title>
+                <translator>Weber, Kai</translator>
             </source>
         </version>
-        <version status="translation" xml:lang="en-DE">
-            <text>Go, person, into the libraries and study! You will find out that the thing that darkens your little brain has been solved before you a hundred times. You will have far less reason for pretending to be superior, for abusing progress for carrying out some mischief or for being abused to carry out some mischief.</text>
+        <version status="unpublished" xml:lang="en-DE">
+            <text>Go, person, into the libraries and study! You will find out that the thing that darkens your little brain has been solved before a hundred times. You will have far less reason for pretending to be superior, for abusing progress for carrying out some mischief or for being abused to carry out some mischief.</text>
             <source>
-                <title>Grafik Vladimír Boudník</title>
-                <idref>3729</idref>
-                <page>40</page>
+                <title>The graphic artist Vladimír Boudník</title>
+                <translator>Weber, Kai</translator>
             </source>
+        </version>
+        <version status="unpublished" xml:lang="fr-DE">
+        	<text>Homme, va aux bibliothèques et fais des études! Tu constateras que la chose qui assombrit ton petit cerveau civilisé est déjà résolu cent fois. Tu auras de loin moins lieu de t'ériger en supérieur, de abuser le progrès pour la exécution des friponneries et d'être abusé pour effectuer une friponnerie. </text>
+        	<source>
+        		<title>L'artiste des arts graphiques Vladimír Boudník</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
         </version>
         <author>Boudník, Vladimír</author>
     </quote>
     <quote>
+    	<version status="original" lang="en-US">
+    		<text>It's a book for witches, Dad. And the underworld isn't heaven or hell, it's like a whole separate country. Like a, a Germany under the world.</text>
+    		<source>
+    			<title>Swamplandia!</title>
+    			<page>21</page>
+    		</source>
+    	</version>
+    	<version status="translation" xml:lang="de-DE">
+    		<text>Es ist ein Buch für Hexen, Dad. Und die Unterwelt ist nicht der Himmel oder die Hölle, es ist ein eigenes Land. Wie ein ... ein Deutschland unter der Erde.</text>
+    		<source>
+    			<title>Swamplandia</title>
+    			<translator>Jakob, Simone</translator>
+    		</source>
+    	</version>
+    	<author>Russell, Karen</author>
+    </quote>
+    <quote>
+    	<version status="original" xml:lang="fr-FR">
+    		<text>Oui, j'ai été forcé d'amincir la chose et d'être mensonger, mais ce n'est pas un univers, c'est des millions, presque autant qu'il existe de prunelles et d'intelligences humaines, qui s'éveillent tous les matins.</text>
+    		<source>
+    			<title>À la recherche du temps perdu, vol. III</title>
+    			<page>696</page>
+    		</source>
+    	</version>
         <version status="translation" xml:lang="de-DE">
             <text>Ja, ich war gezwungen, die Dinge zu vereinfachen und zu fälschen, denn nicht eine Welt, sondern tausend Welten, fast ebenso viele wie es Augenpaare und Hirne gibt, erwachen jeden Morgen.</text>
             <source>
                 <title>Auf der Suche nach der verlorenen Zeit</title>
                 <idref>2409</idref>
+                <translator>Rechel-Mertens, Eva</translator>
             </source>
         </version>
         <author>Proust, Marcel</author>
     </quote>
     <quote>
         <version status="original" xml:lang="de-AT">
-            <text>
-Der Huszar von Kecskemét
+            <text>Der Huszar von Kecskemét
 ist gerne gegen Damen nett.
-Sind Damen aber, bitte, schiach,
+Sind Damen aber, bitte, schiech,
 dann wird der Huszar, bitte, Viech.</text>
             <source>
                 <title>Baby Wallenstein oder Prinz Hamlet der Osterhase oder Selawi</title>
@@ -3065,6 +3155,13 @@ dann wird der Huszar, bitte, Viech.</text>
                 <page>180</page>
             </source>
         </version>
+        <version status="unpublished" xml:lang="en-DE">
+        	<text>The way from 'Riesling dry' to 'Riesling sweet' might cross several social class borders.</text>
+        	<source>
+        		<title>Sociological Foundations of Social Work</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
+        </version>
         <author>Biermann, Benno</author>
     </quote>
     <quote>
@@ -3076,19 +3173,33 @@ dann wird der Huszar, bitte, Viech.</text>
                 <page>238</page>
             </source>
         </version>
+        <version status="unpublished" xml:lang="en-DE">
+        	<text>Finally Gödel came to the USA in 1940 and became a US citizen in 1948. Fortunately he was confronted with a good-natured officer when he applied for the citizenship, for Gödel pointed out in the meeting that he had found an inconsistency in the US constitution.</text>
+        	<source>
+        		<title>The Most Significant Mathematicians</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
+        </version>
         <author>Fröba, Stephanie</author>
         <author>Wassermann, Alfred</author>
     </quote>
     <quote>
         <version status="original" xml:lang="de-DE">
-            <text>
-Vielen
+            <text>Vielen
 Frauen ist ein Weichling erwünscht, wie Anchises, der blonde,
 Oder Endymion gar, der nur als Schläfer geliebt ward.</text>
             <source>
                 <title>Achilleis</title>
                 <page>528</page>
             </source>
+        </version>
+        <version status="translation" xml:lang="en-GB">
+        	<text>There are women
+Many who wish for a delicate man, as Anchises, the fair one,
+Or as ev'n Endymion, who was beloved as he slumbered.</text>
+			<source>Goethe's Reineke Fox, West-Eastern Divan, and Achilleid</source>
+			<page>365</page>
+			<translator>Rogers, Alexander</translator>
         </version>
         <author>Goethe, Johann Wolfgang von</author>
     </quote>
@@ -3101,6 +3212,14 @@ Oder Endymion gar, der nur als Schläfer geliebt ward.</text>
                 <page>83</page>
             </source>
         </version>
+        <version status="translation" xml:lang="en-US">
+        	<text>[B]ut the real meaning of an illness lies not in the "that" of the being ill, but rather in the "how" of the suffering[.]</text>
+        	<source>
+        		<title>On the Theory and Therapy of Mental Disorders</title>
+        		<page>179</page>
+        		<translator>Dubois, James M.</translator>
+        	</source>
+        </version>
         <author>Frankl, Viktor Emil</author>
     </quote>
     <quote>
@@ -3111,6 +3230,14 @@ Oder Endymion gar, der nur als Schläfer geliebt ward.</text>
                 <idref>940</idref>
                 <page>124</page>
             </source>
+        </version>
+        <version status="translation" xml:lang="en-US">
+        	<text>Were marital conflicts per se pathogenic, then perhaps 90 percent of all married people would be neurotic.</text>
+        	<source>
+        		<title>On the Theory and Therapy of Mental Disorders</title>
+        		<page>142</page>
+        		<translator>Dubois, James M.</translator>
+        	</source>
         </version>
         <author>Frankl, Viktor Emil</author>
     </quote>
