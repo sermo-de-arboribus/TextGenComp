@@ -88,11 +88,10 @@
      **   Configuration of AspectJ                  **
      **                                             **
      ************************************************* -->
- 
-     <aop:aspectj-autoproxy />
+ <!--      <aop:aspectj-autoproxy />
 
      <bean id="LocalizationAspect" class="tgc.framework.LocalizationAspect" >
      	<constructor-arg name="locale" value="#{new java.util.Locale('de')}" />
      </bean>
-
+-->
 </beans>
