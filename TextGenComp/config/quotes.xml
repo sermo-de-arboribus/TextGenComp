@@ -3542,6 +3542,13 @@ Or as ev'n Endymion, who was beloved as he slumbered.</text>
                 <page>20</page>
             </source>
         </version>
+        <version status="unpublished" xml:lang="en-DE">
+        	<text>The next village, born from a song, collapsed with brass music. Chunks are lying on the street, that no donkey wanted to cross. Children were driving geese in front of themselves. We were waiting at the places we had agreed on. We considered ourselves to be the only difference.</text>
+        	<souce>
+        		<title>The Book of Villages</title>
+        		<translator>Weber, Kai</translator>
+        	</souce>
+        </version>
         <author>Thill, Hans</author>
     </quote>
     <quote>
@@ -3553,6 +3560,13 @@ Or as ev'n Endymion, who was beloved as he slumbered.</text>
                 <page>163</page>
             </source>
         </version>
+        <version status="unpublished" xml:lang="en-DE">
+        	<text>Wayfarer, they're loving badly here and many die right in front of the pharmacy.</text>
+        	<source>
+        		<title>The Book of Villages</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
+        </version>
         <author>Thill, Hans</author>
     </quote>
     <quote>
@@ -3562,19 +3576,132 @@ Or as ev'n Endymion, who was beloved as he slumbered.</text>
                 <title>Von Berlin nach Berkeley</title>
                 <idref>252</idref>
                 <page>284</page>
+                <translator>Fließbach, Holger</translator>
             </source>
+        </version>
+        <!-- An exact equivalent of this statement is probably not to be found in the English original publication "From Berlin to Berkeley". The German translation
+             by Holger Fließbach is based on a reworked manuscript -->
+        <version status="unpublished" xml:lang="en-DE">
+        	<text>Is is not at all certain that irrational forces are rather to be subdued through analysis than through suppression or avoidance.</text>
+        	<source>
+        		<title>From Berlin to Berkeley</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
         </version>
         <author>Bendix, Reinhard</author>
     </quote>
     <quote>
-        <version status="translation" xml:lang="en">
-            <text>"May I be no man's enemy and may I be the friend of that which is eternal and abides. May I never quarrel with those nearest to me; and if I do, may I be reconciled quickly. May I never devise evil against any man; if any devise evil against me, may I escape uninjured and without the need of hurting him. May I love, seek, and attain only that which is good. May I wish for all men's happiness and envy none. May I never rejoice in the ill-fortune of one who has wronged me. . . . When I have done or said what is wrong, may I never wait for the rebuke of others, but always rebuke myself until I make amends. . . . May I win no victory that harms either me or my opponent. . . . May I reconcile friends who are wroth with one another. May I, to the extent of my power, give all needful help to my friends and to all who are in want. May I never fail a friend in danger. When visiting those in grief may I be able by gentle and healing words to soften their pain. . . . May I respect myself. . . . May I always keep tame that which rages within me. . . . May I accustom myself to be gentle, and never be angry with people because of circumstances. May I never discuss who is wicked and what wicked things he has done, but know good men and follow in their footsteps."</text>
+    	<version status="original" xml:lang="grc">
+    		<text>Εχθρός γενοίμην μηδενός, φίλος δε του αίει και παραμενέοντος και μήκοτε μεν διενεχθείην προς τους οικειοτάτους διενεχθείς δε διαλλαχθείην ως τάχιστα. Μηδενί επιβουλεύσαιμι επιβουλευόμενος δε άνευ ανάγκης του τι αν δράσαι ανήκεστον απαθής διαφύγοιμι.
+Οργής κρατοίην.
+Ερώην και επιθυμέοιμι και τυγχάνοιμιμούνων των καλών των δε απ εναντίας της επιθυμίης, μηδε αμαρτών κοτε ώστε εύξασθαι, τύχοιμι.
+Βουλοίμην πάντας ευτυχέειν, φθονήσαιμι μηδενί τών ευτυχεόντων.
+Μήκοτέ τις έμε τών νομιζομένων παραλόγως ευ πρήσσειν εκπλήξειε, μηδε ανιήσειε τί γάρ δεί τοις παρά της τύχης δεδομένοις φθονέειν; φίλοι δέ με και οι κατ αξίην ευτυχέοντες, ευφραίνοιεν.
+Μήκοτε τώ από οικείης γνώμης έχθρην κατ εμού επανελoμένω δυστυχήσαντι επησθείην. Μήκοτε συγγνοίην και έμωυτώ κακού τευ τινι αιτίην παρασχόνπι.
+Λαθών κοτε έμωυτόν ως παρά μέλος ήτοι τι είπας, ή πράξας, μή περιμείναιμι τους μωμησομένους και επιπλήξοντας αυτός δε έμωυτόν μωμησαίμην, μέχρι του ακέσασθαι.
+Ειδείην γενναίως φέρειν τα προσπίπτοντα και τα μέτρια εκδεχοίμην, ώσπερ αυτών έχει ή φύσις τους δε υπερβάλλουσι μή και το παρ έμωυτού προστιθείην.
+Ευτυχίην ειδείην φέρειν σωφρόνως, μήκοτε υπό ευπρηγίης ες υπερηφανίην άλογον αερθείην.
+Πλούτον νομίζοιμι τον αρκέοντα βίω τώ σώφρονι.
+Απαυστον και ακόρεστον επιθυμίην χρημάτων μεν μήκοτε εχοίην, μούνων δε των ωφελεόντων την ψυχήν μαθημάτων εθέλοιμι α δεί έσεσθαι.
+Νικώην νίκην την και εμοί και τό προσδιαλεγομένω αβλαβέα.
+Φιλοτιμέεσθαι παρά καιρον προς φίλους και εν ταις ζητήσεσι φυλασσοίμην.
+Μήκοτε και παρά το εμοί δοκέον εν ταίς ζητήσεσι του νικάν ένεκα έριν ασπασαίμην.
+Μήκοτε επί βλάβη του αληθέος, και ώστε παρ ά αυτός οίδα παραλογίσασθαι τον προσδιαλεγόμενον, ερίσαι επαρθείην.
+Τοις το αληθές λόγοις ξυνιστάσιν άει ξυμμαχοίμην.
+Ακολάστου επιθυμίης τι μήκοτε μηδε έννοηθείην.
+Ξυνείην αει τοίς σώφροσιν είη τέ μοι αεί προσδιαλέγεσθαι, παρ ών εστί τι πάντως απελθείν χρηστον προσλαβόντι.
+Μήκοτε επάρθείην κέρδεος ένεκα πλημμελήσαι. 
+Φίλους διαφερομένους καταρτίζοιμι.
+Φίλοις δυνάμενος και τοις δεομένοις τα δέοντα επαρκέοιμι. 
+Φίλους εν κινδύνοις καταστάντας δυνάμενος ωφελέειν, μήκοτε εγκαταλίποιμι.
+Φίλων ξυμφοράς, αφ ών οίόν τε, επανορθούσθαι προθυμοίμην.
+Λυπεομένοισι παρεών, ελαφρύνοιμι ήπίω και ακεσίμω λόγω τάς ανίας.
+Ειδείην εμωυτόν αιδέεσθαι.
+Τών καλών φιλομαθείην ασκέοιμι.
+Ζητοίην μή τα περισσά, αλλά περί ών άριστον, και ά μαθών ωφελησοίμην.
+Θεούς τιμώην και νόμω πόλιος, και σπουδή οικείη, νόφ ευσεβεί.
+Αει τον εν εμοί θυμουμενον ήμεροίην.
+Εθίζοιμι έμωυτόν ίλεω είναι, και μή πρός τα πρήγματα έχειν δυσκόλως.
+Τίς πονηρός, και τίνι τουτον τί ποτε πέπρηκται, μή μέλοιμι ειδείην δε τους αγαθούς, και τούτους μεταδιώκοιμι.
+Οφείλοιμι μηδενί μηδεν ει δέ κοτε υπ ανάγκης μεγάλης ες τούτο κατασταίην, γένοιτό μου τάχιστα ελευθέρω γενέσθαι δυνηθήναι.
+Αινέοιμι τους αγαθούς αφθόνως φιλόψογον δε γλώσσαν παντός αποστυγοίην.
+Ειδείην σιγάν, περί ων άμεινον.</text>
+			<source>
+				<title>Johannes Stobaios, Florilegium I</title>
+			</source>
+    	</version>
+        <version status="translation" xml:lang="en-GB">
+            <text>May I be no man's enemy and may I be the friend of that which is eternal and abides. May I never quarrel with those nearest to me; and if I do, may I be reconciled quickly.
+May I never devise evil against any man; if any devise evil against me, may I escape uninjured and without the need of hurting him.
+May I love, seek, and attain only that which is good.
+May I wish for all men's happiness and envy none.
+May I never rejoice in the ill-fortune of one who has wronged me.
+[...]
+When I have done or said what is wrong, may I never wait for the rebuke of others, but always rebuke myself until I make amends.
+[...]
+May I win no victory that harms either me or my opponent.
+[...]
+May I reconcile friends who are wroth with one another.
+May I, to the extent of my power, give all needful help to my friends and to all who are in want.
+May I never fail a friend in danger. When visiting those in grief may I be able by gentle and healing words to soften their pain. 
+[...]
+May I respect myself. 
+[...]
+May I always keep tame that which rages within me. 
+[...] 
+May I accustom myself to be gentle, and never be angry with people because of circumstances. 
+May I never discuss who is wicked and what wicked things he has done, but know good men and follow in their footsteps.</text>
             <source>
                 <title>Five Stages of Greek Religion</title>
                 <page>197/98</page>
+                <translator>Murray, Gilbert</translator>
             </source>
         </version>
-        <author>Murray, Gilbert (after Johannes Stobaios)</author>
+        <version status="translation" xml:lang="la-DE">
+        	<text>Nemmi inimicus esse velim, amicum autem eum habere qui in amicitia eam perpetuo mansurus sit; neque unquam dissidere a familiarissimis; sin dissidium factum sit, quam primum iis reconciliari.
+Nolim cuiquam insidias parare, insidiis vero petitus utinam salvus evadam, nequaquam gravissimum malum vicissim alteri afferre coactus.
+Utinam iram cohibeam; amem, desiderem et assequar sola bona. Quae vero sunt inhonestae cupiditatis, ea nec per errorem optanti contingere velim.
+Omnes quidem felicitate florere cupiam, sed illorum qui felices sunt nemini invideam.
+Nunquam quisquam eorum qui fortunati temere habentur, me vel obstupefaciat vel molestia afficiat.
+Quid enim attinet fortunae donis invidere?
+Amici potius me, quique pro dignitate fortuna secunda utuntur, exhilarent.
+Nunquam etiam ei qui sponte sua inimicitiam mecum suscepit, postquam cum fortuna adversa conflictatus est, laetus insultem.
+Nunquam mihi conscius sim, me occasionem ullius mali cuiquam praebuisse.
+Si quando per imprudentiam inepte quid vel dixero vel fecero, ne exspectem, dum alii reprehendant et objurgent, sed ipse me potius vituperem, donec incommodo medear.
+Norim fortiter ferre casus, et mediocria pro re nata accipiam; quae vero modum excedunt, iis ne quid mea culpa addam, cavebo.
+Fortunam secundam modests ferre sciam, ne quando ob res secundas stulta arrogantia efferar.
+Divitias judicem, quod satis sit vitae moderatae.
+Effrenata et insatiabili pecuniae cupiditate ne unquam flagrem, sed solarum quae animis prosunt disciplinarum desiderio semper agi velim.
+Victoriam consequar, quae et mihi et contradicenti innoxia sit.
+Contendere intempestive cum amicis etiam in disputationibus caveam.
+Porro ne unquam supra meam opinionem in disputationibus vincendi studio contentionis cupidus sim.
+Praeterea ne unquam veritatis damno ac secus quam ipse sentio falsa argumentatione decipere colloquentem aut saltem litigare in animum inducam.
+Qui veritatem dictis suis confirmant, eorum socius semper ese velim.
+Ne mihi ulla unquam inexplebilis cupiditas vel in mentem veniat.
+Converser assidue prudentibus: liceatque mihi cum his colloqui, a quibus insuper omnino aliquid boni adeptus discedam.
+Nunquam adducar, ut lucri causa peccem.
+Amicos dissidentes reconciliem.
+Amicis, si queam, et indigentibus necessaria suppeditem.
+Amicos in periculo versantes, si queam juvare, nunquam deseram.
+Amicorum calamitates, quibuscunque rebus fieri potest, levare studeam.
+Dolentibus conversans leni et benigna oratione eorum moerorem minuam.
+Norim me ipsum vereri.
+Rerum honestarum studia colam.
+Quaeram non supervacanea, sed ea de quibus optime habeatur quaestio et quae percepta mihi prodesse poterunt.
+Deos venerer et ritu civitatis et propria diligentia et mente pia.
+Semper iram meam placabo.
+Assuescam comitati facilitatique, ita ut res nequaquam iniquo animo feram.
+Quis malus sit et quid tandem ab horum quovis patratum sit, ne curem; norim autem bonos eosque secter.
+Ne cu iquid debeam: sed si quando fatali necessitate coactus eo descendam, contingat mihi, ut citissime queam liberari.
+Laudem bonos copiose: maledicam autem linguam cujusvis oderim.
+Tacero sciam, de quibus tacerer satius est.</text>
+			<source>
+				<title>Fragmenta philosophorum graecorum, Volumen III</title>
+				<page>7-8</page>
+				<translator>Mullach, Friedrich Wilhelm August</translator>
+			</source>
+        </version>
+        <author>Eusebios (in: Joannes Stobaeus, Florilegium I, 85)</author>
     </quote>
     <quote>
         <version status="translation" xml:lang="de-DE">
