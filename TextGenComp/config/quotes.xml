@@ -3704,23 +3704,38 @@ Tacero sciam, de quibus tacerer satius est.</text>
         <author>Eusebios (in: Joannes Stobaeus, Florilegium I, 85)</author>
     </quote>
     <quote>
-        <version status="translation" xml:lang="de-DE">
+	    <version status="original" lang="fa-IR">
+	    	<text>یابوهای تب لازمی که سرفه‌های عمیق خشک می‌کنند و دستهای خشکیده آنها منتهی بسم شده، مثل اینکه مطابق یک قانون وحشی دستهای آنها را بریده و در روغن داغ فرو کرده‌اند و دو طرفشان لش گوسفند آویزان شده؛ جلو دکان میآوردن. مرد قصاب دست چرب خود را بریش حنا بسته اش می‌کشد، اول لاشه گوسفندها را با نگاه خریداری ورانداز می‌کند، بعد دو تا از آنها را انختاب می‌کند، دنبه آنها را با دستش وزن می‌کند، بعد می‌برد و به چنگک دکانش می‌آویزد - یابوها نفس زنان براه می‌افتند. آنوقت قصاب این جسدهای خون آلود را با گردن‌ها بریده، چشمهای رک زده و پلکهای خون آلود که زا میان کاسه سر کبودشان در آمده است نوازش می‌کند، دست مالی می‌کند، بعد یک گز لیک دسته استخوانی برمیدارد تن آنها را بدقت تکه تکته می‌کند و گوشت لخم را با تبسم بمشتریانش می‌فروشد.</text>
+	    	<source>
+	    		<title>بوف کور</title>
+	    	</source>
+	    </version>
+        <version status="translation" xml:lang="de-IR">
             <text>Der Schlächter fuhr sich mit seiner fettigen Hand über den Schnurrbart, warf einen Käuferblick auf die toten Hammel, trug zwei von ihnen mit Mühe in den Laden und hängte sie an die Haken. Er streichelte ihre Schenkel. Ich denke, wenn er nachts seine Frau streichelte, müßte er an die Hammel denken und daran, wieviel er verdienen würde, wenn er seine Frau schlachtete.</text>
             <source>
                 <title>Die blinde Eule</title>
                 <idref>1269</idref>
                 <page>91</page>
+                <translator>Nirumand, Bahman</translator>
             </source>
         </version>
         <author>Hedayat, Sadeq</author>
     </quote>
     <quote>
         <version status="original" xml:lang="en-GB">
-            <text>Hostility to theory usually means usually means an opposition to other people's theories and an oblivion of one's own.</text>
+            <text>Hostility to theory usually means an opposition to other people's theories and an oblivion of one's own.</text>
             <source>
                 <title>Literary Theory: An Introduction</title>
                 <page>XIV</page>
             </source>
+        </version>
+        <version status="translation" xml:lang="de-DE">
+        	<text>Eine feindselige Einstellung der Theorie gegenüber bedeutet normalerweise eine Ablehnung der Theorien anderer und ein Übersehen der eigenen.</text>
+        	<source>
+        		<title>Einführung in die Literaturtheorie, 4. Aufl.</title>
+        		<translator>Bettinger, Elfi</translator>
+        		<translator>Hentschel, Elke</translator>
+        	</source>
         </version>
         <author>Eagleton, Terry</author>
     </quote>
@@ -3732,20 +3747,40 @@ Tacero sciam, de quibus tacerer satius est.</text>
                 <page>330</page>
             </source>
         </version>
+        <version status="unpublished" xml:lang="en-DE">
+        	<text>Besides that soils have properties which are a result of the area that they span. Astonishingly society honours these properties the most. A parking lot for an automobile is usually much more expensive than the wheat or even the spruce wood that could be produced on a field of this size.</text>
+        	<source>
+        		<title>Flashes of Wit</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
+        </version>
         <author>Stahr, Karl</author>
     </quote>
     <quote>
+    	<version status="original" xml:lang="pt-BR">
+    		<text>D. Evarista mentiu às esperanças do Dr. Bacamarte, não lhe deu filhos robustos nem mofinos. [... Ele] acabou por aconselhar à mulher um regímen alimentício especial. À ilustre dama, nutrida exclusivamente com a bela carne de porco de Itaguaí, não atendeu às admoestações do esposo; e à sua resistência, &#8211; explicável, mas inqualificável, &#8211; devemos a total extinção de dinastia dos Bacamartes.</text>
+    		<source>
+    			<title>O alienista</title>
+    		</source>
+    	</version>
         <version status="translation" xml:lang="de-DE">
             <text>Dona Evarista enttäuschte die Hoffnungen Dr. Bacamartes, sie schenkte ihm weder kräftige noch schwächliche Söhne. [… Er] empfahl seiner Frau schließlich eine Sonderdiät. Die illustre Dame, die sich vorwiegend von dem vorzüglichen Schweinefleisch Itaguaís ernährt hatte, befolgte die Ratschläge ihres Gatten nicht, so daß wir ihrem zwar erklärlichen, aber dennoch unverzeihlichen Widerstand das Erlöschen der Dynastie Bacamarte zu verdanken haben.</text>
             <source>
                 <title>Der Irrenarzt; zit. n. Ders.: Der geheime Grund</title>
                 <idref>1978</idref>
                 <page>20</page>
+                <translator>Meyer-Clason, Curt</translator>
             </source>
         </version>
         <author>Machado de Assis, Joaquim Maria</author>
     </quote>
     <quote>
+    	<version status="original" xml:lang="pt-BR">
+    		<text>O passeio nas ruas, mormente nas de recreio e parada, é utilíssimo, com a condição de não andares desacompanhado, porque a solidão é oficina de ideias, e o espírito deixado a si mesmo, embora no meio da multidão, pode adquiri uma tal ou qual atividade.</text>
+    		<source>
+    			<title>Teoria do medalhao</title>
+    		</source>
+    	</version>
         <version status="translation" xml:lang="de-DE">
             <text>Ein Spaziergang durch die Stadt, zumal auf Straßen, in denen sich die große Welt ein Stelldichein gibt, ist von großem Nutzen, vorausgesetzt, daß du nicht unbegleitet flanierst, denn die Einsamkeit ist die Werkstatt der Ideen, und der sich selbst überlassene Geist kann noch im größten Menschengewühl in Tätigkeit geraten.</text>
             <source>
@@ -3759,12 +3794,20 @@ Tacero sciam, de quibus tacerer satius est.</text>
     <quote>
         <version status="original" xml:lang="de-DE">
             <text>Wie läßt sich Heideggers Gestell verwinden? 2007, hier und heute? Kann die Gefahr - mit Hölderlin - uns retten? Ja nein, nein ja. Solange wir - Konzernen wie der IBM und Microsoft ergeben - Computer immer nur top-down entwerfen, von Bill Gates' Geschäftskalkül hinunter zu den vielen Einzelteilen, treiben wir (Männer, Programmierknechte, Stanford-Studenten) bloß Mimesis, ja Mimikry an jenen einen Gott, der ohne jede Frau und Liebe als Schöpfer auszukommen glaubt. Wundern wir uns daher nicht, wenn die Computer sich mit Bugs und Lügen rächen. Würden wir sie nämlich liebevoller bottom-up entwerfen, würde vieles anders. Wir könnten zwar nicht mehr Milliarden Dollar mit der Lüge namens Software scheffeln, doch HAL empfinge von uns Programmierern - streng nach Turing - nacheinander Sinne, Muskeln und ein Herz. Computer wären Embryonen, die in einem Mutterschoß (um mit Homer zu rechnen) zehn lange Monde wachsen und gedeihen. Dann geben wir sie frei - wie jeder Mutterschoß sein Kind.
-                Vor Liebe zu Penelope fährt Odysseus heim. Wir wissen nicht, ob sie ihn liebt.</text>
+Vor Liebe zu Penelope fährt Odysseus heim. Wir wissen nicht, ob sie ihn liebt.</text>
             <source>
-                <title>Die Wahrheit der technischen Welt</title>
+                <title>Im Kielwasser der Odyssee, in: Die Wahrheit der technischen Welt</title>
                 <idref>3810</idref>
-                <page>365/66</page>
+                <page>375/76</page>
             </source>
+        </version>
+        <version status="translation" xml:lang="en-US">
+        	<text>How can one get over &#8211; and around &#8211; what Heidegger called "Enframing" [Gestell]? In 2007, here and today? Can danger, as Hölderlin affirmed, rescue us? Yes and no. As long as we, beholden to corporations such as IBM and Microsoft, only design computers to operate from the top down, from Bill Gates' business strategy down to the machines' many, varied components, we (men, programming vassals, and Stanford students) are simply imitating &#8211; indeed, mimicking &#8211; that One God who thinks He can make do as Creator without any woman or any love at all. Therefore, we should not be surprised if computers take their revenge by developing bugs and lying. For if we were to design them more lovingly &#8211; from the bottom up &#8211; much would change. Even though we would no longer rake in money with the lie that is called "software", HAL would receive from us, his programmers &#8211; and strictly in keeping with Turing &#8211; senses, muscles, and a heart, one after the other. Computers would be embryos that (to use Homer's calculation) grow and batten for ten months in the maternal womb. Then we would free them, as the womb does the child.#
+Out of love for Penelope, Odysseus travels home. We do not know if she loves him.</text>
+			<source>
+				<title>In the Wake of the Odyssey, in: The Truth of the Technological World</title>
+				<translator>Butler, Erik</translator>
+			</source>
         </version>
         <author>Kittler, Friedrich</author>
     </quote>
@@ -3775,6 +3818,14 @@ Tacero sciam, de quibus tacerer satius est.</text>
                 <title>Doktor Murkes gesammeltes Schweigen</title>
             </source>
         </version>
+        <version status="translation" xml:lang="ru-RU">
+        	<text>Франц уже давно стал известным боксером, но похвалы, которые теперь расточает ему вся семья, он отвергает с тем же равнодушием, с каким прежде отвергал всякую критику.</text>
+        	<source>
+        		<title>Молчание доктора Мурке</title>
+        		<translator>Фридлянд, Софья</translator>
+        		<translator>Португалова, Николай Сергеевич</translator>
+        	</source>
+        </version>
         <author>Heinrich Böll</author>
     </quote>
     <quote>
@@ -3784,6 +3835,13 @@ Tacero sciam, de quibus tacerer satius est.</text>
                 <title>Die Orgelpfeifen von Flandern</title>
             </source>
         </version>
+        <version status="unpublished" xml:lang="en-DE">
+        	<text>No, there was no singing in the mortuary house; he was only hoping for it. Silently he said something, in French, then harkened again. Nothing. Only an absence, that was like corporeal and as if something was observing him through it.</text>
+        	<source>
+        		<title>The Organ Pipes of Flanders</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
+        </version>
         <author>Herbst, Alban Nikolai</author>
     </quote>
     <quote>
@@ -3792,6 +3850,13 @@ Tacero sciam, de quibus tacerer satius est.</text>
             <source>
                 <title>Managuaspiele</title>
             </source>
+        </version>
+        <version status="unpublished" xml:lang="fr-FR">
+        	<text>Le jeu commence, sitôt que le joueur marche sur le lieu d'exécution, même pouvant assigner le moment convenable. C'est sa tâche de marquer un point et par-là remporter la partie.</text>
+        	<source>
+        		<title>Les jeux de Managua</title>
+        		<translator>Weber, Kai</translator>
+        	</source>
         </version>
         <author>Vattrodt, Magnus</author>
     </quote>
